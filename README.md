@@ -19,6 +19,7 @@
 
 ## Overall Structure
   ![image](https://github.com/JunfengRan/ECPE-Group-Repo/blob/main/ECPE.jpg)  
+  
   The project consists of 4 parts. In the first part, we need to do some data mining and data preprocessing on our corpus. In the second part, we try to figure out how to leverage connectives in ECPE. In the third part, we do our experiments in a classic way using explicit relation classifier. In the last part, we check our improvement on the basis of SOTA.  
   
   We use several datasets. For Chinese studies, we use the HIT-CDTB and ECPE dataset. For English studies, we use the PDTB2.0, PDTB3.0, Gigaword and ECPE-ENG dataset we translate.  
@@ -27,7 +28,10 @@
 ### Data Mining and Data Preprocessing
   We need to do research on the connectives first. We just simply consider the connectives which is shown in structures like (arg1, conn, arg2) (caution: (conn1, arg1, conn2, arg2) is incorporated into account). While dealing with ECPE dataset, we follow two styles of statistics. One just simply consider the connectives which is shown in structures like (arg1, conn, arg2) like above, the other should consider the following three types (arg1, conn, arg2), (conn, arg1, arg2), (conn1, arg1, conn2, arg2).
   
-  For HIT-CDTB dataset and PDTB2.0/3.0 dataset, we want to know their occurence frequency with different discourse relation (2 levels) and discourse relation distance for every connectives repectivesly.  
+  ![image](https://github.com/JunfengRan/ECPE-Group-Repo/blob/main/PDTB.png)  
+  ![image](https://github.com/JunfengRan/ECPE-Group-Repo/blob/main/PDTB-lv2.png)
+  
+  For HIT-CDTB dataset and PDTB2.0/3.0 dataset, we want to know their occurence frequency with different discourse relation (top 2 levels) and discourse relation distance for every connectives repectivesly.  The top 11 relations on the second level are Comparison.Concession, Comparison.Contrast, Contingency.Cause, Contingency.Pragmatic cause, Expansion.Alternative, Expansion.Conjunction, Expansion.Instantiation, Expansion.List, Expansion.Restatement, Temporal.Asynchronous, Temporal.Synchrony. Maybe we can set a 2% threshold to count less relation types (need further discussion).
   
   For ECPE dataset, we may need to translate it into English for English studies. For this purpose, we can translate the corpus clause by clause using translate software or algorithms (need further discussion) and then correct the output manually. For dataset itself, we want to know the occurence frequence of connectives in ECP (two styles) and distance (+/-, cause minus emotion) between emotion clause and cause clause for every connectives repectivesly.  
   
@@ -35,23 +39,23 @@
   
 ### Leveraging Connectives
   At first, we find the emotion clause using ECPE-MM-R turn 1. And we pair up each emotional clause and each non-emotional clause. Then, we add connectives selected by our data mining work and calculate the probability over the Language Model. Finally, if the sum of probability of causal connectives (probability times percentage) is the greatest, we add connectives with probability into original corpus and process them seperately (maybe choose top 5). However, the loss of this step is unclear (need further discussion). I prefer to say that this step is a automatic step completed by LM so there is no loss we can use.  
-
+  
   On the other hand, we could use the BLEU or ROUGE to score the connectives directly. We will try this in the future.  
   
-  
+  For simple verification without whole analysis of PDTB/HIT-CDTB, we use the following list of connectives (need further discussion): Not given yet.
   
 ### Explicit Relation Classifier
   We can judge the relation of the new pairs of (emotion arg, connectives, arg) with explicit relation classifier as benchmark. The concrete way is not decided yet (need further discussion).  
 
 ### ECPE-MM-R
-  Last, we can modify the source code of ECPE-MM-R and try to get the SOTA.
+  Last, we can modify the source code of ECPE-MM-R and try to get the SOTA.  
 
 ## Schedule
   2023.1.4-2023.1.11 Try to run through the ECPE-MM-R source code. For those using the server can try to use the Accelerate library or data parallelism (https://zhuanlan.zhihu.com/p/467103734).  
   
-  2023.1.11-2023.1.18, 2023.2.1-2023.2.8 (not forced) 挖掘PDTB2.0的(单)连接词 (65 of 100), 统计出现次数和出现的形式(PDTB中的哪种篇章关系), 应该用不了一周.  
+  2023.1.11-2023.1.18, 2023.2.1-2023.2.8 (not forced)  Analyze the ECPE-MM-R source code and modify it to output the precision and recall rate of every turn. Try to create the framework of adding connectives with probability.  
   
-  2023.2.8-2023.2.15 Refine the code above.  
+  2023.2.8-2023.2.15 Refine the code above. Complete data mining and data preprocessing.  
   
   2023.2.15-2023.2.22 Fuse the method above with modified ECPE-MM-R source code to complete our experiment.  
   
@@ -81,7 +85,7 @@ https://catalog.ldc.upenn.edu/LDC2011T07
 ### ECPE
 
 ## Discussion
-Loss
+
 
 ## Analysis
   We need to do robust analysis and error analysis. And we need to write something about special examples, like action/trigger words and cascade events.  
