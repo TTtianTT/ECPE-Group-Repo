@@ -8,6 +8,9 @@
   - [ECPE-MM-R](#ECPE-MM-R)  
 - [Schedule](#Schedule)  
 - [Related Works](#Related-Works)  
+  - [Dataset](#Dataset)
+  - [Connectives](#Connectives)
+  - [ECPE](#ECPE)
 - [Discussion](#Discussion)  
 - [Analysis](#Analysis)  
 - [Story](#Story)  
@@ -16,11 +19,14 @@
 
 ## Overall Structure
   ![image](https://github.com/JunfengRan/ECPE-Group-Repo/blob/main/ECPE.jpg)  
-  项目主要分为4个部分. 第一部分为挖掘PDTB2.0的(单)连接词 (65 of 100), 统计出现次数和出现的形式(PDTB中的哪种篇章关系, 4-type relations Comparison, Contingency, Expansion, Temporal以及11-type分别统计). 第二部分为跑通ECPE-MM-R原始代码并对其进行改造. 第三部分为显化隐藏连接词并对产生的句子进行打分, 主要过程大致如下: 我们首先判断每一对子句对是否已经存在连接词, 若不存在则添加一个单连接词(在cause子句或emotion子句的开头添加, 感觉最优情况应该是只针对cause子句添加连接词, 需要实验进一步验证). 从产生的若干个新子句对中选取评分最高的子句对作为新的子句对, 然后判断子句对是否存在因果关系, 如果有因果关系则同时将连接词插入回原始的篇章中. 第四部分希望通过在PDTB2.0上标注情感关键词以尝试用情感词增强篇章关系分析的结果, 这一部分将视情况选做. 如果我们后续希望做纯中文的研究, 则会使用HIT-CDTB语料集. 我们也可能会在原有基础上使用跨领域预训练来增强模型, 比如通过收集含有显式连接词的句子作为无监督预训练语料(Giga Words). 后续可能的扩展实验包含使用probe方法研究连接词的语义相关度和类比关系等.
+  The project consists of 4 parts. In the first part, we need to do some data mining and data preprocessing on our corpus. In the second part, we try to figure out how to leverage connectives in ECPE. In the third part, we do our experiments in a classic way using explicit relation classifier. In the last part, we check our improvement on the basis of SOTA.
+  
+  We use several datasets. For English studies, we use the PDTB2.0, PDTB3.0, Gigaword and ECPE-ENG dataset we translate. For Chinese studies, we use the HIT-CDTB and ECPE dataset.
 
 ## Detailed Work
 ### Data Mining and Data Preprocessing
-
+  
+  项目主要分为4个部分. 第一部分为挖掘PDTB2.0的(单)连接词 (65 of 100), 统计出现次数和出现的形式(PDTB中的哪种篇章关系, 4-type relations Comparison, Contingency, Expansion, Temporal以及11-type分别统计). 第二部分为跑通ECPE-MM-R原始代码并对其进行改造. 第三部分为显化隐藏连接词并对产生的句子进行打分, 主要过程大致如下: 我们首先判断每一对子句对是否已经存在连接词, 若不存在则添加一个单连接词(在cause子句或emotion子句的开头添加, 感觉最优情况应该是只针对cause子句添加连接词, 需要实验进一步验证). 从产生的若干个新子句对中选取评分最高的子句对作为新的子句对, 然后判断子句对是否存在因果关系, 如果有因果关系则同时将连接词插入回原始的篇章中. 第四部分希望通过在PDTB2.0上标注情感关键词以尝试用情感词增强篇章关系分析的结果, 这一部分将视情况选做. 如果我们后续希望做纯中文的研究, 则会使用HIT-CDTB语料集. 我们也可能会在原有基础上使用跨领域预训练来增强模型, 比如通过收集含有显式连接词的句子作为无监督预训练语料(Giga Words). 后续可能的扩展实验包含使用probe方法研究连接词的语义相关度和类比关系等.
 ### Leveraging Connectives
 
 ### Explicit Relation Classifier
@@ -28,13 +34,31 @@
 ### ECPE-MM-R
 
 ## Schedule
-  2023.1.4-2023.1.11 尝试跑通ECPE-MM-R原始代码, 使用服务器的同学可以尝试运用Accelerate库或数据并行(https://zhuanlan.zhihu.com/p/467103734).  
+  2023.1.4-2023.1.11 Try to run through the ECPE-MM-R source code. For those using the server can try to use the Accelerate library or data parallelism (https://zhuanlan.zhihu.com/p/467103734).  
+  
   2023.1.11-2023.1.18 挖掘PDTB2.0的(单)连接词 (65 of 100), 统计出现次数和出现的形式(PDTB中的哪种篇章关系), 应该用不了一周.  
   2023.2.8-2023.2.15 添加一个单连接词, 从产生的若干个新子句对中选取评分最高的子句对作为新的子句对, 然后判断子句对是否存在因果关系. 此处需要尝试使用其他显式篇章关系分类器.  
   2023.2.15-2023.2.22 将上述方法与ECPE-MM-R结合得到总体模型并完成实验.  
   2023.2.22-2023.3.1 尝试通过在PDTB2.0上自动标注情感极性以尝试用情感词增强篇章关系分析的结果. 主要做4-type relations Comparison, Contingency, Expansion, Temporal的binary实验(One versus All), top-level one-versus-all binary classification (Pitler et al., 2009).  
 
 ## Related Works
+### Dataset
+HIT-CDTB  
+http://ir.hit.edu.cn/hit-cdtb/  
+
+PDTB2.0  
+http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC2008T05 (not available)  
+https://github.com/cgpotts/pdtb2  
+
+ECPE  
+http://hlt.hitsz.edu.cn/?page_id=694 (not available)  
+https://github.com/zhoucz97/ECPE-MM-R  
+
+PDTB3.0  
+https://catalog.ldc.upenn.edu/LDC2019T05  
+
+Gigaword  
+https://catalog.ldc.upenn.edu/LDC2011T07  
 
 ## Discussion
 
@@ -55,5 +79,5 @@
 ## Future Work
   1.For natural language generation task, we can add previously unexistable connectives, reason through the logical chain or template, and then delete these connectives.  
   2.We want to use our method to do more experiments about implicit chapter relation classification, refined connective word selection, and probing connectives representation.  
- 3.We'd like to study the evolutionary patterns of emotional dynamics. Add the implicit connective mining task to explicitly let the model learn the dynamic characteristics of emotions, build models based on context, time series, and event information, and compare their effects on the dynamic evolution of emotions.  
+  3.We'd like to study the evolutionary patterns of emotional dynamics. Add the implicit connective mining task to explicitly let the model learn the dynamic characteristics of emotions, build models based on context, time series, and event information, and compare their effects on the dynamic evolution of emotions.  
   4.We believe the temporal relations are event-driven. We want to do experiments about trigger words in ECPE and make use of TempEval.  
