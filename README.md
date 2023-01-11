@@ -81,30 +81,61 @@ Gigaword
 https://catalog.ldc.upenn.edu/LDC2011T07  
 
 ### Connectives
+  Main reference:  
+  Let’s be explicit about that: Distant supervision for implicit discourse relation classification via connective prediction.  
+  
+  Other reference:  
+  Adapting BERT to Implicit Discourse Relation Classification with a Focus on Discourse Connectives.  
+  Improving the Inference of Implicit Discourse Relations via Classifying Explicit Discourse Connectives.  
 
 ### ECPE
+  Main reference:  
+  A Multi-turn Machine Reading Comprehension Framework with Rethink Mechanism for Emotion-Cause Pair Extraction.  
+  
+  Other reference:  
+  Event-Driven Emotion Cause Extraction with Corpus Construction.  
+  Emotion-Cause Pair Extraction: A New Task to Emotion Analysis in Texts.  
 
 ## Discussion
-
+  1.The original ECPE-MM-R paper didn't give the precision and recall rate of three turns.  
+  
+  2.I think emotion clause itself cannot be the cause of the emotion.
+  
+  3.Why choose delta = 0.7? More theoretical support is needed.  
 
 ## Analysis
-  We need to do robust analysis and error analysis. And we need to write something about special examples, like action/trigger words and cascade events.  
-  We can also do probe experiments on word meaning relevancy and word analogy of connectives.  
+  1.We need to do robust analysis and error analysis. And we need to write something about special examples, like action/trigger words and cascade events.  
+  
+  2.Creatively, we can do ablation experiments.  
+  
+  3.We can also do probe experiments on word meaning relevancy and word analogy of connectives.  
 
 ## Story
   In some scenarios, in addition to extracting objects and corresponding emotions, deeper point of view mining also requires extracting the causes that cause emotions to assist in subsequent more complex causal analysis.  
+  
   Emotional cause pair extraction is a task that strongly relies on context, the system needs to model the relationship between emotion and cause, and the cause of emotion in many scenarios may not be in the emotional sentence itself, for example, the reason why multiple rounds of dialogue trigger a certain emotion may be the previous rounds.  
+  
   Emotional cause pair extraction is also a key task for opinion mining interpretability. Emotional reasoning digs into the specific causes of emotions. The reasoned emotional causes will be used as interpretable information to complement some existing tasks, which will greatly promote both the analytical platform and the dialogue system.  
 
 ## Contribution
-  1.We deliver a simple but powerful method to extract the emotion-cause pair, which is explicating the implicit connectives in the original corpus and then extract the pairs by explicit course relation classifier.  
-  2.We develop our model based on a novel and reusable multi-turn QA model.  
-  3.We achieve two SOTA by Leveraging Connectives in ECPE and Leveraging Emotion in IDRR.  
+  1.We deliver a simple but powerful method to extract the emotion-cause pair, which is explicating the implicit connectives in the original corpus and then can extract the pairs by explicit course relation classifier.  
+  
+  2.Based on the MRC formalization, We develop our model based on a novel and reusable query model.  
+  
+  3.We demonstrate that our proposed method outperforms existing state-of-the-art performance.  
 
 ## Future Work
   1.For natural language generation task, we can add previously unexistable connectives, reason through the logical chain or template, and then delete these connectives.  
+  
   2.We want to use our method to do more experiments about implicit chapter relation classification, refined connective word selection, and probing connectives representation.  
+  
   3.We'd like to study the evolutionary patterns of emotional dynamics. Add the implicit connective mining task to explicitly let the model learn the dynamic characteristics of emotions, build models based on context, time series, and event information, and compare their effects on the dynamic evolution of emotions.  
+  
   4.We believe the temporal relations are event-driven. We want to do experiments about trigger words in ECPE and make use of TempEval.  
-尝试通过在PDTB2.0上自动标注情感极性以尝试用情感词增强篇章关系分析的结果. 主要做4-type relations Comparison, Contingency, Expansion, Temporal的binary实验(One versus All), top-level one-versus-all binary classification (Pitler et al., 2009).
-第四部分希望通过在PDTB2.0上标注情感关键词以尝试用情感词增强篇章关系分析的结果, 这一部分将视情况选做. 如果我们后续希望做纯中文的研究, 则会使用HIT-CDTB语料集. 我们也可能会在原有基础上使用跨领域预训练来增强模型, 比如通过收集含有显式连接词的句子作为无监督预训练语料(Giga Words). 后续可能的扩展实验包含使用probe方法研究连接词的语义相关度和类比关系等.
+  
+  5.We want to enhance the results of discourse relation analysis on PDTB by automatically labeling the emotional polarity and using our model to identify cause relation in the discourse.
+  
+  6.We will use cross-domain pre-training to enhance the model on the original basis, such as by collecting sentences with explicit connectives as unsupervised pre-training corpus.  
+  
+  7.Possible subsequent extended experiments include using the probe method to study the semantic relevance and analogy of connectives.  
+  
