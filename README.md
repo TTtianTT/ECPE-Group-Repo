@@ -1,18 +1,18 @@
 # Leveraging Connectives in ECPE
 ## Contents
-- [Overall Structure](#Overall Structure)  
-- [Detailed Work](#Detailed Work)  
-  - [Data Mining and Data Preprocessing](#Data Mining and Data Preprocessing)  
-  - [Leveraging Connectives](#Leveraging Connectives)  
-  - [Explicit Relation Classifier](#Explicit Relation Classifier)  
+- [Overall Structure](#Overall-Structure)  
+- [Detailed Work](#Detailed-Work)  
+  - [Data Mining and Data Preprocessing](#Data-Mining-and-Data-Preprocessing)  
+  - [Leveraging Connectives](#Leveraging-Connectives)  
+  - [Explicit Relation Classifier](#Explicit-Relation-Classifier)  
   - [ECPE-MM-R](#ECPE-MM-R)  
 - [Schedule](#Schedule)  
-- [Related Works](#Related Works)  
+- [Related Works](#Related-Works)  
 - [Discussion](#Discussion)  
 - [Analysis](#Analysis)  
 - [Story](#Story)  
 - [Contribution](#Contribution)  
-- [Future Work](#Future Work)  
+- [Future Work](#Future-Work)  
 
 ## Overall Structure
   ![image](https://github.com/JunfengRan/ECPE-Group-Repo/blob/main/ECPE.jpg)  
