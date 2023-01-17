@@ -9,9 +9,9 @@
   - [ECPE-MM-R](#ECPE-MM-R)  
 - [Schedule](#Schedule)  
 - [Related Works](#Related-Works)  
-  - [Dataset](#Dataset)
-  - [Connectives](#Connectives)
-  - [ECPE](#ECPE)
+  - [Dataset](#Dataset)  
+  - [Connectives](#Connectives)  
+  - [ECPE](#ECPE)  
 - [Discussion](#Discussion)  
 - [Analysis](#Analysis)  
 - [Story](#Story)  
@@ -30,23 +30,32 @@
 ## Detailed Work
 
 ### Data Mining and Data Preprocessing
-  We need to do research on the connectives first.  
+  We need to do research on the connectives first. While dealing with these datasets, we follow the following style of statistics. We should consider the following three structure types (arg1, conn, arg2), (conn, arg1, arg2), (conn1, arg1, conn2, arg2). We note them simply as type 1, 2 and 3 (caution: we consider an type-3 instance as type-1 and type-2 simultaneously).  
   
   ![image](https://github.com/JunfengRan/ECPE-Group-Repo/blob/main/PDTB.png)  
-  ![image](https://github.com/JunfengRan/ECPE-Group-Repo/blob/main/PDTB-lv2.png)
+  ![image](https://github.com/JunfengRan/ECPE-Group-Repo/blob/main/PDTB-lv2.png)  
   
-  For HIT-CDTB dataset and PDTB2.0/3.0 dataset, we just simply consider the connectives which are shown in structures like (arg1, conn, arg2) (caution: structures like (conn1, arg1, conn2, arg2) are incorporated into account). And we want to know their occurence frequency with different discourse relation (top 2 levels with reason and result) and discourse relation distance for every connectives repectivesly. The top 11 relations on the second level are Comparison.Concession, Comparison.Contrast, Contingency.Cause, Contingency.Pragmatic cause, Expansion.Alternative, Expansion.Conjunction, Expansion.Instantiation, Expansion.List, Expansion.Restatement, Temporal.Asynchronous, Temporal.Synchrony. We use these top 11 relation with reason and result as our tag.  
+  For HIT-CDTB dataset and PDTB2.0/3.0 dataset, we want to know their occurence frequency with different discourse relation (top 2 levels with reason, result) and discourse relation distance together with structure types mentioned above for every connectives repectivesly. Previous study use the top 11 relations on the second level are Comparison.Concession, Comparison.Contrast, Contingency.Cause, Contingency.Pragmatic cause, Expansion.Alternative, Expansion.Conjunction, Expansion.Instantiation, Expansion.List, Expansion.Restatement, Temporal.Asynchronous, Temporal.Synchrony. But, we use all top-2-levels relations together with reason and result as our tag, and give our top 10 relations according to our statistics later.  
   
-  |Connective|top level|second level|distance|frequency|
-  |:---:|:---:|:---:|:---:|:---:|
-  |because|Contingency|Cause.reason|1|1000|
-  |because|Contingency|Cause.reason|2|10|
-  |while|Temporal|Synchrony|1|100|
-  |or|Expansion|Alternative|1|100|
+  |Connective|top level|second level|structure type|distance|frequency|
+  |:---:|:---:|:---:|:---:|:---:|:---:|
+  |because|Contingency|Cause.reason|1|1|1000|
+  |because|Contingency|Cause.reason|1|2|10|
+  |if-then|Contingency|Condition|3|1|100|
+  |while|Temporal|Synchrony|1|1|100|
+  |or|Expansion|Alternative|1|1|100|
   
-  For ECPE dataset, we need to translate it into English for English studies. For this purpose, we can translate the corpus clause by clause using translate software or algorithms and then correct the output manually. While dealing with ECPE dataset, we follow the following style of statistics. We should consider the following three types (arg1, conn, arg2), (conn, arg1, arg2), (conn1, arg1, conn2, arg2). For dataset itself, we want to know the occurence frequence of connectives in ECP (two styles) and distance (+/-, cause minus emotion) between emotion clause and cause clause for every connectives repectivesly.  
+  For ECPE dataset, we need to translate it into English for English studies. For this purpose, we can translate the corpus clause by clause using translate software or algorithms and then correct the output manually. For dataset itself, we want to know the occurence frequence of connectives in ECP with different discourse relation (Contingency.Cause with reason and result) and distance (+/-, cause minus emotion) between emotion clause and cause clause together with structure types mentioned above for every connectives repectivesly.  
   
-  If we want to enhance the performance of the explicit relation classifier, we can use the Gigaword dataset. For this dataset, we need to cleanse the data to seperate clauses and only keep those like (arg1, conn, arg2).  
+  |Connective|second level|structure type|distance|frequency|
+  |:---:|:---:|:---:|:---:|:---:|:---:|
+  |because|Contingency|Cause.reason|1|+1|1000|
+  |because|Contingency|Cause.reason|1|-1|1000|
+  |so|Contingency|Cause.result|1|-1|1000|
+  |because_of|Contingency|Cause.reason|1|+1|100|
+  |due_to-then|Contingency|Cause.result|3|-1|1|
+  
+  If we want to further enhance the performance of the Bert encoder or explicit relation classifier, we can use the Gigaword dataset. For this dataset, we need to cleanse the data and divide it into seperate clauses which have connectives. And use this new dataset to do domain pre-training.  
   
 ### Leveraging Connectives
   At first, we find the emotion clause using ECPE-MM-R turn 1. And we pair up each emotional clause and each non-emotional clause. Then, we add connectives selected by our data mining work and calculate the probability over the Language Model. Finally, if the sum of probability of causal connectives (probability times percentage) is the greatest, we add connectives with probability into original corpus and process them seperately (maybe choose top 5). However, the loss of this step is unclear (need further discussion). I prefer to say that this step is a automatic step completed by LM so there is no loss we can use.  
@@ -102,6 +111,7 @@
   
   Lin, Z., Kan, M.-Y., and Ng, H. T. (2009). Recognizing implicit discourse relations in the Penn Discourse Treebank. In Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing, pages 343–351.
   Ji, Y. and Eisenstein, J. (2015). One vector is not enough: Entity-augmented distributed semantics for discourse relations. Transactions of the Association of Computational Linguistics, 3:329–344.
+  
 ### ECPE
   Main reference:  
   A Multi-turn Machine Reading Comprehension Framework with Rethink Mechanism for Emotion-Cause Pair Extraction.  
@@ -112,7 +122,7 @@
   
 ## Discussion
   1.The original ECPE-MM-R paper didn't give the precision and recall rate of three turns.  
-  
+  New gigaword dataset may only study the distance 1 knowledge.
   2.I think emotion clause itself cannot be the cause of the emotion.
   we can translate the corpus clause by clause using translate software or algorithms
   3.Why choose delta = 0.7? More theoretical support is needed.  
