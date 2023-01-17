@@ -47,7 +47,7 @@
   
   For ECPE dataset, we need to translate it into English for English studies. For this purpose, we can translate the corpus clause by clause using translate software or algorithms and then correct the output manually. For dataset itself, we want to know the occurence frequence of connectives in ECP with different discourse relation (Contingency.Cause with reason and result) and distance (+/-, cause minus emotion) between emotion clause and cause clause together with structure types mentioned above for every connectives repectivesly.  
   
-  |Connective|second level|structure type|distance|frequency|
+  |Connective|top level|second level|structure type|distance|frequency|
   |:---:|:---:|:---:|:---:|:---:|:---:|
   |because|Contingency|Cause.reason|1|+1|1000|
   |because|Contingency|Cause.reason|1|-1|1000|
@@ -58,11 +58,11 @@
   If we want to further enhance the performance of the Bert encoder or explicit relation classifier, we can use the Gigaword dataset. For this dataset, we need to cleanse the data and divide it into seperate clauses which have connectives. And use this new dataset to do domain pre-training.  
   
 ### Leveraging Connectives
-  At first, we find the emotion clause using ECPE-MM-R turn 1. And we pair up each emotional clause and each non-emotional clause. Then, we add connectives selected by our data mining work and calculate the probability over the Language Model. Finally, if the sum of probability of causal connectives (probability times percentage) is the greatest, we add connectives with probability into original corpus and process them seperately (maybe choose top 5). However, the loss of this step is unclear (need further discussion). I prefer to say that this step is a automatic step completed by LM so there is no loss we can use.  
+  At first, we find the emotion clause using ECPE-MM-R turn 1. And we pair up each emotional clause and each non-emotional clause. Then, we add connectives selected by our data mining work and calculate the probability over the Language Model. Finally, if the sum of probability of causal connectives (probability times percentage) is the greatest, we add connectives with probability into original corpus and process them seperately (maybe choose top 5). However, the loss of this step is unclear. I prefer to say that this step is a automatic step completed by LM so there is no loss we can use.  
   
   On the other hand, we could use the BLEU or ROUGE to score the connectives directly. We will try this in the future.  
   
-  For simple verification without whole analysis of PDTB/HIT-CDTB, we use the following list of connectives (need further discussion): Not given yet.
+  For simple verification without whole analysis of PDTB/HIT-CDTB, we use the following list of connectives \[Rutherford, A. et al., 2015\]: further, in sum, in the end, overall, similarly, whereas, earlier, in turn, nevertheless, on the other hand, ultimately, accordingly, as a result, because, by comparison, by contrast, consequently, for example, for instance, furthermore, in fact, in other words, in particular, in short, indeed, previously, rather, so, specifically, therefore, also, although, and, as, but, however, in addition, instead, meanwhile, moreover, rather, since, then, thus, while, as long as, if, nor, now that, once, otherwise, unless, until.
   
 ### Explicit Relation Classifier
   We can judge the relation of the new pairs of (emotion arg, connectives, arg) with explicit relation classifier as benchmark. The concrete way is not decided yet (need further discussion).  
@@ -108,7 +108,7 @@
   Other reference:  
   Adapting BERT to Implicit Discourse Relation Classification with a Focus on Discourse Connectives.  
   Improving the Inference of Implicit Discourse Relations via Classifying Explicit Discourse Connectives.  
-  
+  Rutherford, A., Xue, N., 2015. Improving the Inference of Implicit Discourse Relations via Classifying Explicit Discourse Connectives, in: Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. Presented at the Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Association for Computational Linguistics, Denver, Colorado, pp. 799–808. https://doi.org/10.3115/v1/N15-1081
   Lin, Z., Kan, M.-Y., and Ng, H. T. (2009). Recognizing implicit discourse relations in the Penn Discourse Treebank. In Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing, pages 343–351.
   Ji, Y. and Eisenstein, J. (2015). One vector is not enough: Entity-augmented distributed semantics for discourse relations. Transactions of the Association of Computational Linguistics, 3:329–344.
   
