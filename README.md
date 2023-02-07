@@ -30,7 +30,9 @@
 ## Detailed Work
 
 ### Data Mining and Data Preprocessing
-  We need to do research on the connectives first. While dealing with these datasets, we follow the following style of statistics. We should consider the following three structure types (arg1, conn, arg2), (conn, arg1, arg2), (conn1, arg1, conn2, arg2). We note them simply as type 1, 2 and 3 (caution: we consider an type-3 instance as type-1 and type-2 simultaneously).  
+  The sample data mining work is available in dev-JunfengRan branch.  
+
+  We need to do research on the connectives first. While dealing with these datasets, we follow the following style of statistics. We should consider the following four structure types (arg1, arg2), (arg1, conn, arg2), (conn, arg1, arg2), (conn1, arg1, conn2, arg2). We note them simply as type 0, 1, 2 and 3 (caution: we do not consider an type-3 instance as type-1 and type-2 simultaneously). In general, we can rewrite the sections to make emo clause and cau clause as arg1 and arg2 for ECPE dataset and leave the original sequence for other datasets.  
   
   ![image](https://github.com/JunfengRan/ECPE-Group-Repo/blob/main/PDTB.png)  
   ![image](https://github.com/JunfengRan/ECPE-Group-Repo/blob/main/PDTB-lv2.png)  
@@ -45,13 +47,23 @@
   |while|Temporal|Synchrony|1|1|100|
   |or|Expansion|Alternative|1|1|100|
   
-  For ECPE dataset, we need to translate it into English for English studies. For this purpose, we can translate the corpus clause by clause using translate software or algorithms and then correct the output manually. For dataset itself, we want to know the occurence frequence of connectives in ECP with different discourse relation (Contingency.Cause with reason and result) and distance (+/-, cause minus emotion) between emotion clause and cause clause together with structure types mentioned above for every connectives repectivesly. Note that the second level is decided by whether the arg2 is the reason/cause of the arg1.  
+  For ECPE dataset, we need to translate it into English for English studies. For this purpose, we can translate the corpus clause by clause using translate software or algorithms and then correct the output manually. For dataset itself, we want to know the occurence frequence of connectives in ECP with different discourse relation (Contingency.Cause with reason and result) and distance (+/-, cause minus emotion) between emotion clause and cause clause together with structure types mentioned above for every connectives repectivesly. Note that reason/result is decided by whether the distance is positive (reason) or negative (result).  
   
+  Old version
   |Connective|top level|second level|structure type|distance|frequency|
   |:---:|:---:|:---:|:---:|:---:|:---:|
   |because|Contingency|Cause.reason|1|+1|1000|
   |because|Contingency|Cause.reason|1|-1|1000|
   |so|Contingency|Cause.result|1|-1|1000|
+  |because_of|Contingency|Cause.reason|1|+1|100|
+  |due_to-then|Contingency|Cause.result|3|-1|1|
+  
+  New version
+  |Connective|top level|second level|structure type|distance|frequency|
+  |:---:|:---:|:---:|:---:|:---:|:---:|
+  |because|Contingency|Cause.reason|1|+1|1000|
+  |because|Contingency|Cause.result|2|-1|1000|
+  |so|Contingency|Cause.result|2|-1|1000|
   |because_of|Contingency|Cause.reason|1|+1|100|
   |due_to-then|Contingency|Cause.result|3|-1|1|
   
@@ -71,6 +83,8 @@
   Last, we can modify the source code of ECPE-MM-R \[Zhou, C. et al.\] and try to get the SOTA. We also need to do some complementary experiments about this model, like analyzing the precision and recall rate of every turn.  
   
 ## Schedule
+  Note: Assuming six group members work all day long through whole process, so the actual schedule may be much later.
+  
   2023.1.4-2023.1.11 Try to run through the ECPE-MM-R source code. For those using the server can try to use the Accelerate library or data parallelism (https://zhuanlan.zhihu.com/p/467103734).  
   
   2023.1.11-2023.1.18, 2023.2.1-2023.2.8 (not forced)  Analyze the ECPE-MM-R source code and modify it to output the precision and recall rate of every turn. Try to create the framework of adding connectives with probability.  
