@@ -21,7 +21,7 @@
 - [Future Work](#Future-Work)  
 
 ## Overall Structure
-  ![image](https://github.com/JunfengRan/ECPE-Group-Repo/blob/main/diagram/ECPE.jpg)  
+  ![image](https://github.com/TTtianTT/ECPE-Group-Repo/blob/main/diagram/ECPE.jpg)  
   
   The project consists of 4 parts. In the first part, we need to do some data mining and data preprocessing on our corpus. In the second part, we try to figure out how to leverage connectives in ECPE. In the third part, we do our experiments in a classic way using explicit relation classifier. In the last part, we check our improvement on the basis of previous SOTA \[Zhou, C. et al.\].  
   
@@ -36,8 +36,8 @@
 
   We need to do research on the connectives first. While dealing with these datasets, we follow the following style of statistics. We should consider the following four structure types (arg1, arg2), (arg1, conn, arg2), (conn, arg1, arg2), (conn1, arg1, conn2, arg2). We note them simply as type 0, 1, 2 and 3 (caution: we do not consider an type-3 instance as type-1 and type-2 simultaneously). In general, we can rewrite the sections to make emo clause and cau clause as arg1 and arg2 for ECPE dataset and leave the original sequence for other datasets.  
   
-  ![image](https://github.com/JunfengRan/ECPE-Group-Repo/blob/main/diagram/PDTB.png)  
-  ![image](https://github.com/JunfengRan/ECPE-Group-Repo/blob/main/diagram/PDTB-lv2.png)  
+  ![image](https://github.com/TTtianTT/ECPE-Group-Repo/blob/main/diagram/PDTB.png)  
+  ![image](https://github.com/TTtianTT/ECPE-Group-Repo/blob/main/diagram/PDTB-lv2.png)  
   
   For HIT-CDTB dataset and PDTB2.0/3.0 dataset, we want to know their occurence frequency with different discourse relation (top 2 levels with reason, result) and discourse relation distance together with structure types mentioned above for every connectives repectivesly. Previous study \[Kishimoto, Y. et al.\] use the top 11 relations on the second level are Comparison.Concession, Comparison.Contrast, Contingency.Cause, Contingency.Pragmatic cause, Expansion.Alternative, Expansion.Conjunction, Expansion.Instantiation, Expansion.List, Expansion.Restatement, Temporal.Asynchronous, Temporal.Synchrony. But, we use all top-2-levels relations together with reason and result as our tag, and give our top 10 relations according to our statistics later.  
   
@@ -87,14 +87,14 @@
 ## Controlled Experiment
   v1, v2, v3 are based on previous SOTA. v1 uses information in connectives to help identify the cause clauses. v2 uses information in connectives to help check whether emotion is corresponding to cause. v3 uses information in connectives to help both above.  
   
-  ![image](https://github.com/JunfengRan/ECPE-Group-Repo/blob/main/diagram/ECPEv1.jpg)
-  ![image](https://github.com/JunfengRan/ECPE-Group-Repo/blob/main/diagram/ECPEv2.jpg)
-  ![image](https://github.com/JunfengRan/ECPE-Group-Repo/blob/main/diagram/ECPEv3.jpg)
+  ![image](https://github.com/TTtianTT//ECPE-Group-Repo/blob/main/diagram/ECPEv1.jpg)
+  ![image](https://github.com/TTtianTT//ECPE-Group-Repo/blob/main/diagram/ECPEv2.jpg)
+  ![image](https://github.com/TTtianTT//ECPE-Group-Repo/blob/main/diagram/ECPEv3.jpg)
   
   v4, v5 are based on explicit relation classifier. v4 is a one-step progress to figure out relation directly after recognizing the emotion-cause pair. v5 check the bond on the basis of v4.  
   
-  ![image](https://github.com/JunfengRan/ECPE-Group-Repo/blob/main/diagram/ECPEv4.jpg)
-  ![image](https://github.com/JunfengRan/ECPE-Group-Repo/blob/main/diagram/ECPEv5.jpg)
+  ![image](https://github.com/TTtianTT//ECPE-Group-Repo/blob/main/diagram/ECPEv4.jpg)
+  ![image](https://github.com/TTtianTT//ECPE-Group-Repo/blob/main/diagram/ECPEv5.jpg)
   
 ## Schedule
 
