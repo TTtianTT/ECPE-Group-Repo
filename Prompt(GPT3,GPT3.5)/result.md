@@ -1,5 +1,4 @@
-在GPT3.5的三个模型，GPT3的6个模型上评估了性能（funsd数据集，zero-shot）
-
+在GPT3.5的三个模型，GPT3的6个模型上评估了性能（funsd数据集，two-shot）
 
 
 | Name               | Max Length |   Parameters |     f1 micro |    f1 macro| Fill Count |
