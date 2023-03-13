@@ -1,12 +1,12 @@
 1201 10
 (5,1)
-1,null,null,Li ran to Xuzhou after drowning her two daughters
-2,null,null,Caught by Dangshan police
+1,null,null,Li, ran to Xuzhou after drowning her two daughters
+2,null,null,She was caught by Dangshan police
 3,null,null,in court
-4,null,null,25-year-old father never sees two lovely daughters again
-5, sadness, remorse, Lee shed tears of remorse when she heard her daughter's name
+4,null,null,25-year-old father would never see his two lovely daughters again
+5, sadness, remorse, Li shed tears of remorse when she heard her daughter's name
 6,null,null,yesterday
-7,null,null,Suzhou Intermediate Court sentenced Li to death
+7,null,null,Suzhou Intermediate Court has sentenced Li to death
 8,null,null,execution postponed for two years
 9, null, null, at the same time
 10,null,null,Li was sentenced to compensate the plaintiff, Shen, for an economic loss of 40,000 yuan
@@ -14,7 +14,7 @@
 (3,3)
 1, null, null, also mentioned in the report of the British Post
 2,null,null,Hong Kong Airlines staff are attacked by passengers 3 times a week on average
-3, anger, anger, and passengers are more angry because of frequent flight delays
+3, anger, anger, and passengers are becoming increasingly angry because of frequent flight delays
 4, null, null, the data shows
 5,null,null,There are very few Chinese airports whose flight punctuality rate is above 50%
 6,null,null,Among them, the on-time rate of departure flights at Capital International Airport in June was only 18%
@@ -24,7 +24,7 @@
 1203 15
 (10,9)
 1,null,null,Because the admission procedures for children with non-local hukou are quite complicated
-2,null,null,she ran around several times but failed to solve the problem of her child's schooling
+2,null,null,Xu ran around several times but failed to solve her child's schooling problem
 3,null,null, there is no way
 4,null,null, she asked her fellow villagers to find Li
 5,null,null,Li is an enthusiastic person
@@ -43,19 +43,19 @@
 1,null,null,Xiao Chen said
 2,null,null,around 3 am on the 26th
 3,null,null,she was just getting ready for bed
-4,null,null,suddenly
+4,null,null,when suddenly
 5,null,null,by the weak light of nearby street lamps
-6,null,null,I vaguely saw a man climbing up from the balcony
-7,null,null, I subconsciously picked up a pot of boiling water
+6,null,null,she vaguely saw a man climbing up from the balcony
+7,null,null, She subconsciously picked up a pot of boiling water
 8,null,null,Xiao Chen said
 9,null,null, she just boiled a pot of water
 10,null,null,after seeing the man
 11,null,null,she picked up the kettle and poured it on the man
 12,null,null,unexpected
-13,anger, angry from embarrassment, this man became angry from embarrassment after being burned by boiling water
-14,null,null, beat her up
+13,anger, angry from embarrassment, this man became angry from embarrassment, for being burned by boiling water
+14,null,null,He beat her up
 15,null,null,After Xiao Chen was knocked down
-16,null,null,The man climbed down from the balcony
+16,null,null,the man climbed down from the balcony
 17, null, null, when escaping
 18,null,null,The man was seen by the students living on the 2nd floor
 19,null,null, so they called the police for help
@@ -63,24 +63,24 @@
 21,null,null,Xiao Chen was rushed to the hospital by the police
 1205 23
 (6,5), (14,13), (15,15)
-1,null,null,Half a month of theoretical training and practical operation
-2,null,null,as the only male
-3,null,null,Yang Jun learned very hard
-4,null,null, at the beginning I used models for practice
-5,null,null, later some aunts let him practice on himself
-6, happiness, moved, made him very moved
-7,null,null,enhanced confidence
-8,null,null, and successfully passed the prolactinist examination organized by the human resources and labor security system
-9,null,null,officially employed
-10,null,null, later I inquired from the Internet
-11,null,null,It was found that there are only two registered male prolactinists in China
-12,null,null,unexpected
-13,null,null, I am still the third male prolactinist in China
-14, happiness, joy, Yang Jun can't hide the joy in his heart
+1,null,null,After half a month of theoretical training and practical operation
+2,null,null,Yang Jun, as the only male
+3,null,null,worked very hard
+4,null,null,At the beginning he used models for practice
+5,null,null,and later some aunts let him practice on himself
+6, happiness, moved,which moved him deeply
+7,null,null,and enhanced his confidence
+8,null,null,Yang Jun successfully passed the prolactinist examination organized by the human resources and labor security system
+9,null,null,and was officially employed
+10,null,null,Later when he inquired from the Internet
+11,null,null,it was found that there are only two registered male prolactinists in China
+12,null,null,unexpectedly
+13,null,null,he was still the third male prolactinist in China
+14, happiness, joy, Yang Jun couldn't hide the joy in his heart
 15, sadness, worry, but also worried about the future when working for the first time
-16,null,null,customers are very confused after seeing me
-17,null,null, why is he a man
-18,null,null,The customer's husband learned that he is a man
+16,null,null,Customers were very confused after seeing me
+17,null,null, why he as a man was a prolactinist
+18,null,null,Some customer's husbands learned that he is a man
 19,null,null, resolutely opposed at the beginning
 20,null,null, the work is particularly difficult
 21,null,null,Yang Jun said
@@ -88,28 +88,28 @@
 23,null,null, agreed after a long time of thought work
 1208 23
 (21,21)
-1,null,null,outside the ICU
+1,null,null,Outside the ICU
 2,null,null,Wu Jiantong's mother cried bitterly
-3,null,null, she called
-4,null,null,in order to save the son
-5,null,null, The family gave everything and borrowed money everywhere
-6,null,null,Spent nearly 100,000 yuan in medical expenses within 10 days
-7,null,null,the family once owed medicine fees
-8,null,null, but the hospital has not stopped and reduced the treatment of the son
+3,null,null, she called for help
+4,null,null,in order to save her son
+5,null,null, The family gave everything and borrowed money from everywhere
+6,null,null,They spent nearly 100,000 yuan in medical expenses within 10 days
+7,null,null,The family once owed medicine fees
+8,null,null, However the hospital has not stopped and reduced the treatment for her son
 9,null,null,for kind people
 10,null,null,Ms. Dong's family is very grateful
-11,null,null, but now we really have no money
+11,null,null, but now we really have no money left
 12,null,null,watching my son's condition getting better and better
-13,null,null, hope that kind people can help us
+13,null,null,Hoping that kind people can help them
 14,null,null,yesterday afternoon
 15,null,null,Apple China's public relations staff said
 16,null,null, no response to this matter
 17,null,null,July 11
-18,null,null,Ma Ailun, a flight attendant of China Southern Airlines, was electrocuted when answering a call with a charging iPhone 5
+18,null,null,Ma Ailun, a flight attendant of China Southern Airlines, was electrocuted while answering a call on her charging iPhone 5
 19,null,null,3 days later
 20,null,null,Apple China responded that
-21,sadness,distressed,we are deeply saddened by this unfortunate incident
-22,null,null, we will conduct a thorough investigation on this matter
+21,sadness,distressed,they were deeply saddened by this unfortunate incident
+22,null,null,They stated that they will conduct a thorough investigation on this matter
 23,null,null, and provide full cooperation to relevant agencies
 1209 15
 (9,9)
@@ -119,26 +119,26 @@
 4,null,null,in Montreal Quebec City
 5,null,null, including the town of Rio Grande Valley - the starting point of the news bottle tour
 6,null,null,I feel so good
-7,null,null,Mileia said to the CTV camera on the 12th that we saw the girl last night and went to many places
-8,null,null,milea says
-9, happiness, excitement, the most exciting thing for him is to see the Montreal International Fireworks Contest
-10, null, null, there
-11,null,null,he and his family have VIP seats
+7,null,null,On the 12th, Mileia said to the CTV camera and shared that the girl last night and went to many places
+8,null,null,Milea expressed his
+9, happiness, excitement, saying the most exciting thing for him is to see the Montreal International Fireworks Contest
+10, null, null,There
+11,null,null,he and his family had VIP seats
 12,null,null,Milea said it was a sunny day when he recalled the scene when he picked up the message bottle last October
 13,null,null,I'm not really looking for anything
 14,null,null, but just walking around
 15,null,null, suddenly stepped on a green seven-up bottle
 1210 16
 (11,10)
-1,null,null,boyfriend thinks
-2,null,null,Ms. Gao cheated him
-3,null,null,often calling her a fake woman
+1,null,null,Ms Gao's boyfriend believes
+2,null,null,that she cheated him
+3,null,null,and often calls her a fake woman
 4,null,null, in fact, she just reshaped her nose and face
 5,null,null, spent tens of thousands of yuan
-6,null,null, but next to other breast enhancement advertisements, etc.
-7, null, null, very easy to associate
-8,null,null,Boyfriend even questioned
-9,null,null, I still have many things to deceive him
+6,null,null, due to other breast enhancement advertisements, etc.
+7, null, null,It is very easy to make such asscociations
+8,null,null,Her boyfriend even questioned that
+9,null,null, she still had deceived him in many things
 10,null,null,the relationship between the two deteriorated rapidly
 11, sadness, sad, she said sadly
 12,null,null,3 years in love
@@ -152,7 +152,7 @@
 2,null,null,A Kunming fan of Jenny contacted Home Inns Group via Weibo
 3,null,null,Home Inn Cuihu accepted them
 4,null,null,At the same time, Home Inns promise that all Home Inns across the country will open their doors to guide dogs
-5, happiness, happy, Chen Yan is very happy that we have fought for the rights and interests of all guide dogs
+5, happiness, happy, Chen Yan is very happy, that we have fought for the rights and interests of all guide dogs
 6,null,null,May 10
 7,null,null,Chen Yan and Jenny set foot on Spring City
 8,null,null,go west after meeting with volunteers
@@ -166,7 +166,7 @@
 3,null,null, said that guide dogs can defecate anywhere
 4,null,null, or casually yell scary
 5,null,null, Chen Yan has long been accustomed to these little misunderstandings
-6,anger,angry, what makes her angry is Pudacuo National Park's ingenious refusal
+6,anger,angry, what makes her angry, is that Pudacuo National Park's ingenious refusal
 7,null,null,Chen Yan said that the staff of the park told her that after entering the park, the sightseeing bus needs to change several times
 8,null,null, and there are some ferocious wild animals in the park
 9,null,null, may attack Jenny at the place where she gets off and transfers
@@ -176,7 +176,7 @@
 (4,3)
 1,null,null,not waiting for the public security organ to report the cause of death
 2,null,null,The family members of the deceased concluded that Yao Shuangping was forced to commit suicide
-3,null,null, the reason is that there is a paragraph in the diary left by Yao a few days ago that the company cheated me of 7,000 yuan by using the billing receipt
+3,null,null, the reason is that there is a paragraph in the diary left by Yao a few days ago that the company cheated him of 7,000 yuan by using the billing receipt
 4, angry, angry, angry
 5,null,null, a relative or friend also said
 6,null,null,Yao Shuangping once complained to his brother that working was too hard
@@ -196,10 +196,10 @@
 (5,4)
 1,null,null,subsequent
 2,null,null, the factory complained that Lu did not comply with the factory regulations
-3,null,null,The reason for making a fuss about the personnel department
-4,null,null,fired Lu
+3,null,null,The reason for making a fuss was about the personnel department
+4,null,null,The factory fired Lu
 5, sadness, grievance, Lu Mou is wronged in every way
-6,null,null, I lost my job
+6,null,null, As a result, she lost her job
 7,null,null,she doesn't think she has violated any factory regulations
 8,null,null, then apply for labor arbitration to the arbitration tribunal
 9,null,null,request the ruling factory to pay compensation of 44,591 yuan for illegal termination of labor relations
@@ -235,7 +235,7 @@
 7,null,null,Du Xiurong looked up at the sky with her eyes closed, he is still not sensible
 8, disgust, worry, Du Xiurong still has many worries
 9,null,null,She has not yet issued a marriage certificate with Sun Cheng
-10,null,null, no account migration
+10,null,null, and no account migration
 11,null,null, Du Xiurong said
 12,null,null,When Cheng Jin was born in 1991
 13,null,null, only spent 2 yuan and successfully landed in the household
@@ -252,8 +252,8 @@
 7,null,null, the spirit also improved obviously
 8,null,null,35-year-old Zhou Yuan works in a bank
 9,null,null,5 years ago
-10, fear, panic, she was horrified to find
-11,null,null,The skin of the whole body is quietly turning black and hardening
+10, fear, panic, she was horrified to find that
+11,null,null,the skin of the whole body is quietly turning black and hardening
 12,null,null,I can't control my tongue
 13,null,null,The action is stiff and weak
 14,null,null, every time the temperature drops
@@ -302,7 +302,7 @@
 4,null,null,I just want to get out of here now
 5,null,null, far away
 6, sadness, crying, Xiaohe cried and explained the misfortune of marriage
-7, sadness, regret, regret my childishness
+7, sadness, regret, regret for my childishness
 8,null,null, but it's too late
 9,null,null, considering that the relationship between the two parties has indeed broken down
 10,null,null,The court sentenced the two to divorce according to law
@@ -334,8 +334,8 @@
 3,null,null, resolved through negotiation
 4,null,null, how could two irrelevant people get mixed up
 5,null,null,blame one of the drivers
-6,null,null, and abusive words
-7, angry, angry, the driver is angry
+6,null,null, using abusive words
+7, angry, angry, so the driver is angry
 8,null,null, stabbing two people to death
 9,null,null,May 11 at 11 am
 10,null,null, two men in Lingbao, Li and Xu
@@ -365,7 +365,7 @@
 14,null,null,at 6 o'clock in the afternoon of the day
 15,null,null,The defendant Zhu Hongxia took advantage of the fact that there was no one at home
 16,null,null,Forcibly called the victim to the roof of his own bungalow to intimidate
-17, fear, fear, Qiang Qiang cry because of fear
+17, fear, fear,and Qiang Qiang cry because of fear
 18,null,null,the defendant Zhu Hongxia beat her
 19,null,null, causing his death on the spot
 20,null,null,after
@@ -380,7 +380,7 @@
 6, null, null, at the same time
 7,null,null, the student repeatedly said
 8,null,null,He has received many calls from the media and teachers telling him that he may have violated the law by hacking the official website of an official organization
-9, sadness, regret, which also makes him regret his actions
+9, sadness, regret, which also makes him regret, is his actions
 10,null,null, I invaded the official website of Lanta by myself, just as the message said at the time
 11, null, null, not malicious
 12,null,null,for the distress caused by my wrong behavior to Lanzhou University
@@ -397,7 +397,7 @@
 8,null,null,doctor said
 9,null,null, At present, we can only treat the function of urination as much as possible
 10,null,null,The man had a serious conflict with his wife after drinking in the afternoon of the 6th of this month
-11,anger,angry,angry, he actually used scissors to self-mutilate and cut off his genitals
+11,anger,angry,angry, so he actually used scissors to self-mutilate and cut off his genitals
 12,null,null, and flushed down the toilet
 13,null,null,When the man went to the hospital for emergency treatment
 14,null,null,Unconscious due to excessive blood loss
@@ -468,7 +468,7 @@
 6, null, null, I can't remember clearly
 7,null,null, they turned back to the scene again
 8,null,null,in an open space more than 100 meters away from the parking spot mentioned by Ms. Jin
-9,null,null,Ms. Jin saw her car
+9,null,null,Ms. Jin saw her car and
 10, happiness, ecstatic, she is ecstatic
 11,null,null,unlock and open the door
 12,null,null,I saw my son sitting in the back seat eating bread and playing with toys
@@ -483,7 +483,7 @@
 21,null,null, moved position again
 1233 13
 (2,1)
-1,null,null, see the son brought back a new daughter-in-law
+1,null,null, After seeing the son brought back a new daughter-in-law
 2, happiness, happy, Yu Liang's parents are naturally happy
 3,null,null, because the wedding room has already been prepared
 4,null,null,As soon as the daughter-in-law arrives in the village
@@ -500,7 +500,7 @@
 (4,3)
 1,null,null,early 2012
 2,null,null,Zhang Peng and his father visited Li Juan's family
-3,null,null,see Zhang Peng's talents
+3,null,null,After seeing Zhang Peng's talents
 4, happiness, joy, Li Juan's family is very happy
 5,null,null,The family members of both sides agreed after meeting that Zhang Peng and Li Juan would continue to communicate
 6,null,null, after Zhang Peng and his father left
@@ -530,7 +530,7 @@
 3,null,null,Hong Hong, a 7-year-old boy, goes out early to go to school as usual
 4,null,null, the original tens of minutes away from home to school
 5,null,null, Hong Hong did not arrive at the school
-6, fear, impatient, impatient parents quickly lead people to look around
+6, fear, impatient, So impatient parents quickly lead people to look around
 7,null,null, I can't wait to turn over the big pond
 8,null,null, still did not find the child
 9,null,null,next day
@@ -546,7 +546,7 @@
 4,null,null,The old man went home by car in Laofushan some time ago
 5,null,null,unexpectedly kicked off by the bus driver
 6,null,null,the driver did not come during the old man's hospitalization
-7, angry, angry, their family is very angry
+7, angry, angry, so their family is very angry
 8, null, null, so I decided to ask for an explanation
 9,null,null, live on the bus
 10,null,null,for this
@@ -577,7 +577,7 @@
 17,null,null,at 8 o'clock that night
 18,null,null,Wang's father rushed to Gongqingcheng
 19,null,null, see my daughter do this kind of thing
-20, sadness, remorse, also remorse
+20, sadness, remorse, I also feel a sense of remorse
 21,null,null,The king's father failed to persuade him and had to take his daughter back to his hometown in Fengcheng
 22,null,null, Wang, who is determined to divorce
 23,null,null, means after returning to Fengcheng
@@ -592,8 +592,8 @@
 3,null,null,A black puppy barks at a group of medical staff in white coats
 4,null,null,keep showing their fangs
 5,null,null, loud and urgent
-6,null,null,this puppy is too loyal
-7, happiness, moving, many medical staff are very moved — — — more than ten minutes ago
+6,null,null,this puppy is so loyal
+7, happiness, moving, that many medical staff are very moved — — — more than ten minutes ago
 8,null,null,The owner of the puppy passed out on the street
 9,null,null,After the ambulance personnel arrived
 10,null,null,maybe it is worried that someone will hurt the master
@@ -612,13 +612,13 @@
 9,anger, angry, Ms. Wang was very angry after hearing this
 10, null, null, call the police immediately
 11,null,null,Because Xiaoyun was threatened by his uncle
-12, fear, afraid, very afraid of uncle's atrocities
+12, fear, afraid, she is very afraid of uncle's atrocities
 13,null,null, I beg this kind aunt not to call the police
 14,null,null, thereafter
 15,null,null,every weekend
 16,null,null,Ms. Wang went shopping to visit Xiaoyun
 17,null,null,Sometimes I ask my daughter to send some clothes or snacks to Xiaoyun
-18, happiness, moving, Xiaoyun is very moved
+18, happiness, moving, so Xiaoyun is very moved
 19,null,null, just recognize this kind aunt as a godmother
 20,null,null,later
 21,null,null, after Wu knew about these things
@@ -643,8 +643,8 @@
 1245 13
 (2,3)
 1,null,null, Wang Lei said
-2, fear, worried, at this time I already have worries
-3,null,null, afraid that the child is really mistaken
+2, fear, worried, at this time I already have worries and
+3,null,null, am afraid that the child is really mistaken
 4,null,null,Introduction by Wang Lei
 5,null,null, when I handed the wrongly written discharge summary to a staff member of the hospital
 6, null, null, the other party immediately destroyed the discharge summary
@@ -664,8 +664,8 @@
 5,null,null,become a hero in the hearts of the people
 6,null,null, but sadly
 7,null,null,she still hasn't found her daughter
-8, sadness, disappointment, more disappointing
-9,null,null,The 13 kidnapping suspects she tried so hard to bring to court were acquitted by the court
+8, sadness, disappointment, What is more disappointing is that
+9,null,null,the 13 kidnapping suspects she tried so hard to bring to court were acquitted by the court
 1247 12
 (5,5)
 1,null,null,day in 2002
@@ -687,7 +687,7 @@
 3,null,null,She received the Women of Courage Award from the U.S. Department of State
 4,null,null,not long ago
 5,null,null,She received the Argentine Human Rights Award from Argentine President Cristina Fernandez
-6, happiness, gratifying, more gratifying
+6, happiness, gratifying,What is more gratifying is that
 7,null,null,her one-man war against human trafficking has gradually turned into a social movement
 8,null,null,2008
 9,null,null,Argentina enshrined the prohibition of human trafficking into law
@@ -720,7 +720,7 @@
 4,null,null,A strange man sneaked into the dormitory of college girls
 5,null,null,Put your hand into the bed of the sleeping girl
 6,null,null, successfully escaped after stealing the computer
-7,null,null, recall the scene at that time
+7,null,null, When recalling the scene at that time
 8, fear, lingering fears, Wang Qi, a sophomore girl from Hanpu Campus of Hunan University of Traditional Chinese Medicine, still has lingering fears
 1252 14
 (7,7)
@@ -755,7 +755,7 @@
 13,null,null,Niuniu asked Ms. Yao to make delicious food for the big girl and send it together
 1254 9
 (2,1)
-1,null,null,Seeing that the patient suffering from pain will be cured and discharged
+1,null,null,After seeing that the patient suffering from pain will be cured and discharged
 2, happiness, happy, the attending physician is very happy
 3,null,null,Ask for an affectionate hug for this 80-year-old lady
 4,null,null, I don't want to think that this hug actually caused the patient to be bedridden again and his condition worsened
@@ -766,7 +766,7 @@
 9,null,null,The old man's family finally forgave the kind doctor's reckless behavior
 1255 9
 (1,1)
-1, sadness, regret, Dr. Zhang still regrets his reckless behavior
+1, sadness, regret, Dr. Zhang still regrets for his reckless behavior
 2,null,null,Dr. Zhang, 46 years old this year, is the Chief Physician of the Rehabilitation Medicine Department of a hospital in Zhengzhou
 3,null,null,Dr. Zhang is kind to patients
 4,null,null, also very helpful
@@ -785,7 +785,7 @@
 6,null,null,Old lady Liu's condition has improved significantly
 7,null,null,Able to go to the bathroom independently
 8,null,null, and be able to walk about 50 meters independently every day
-9,null,null,see the recovery of Mrs. Liu
+9,null,null,After seeing the recovery of Mrs. Liu
 10, happiness, happy, Dr. Zhang and the patient's family are very happy
 1257 12
 (6,6)
@@ -794,7 +794,7 @@
 3,null,null,Dr. Zhang's hospital actively provides treatment
 4,null,null, and waived the treatment fee except the medical insurance card starting from September 18
 5,null,null,Dr. Zhang also blamed himself
-6, sadness, annoyed endlessly, annoyed by the consequences caused by oneself
+6, sadness, annoyed endlessly, annoyed by the consequences which are caused by oneself
 7,null,null,in court
 8,null,null,Dr. Zhang and the hospital expressed deep apologies to Mrs. Liu's family many times
 9,null,null, and submitted a written apology letter
@@ -858,7 +858,7 @@
 10,null,null, what if he learns to steal and grab
 11,null,null,day
 12,null,null,The daughter-in-law said this to Aunt Zhao
-13, Anger, angry, makes Aunt Zhao feel angry and anxious
+13, Anger, angry,which makes Aunt Zhao feel angry and anxious
 14,null,null,Aunt Zhao thinks her daughter-in-law is too ignorant
 15,null,null,deliberately finding fault
 16,null,null, but soon
@@ -871,7 +871,7 @@
 1263 15
 (2,1)
 1,null,null,30,000 yuan has come true
-2, happiness, can't help being happy, Du Mou can't help being happy
+2, happiness, can't help being happy, so Du Mou can't help being happy
 3,null,null,the ninth day of the second lunar month in 2009
 4,null,null, Du Xiaoshuan and Meng Xiaoyun got married
 5,null,null,The guests are gone at night
@@ -920,7 +920,7 @@
 1266 12
 (2,2)
 1,null,null,in the field
-2, happiness, excitement, Zhang Peng excitedly told his mother that he had passed the interview review
+2, happiness, excitement, Zhang Peng excitedly told his mother, that he had passed the interview review
 3, null, null, just waiting for the interview
 4,null,null, 25-year-old Zhang Peng shyly said that I especially like driving
 5,null,null, this time I reported the driver position in Daoli District
