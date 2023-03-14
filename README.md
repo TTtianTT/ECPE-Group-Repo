@@ -23,7 +23,7 @@
   2.1 Upward pass: argument semantics
   a feed-forward “upward” pass: each non-terminal in the binarized syntactic parse tree has a K-dimensional vector representation that is computed from the representations of its children, bottoming out in pre-trained representations of individual words.
   Using RNN
-  For each parent node i: u_i=tanh⁡(U[u_l(i) ;u_r(i)  ])
+  For each parent node i: $u_i=tanh⁡(U[u_l(i) ;u_r(i)  ])$
   Leaves: pre-trained word vector representations
   feedforward, no cycles and all nodes can be computed in linear time.
   
