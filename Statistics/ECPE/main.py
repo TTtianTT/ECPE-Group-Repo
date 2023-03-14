@@ -34,9 +34,10 @@ class Statistics():
 result = []  # Statistic result
 key = []  # Primary key for index
 conn_words = []  # Set connectives
+# conn_words_count = []  # Set connectives connt
 
 # Load cause connectives
-with open ('cause_conn.txt', 'r', encoding='utf-8') as f:
+with open ('cause_uniconn.txt', 'r', encoding='utf-8') as f:
     line = f.readline()
     while line:
         for word in line.split(','):
@@ -77,6 +78,13 @@ with open ('all_data_pair.txt', 'r', encoding='utf-8') as f:  # Encode by utf-8 
             # Emotion clause
             emo_conn_flag = 0  # Set no conn as default
             emo_conn = ''
+            
+            for i in range(len(refined_content[pair[1] - 1])):  # Single-character word
+                if refined_content[pair[1] - 1][i] in conn_words:
+                    emo_conn_flag = 1
+                    emo_conn = refined_content[pair[1] - 1][i]
+
+            '''
             # Judge double-character word later to cover the result as long as possible
             for i in range(len(refined_content[pair[1] - 1])):  # Single-character word
                 if refined_content[pair[1] - 1][i] in conn_words:
@@ -87,10 +95,18 @@ with open ('all_data_pair.txt', 'r', encoding='utf-8') as f:  # Encode by utf-8 
                 if possible_conn in conn_words:
                     emo_conn_flag = 1
                     emo_conn = possible_conn
+            '''
             
             # Cause clause
             cau_conn_flag = 0  # Set no conn as default
             cau_conn = ''
+
+            for i in range(len(refined_content[pair[0] - 1])):  # Single-character word
+                if refined_content[pair[0] - 1][i] in conn_words:
+                    cau_conn_flag = 1
+                    cau_conn = refined_content[pair[0] - 1][i]
+
+            '''
             # Judge double-character word later to cover the result as long as possible
             for i in range(len(refined_content[pair[0] - 1])):  # Single-character word
                 if refined_content[pair[0] - 1][i] in conn_words:
@@ -101,6 +117,7 @@ with open ('all_data_pair.txt', 'r', encoding='utf-8') as f:  # Encode by utf-8 
                 if possible_conn in conn_words:
                     cau_conn_flag = 1
                     cau_conn = possible_conn
+            '''
 
             # Judge structure type
             # type0 (emo, cau), type1 (emo, conn, cau), type2 (conn, emo, cau), type3 (conn, emo, conn, cau)

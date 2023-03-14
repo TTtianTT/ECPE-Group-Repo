@@ -8,7 +8,7 @@
 6,null,null,在 楼 内 对 女子 进行 劝说
 7,null,null,劝说 过程 中
 8,null,null,消防官兵 了解 到
-9,null,null,因为 该 女子 是 由于 对方 拖欠 工程款
+9,null,null,该 女子 是 因 对方 拖欠 工程款
 10,null,null,家中 又 急需 用钱
 11,null,null,生活 压力 大
-12,sadness,无奈,以致 无奈 才 选择 跳楼 轻生
+12,sadness,无奈,故 无奈 才 选择 跳楼 轻生
