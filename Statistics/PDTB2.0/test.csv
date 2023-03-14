@@ -1,0 +1,7 @@
+Relation,Section,FileNumber,Connective_SpanList,Connective_GornList,Connective_Trees,Connective_RawText,Connective_StringPosition,SentenceNumber,ConnHead,Conn1,Conn2,ConnHeadSemClass1,ConnHeadSemClass2,Conn2SemClass1,Conn2SemClass2
+Implicit,0,3,,,,,3410,25,,because,,Contingency.Cause.Reason,,,
+Explicit,0,4,637..644,"4,1,1,1,1,1,2,0", (IN because) ,because,,,because,,,Contingency.Cause.Reason,,,
+Explicit,0,4,788..795,"5,1,1,2,0", (IN because) ,because,,,because,,,Contingency.Cause.Reason,,,
+Explicit,0,4,954..961,"6,0,3,0,2,1,1,2,0", (IN because) ,because,,,because,,,Contingency.Cause.Reason,,,
+Explicit,0,8,70..77,"0,1,2,0", (IN because) ,because,,,because,,,Contingency.Cause.Reason,,,
+Explicit,0,8,70..77,"0,1,2,0", (IN because) ,because of,,,because of,,,Contingency.Cause.Reason,,,

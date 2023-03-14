@@ -1,0 +1,654 @@
+key,conn,conn_head_sem_class,frequency,conn_total_count
+once+Temporal.Asynchronous.Succession,once,Temporal.Asynchronous.Succession,78,95
+although+Comparison.Contrast,although,Comparison.Contrast,217,536
+in fact+Expansion.Restatement.Specification,in fact,Expansion.Restatement.Specification,362,944
+besides+Expansion.Conjunction,besides,Expansion.Conjunction,33,37
+besides+Comparison,besides,Comparison,1,37
+accordingly+Contingency.Cause.Result,accordingly,Contingency.Cause.Result,88,91
+in addition+Expansion.Conjunction,in addition,Expansion.Conjunction,414,418
+and+Expansion.Conjunction,and,Expansion.Conjunction,3619,4477
+as a result+Contingency.Cause.Result,as a result,Contingency.Cause.Result,359,362
+specifically+Expansion.Restatement.Specification,specifically,Expansion.Restatement.Specification,1136,1177
+because+Contingency.Cause.Reason,because,Contingency.Cause.Reason,2705,2847
+though+Comparison.Concession.Expectation,though,Comparison.Concession.Expectation,105,325
+but+Comparison.Contrast,but,Comparison.Contrast,2022,4102
+in other words+Expansion,in other words,Expansion,4,271
+in other words+Contingency,in other words,Contingency,1,271
+on the other hand+Comparison.Contrast.Opposition,on the other hand,Comparison.Contrast.Opposition,14,73
+nevertheless+Comparison.Contrast,nevertheless,Comparison.Contrast,22,72
+before+Temporal.Asynchronous.Precedence,before,Temporal.Asynchronous.Precedence,323,331
+for example+Expansion.Instantiation,for example,Expansion.Instantiation,908,993
+for instance+Expansion.Instantiation,for instance,Expansion.Instantiation,664,695
+until+Contingency.Condition.General,until,Contingency.Condition.General,2,164
+if+Contingency.Condition.Hypothetical,if,Contingency.Condition.Hypothetical,687,1234
+previously+Temporal.Asynchronous.Succession,previously,Temporal.Asynchronous.Succession,152,157
+when+Temporal.Synchrony,when,Temporal.Synchrony,606,1215
+then+Temporal.Asynchronous.Precedence,then,Temporal.Asynchronous.Precedence,700,760
+so+Contingency.Cause.Result,so,Contingency.Cause.Result,1052,1079
+consequently+Contingency.Cause.Result,consequently,Contingency.Cause.Result,201,204
+but+Comparison.Contrast.Juxtaposition,but,Comparison.Contrast.Juxtaposition,752,4102
+while+Comparison.Contrast.Juxtaposition,while,Comparison.Contrast.Juxtaposition,366,1550
+while+Expansion.Conjunction,while,Expansion.Conjunction,451,1550
+for example+Expansion.Restatement.Specification,for example,Expansion.Restatement.Specification,78,993
+in fact+Expansion.Conjunction,in fact,Expansion.Conjunction,474,944
+by comparison+Comparison.Contrast.Juxtaposition,by comparison,Comparison.Contrast.Juxtaposition,144,211
+while+Temporal.Synchrony,while,Temporal.Synchrony,294,1550
+while+Comparison.Contrast,while,Comparison.Contrast,190,1550
+thus+Contingency.Cause.Result,thus,Contingency.Cause.Result,286,297
+meanwhile+Comparison.Contrast,meanwhile,Comparison.Contrast,15,655
+meanwhile+Expansion.Conjunction,meanwhile,Expansion.Conjunction,287,655
+as long as+Contingency.Condition.Hypothetical,as long as,Contingency.Condition.Hypothetical,9,31
+however+Comparison,however,Comparison,116,1201
+and+Comparison.Contrast.Juxtaposition,and,Comparison.Contrast.Juxtaposition,32,4477
+in other words+Expansion.Restatement.Generalization,in other words,Expansion.Restatement.Generalization,28,271
+in the end+Contingency.Cause.Result,in the end,Contingency.Cause.Result,7,65
+also+Expansion.Conjunction,also,Expansion.Conjunction,2188,2206
+after+Temporal.Asynchronous.Succession,after,Temporal.Asynchronous.Succession,587,651
+but+Contingency.Cause.Result,but,Contingency.Cause.Result,5,4102
+separately+Expansion.Conjunction,separately,Expansion.Conjunction,76,81
+still+Comparison.Concession.Contra-expectation,still,Comparison.Concession.Contra-expectation,83,203
+so that+Contingency.Cause.Result,so that,Contingency.Cause.Result,33,33
+furthermore+Expansion.Conjunction,furthermore,Expansion.Conjunction,351,358
+by comparison+Comparison.Contrast,by comparison,Comparison.Contrast,50,211
+insofar as+Contingency.Cause.Reason,insofar as,Contingency.Cause.Reason,4,5
+insofar as+Expansion.Restatement.Specification,insofar as,Expansion.Restatement.Specification,1,5
+in particular+Expansion.Restatement.Specification,in particular,Expansion.Restatement.Specification,575,645
+or+Expansion.Alternative.Conjunctive,or,Expansion.Alternative.Conjunctive,51,111
+although+Comparison.Concession.Expectation,although,Comparison.Concession.Expectation,152,536
+moreover+Expansion.Conjunction,moreover,Expansion.Conjunction,189,191
+though+Comparison.Contrast,though,Comparison.Contrast,106,325
+while+Comparison,while,Comparison,23,1550
+and+Contingency.Cause.Result,and,Contingency.Cause.Result,182,4477
+therefore+Contingency.Cause.Result,therefore,Contingency.Cause.Result,140,142
+or+Expansion.Alternative.Disjunctive,or,Expansion.Alternative.Disjunctive,12,111
+although+Comparison,although,Comparison,34,536
+instead+Expansion.Alternative.Chosen alternative,instead,Expansion.Alternative.Chosen alternative,213,253
+on the other hand+Comparison,on the other hand,Comparison,2,73
+however+Comparison.Contrast,however,Comparison.Contrast,647,1201
+though+Comparison.Concession.Contra-expectation,though,Comparison.Concession.Contra-expectation,45,325
+rather+Comparison.Contrast,rather,Comparison.Contrast,33,153
+indeed+Expansion.Restatement,indeed,Expansion.Restatement,73,505
+as+Temporal.Synchrony,as,Temporal.Synchrony,570,1370
+until+Temporal.Asynchronous.Precedence,until,Temporal.Asynchronous.Precedence,133,164
+if+Contingency.Condition.General,if,Contingency.Condition.General,178,1234
+in fact+Expansion.Restatement.Generalization,in fact,Expansion.Restatement.Generalization,7,944
+as+Contingency.Cause.Reason,as,Contingency.Cause.Reason,684,1370
+when+Comparison.Contrast.Juxtaposition,when,Comparison.Contrast.Juxtaposition,1,1215
+nonetheless+Comparison,nonetheless,Comparison,5,34
+unless+Expansion.Alternative.Disjunctive,unless,Expansion.Alternative.Disjunctive,94,95
+meanwhile+Temporal.Synchrony,meanwhile,Temporal.Synchrony,269,655
+but+Comparison.Contrast.Opposition,but,Comparison.Contrast.Opposition,216,4102
+yet+Comparison.Concession.Contra-expectation,yet,Comparison.Concession.Contra-expectation,35,109
+in other words+Expansion.Restatement,in other words,Expansion.Restatement,37,271
+on the other hand+Comparison.Contrast,on the other hand,Comparison.Contrast,29,73
+however+Comparison.Contrast.Juxtaposition,however,Comparison.Contrast.Juxtaposition,209,1201
+because+Expansion.Restatement.Specification,because,Expansion.Restatement.Specification,56,2847
+whereas+Comparison.Contrast,whereas,Comparison.Contrast,21,82
+in contrast+Comparison.Contrast,in contrast,Comparison.Contrast,13,28
+in fact+Contingency.Pragmatic cause.Justification,in fact,Contingency.Pragmatic cause.Justification,9,944
+though+Comparison.Contrast.Juxtaposition,though,Comparison.Contrast.Juxtaposition,47,325
+when+Contingency.Condition.General,when,Contingency.Condition.General,164,1215
+however+Comparison.Concession.Contra-expectation,however,Comparison.Concession.Contra-expectation,132,1201
+and+Expansion.List,and,Expansion.List,563,4477
+in fact+Comparison.Contrast,in fact,Comparison.Contrast,5,944
+if+Contingency.Pragmatic condition.Relevance,if,Contingency.Pragmatic condition.Relevance,20,1234
+since+Temporal.Asynchronous.Succession,since,Temporal.Asynchronous.Succession,88,415
+but+Comparison,but,Comparison,321,4102
+since+Contingency.Cause.Reason,since,Contingency.Cause.Reason,309,415
+on the contrary+Expansion.Restatement.Specification,on the contrary,Expansion.Restatement.Specification,1,15
+after+Contingency.Cause.Reason,after,Contingency.Cause.Reason,59,651
+earlier+Temporal.Asynchronous.Succession,earlier,Temporal.Asynchronous.Succession,40,41
+but+Expansion.Conjunction,but,Expansion.Conjunction,136,4102
+still+Comparison.Contrast,still,Comparison.Contrast,72,203
+if+Contingency.Condition.Unreal present,if,Contingency.Condition.Unreal present,122,1234
+on the contrary+Comparison.Contrast,on the contrary,Comparison.Contrast,8,15
+then+Expansion.Conjunction,then,Expansion.Conjunction,17,760
+in sum+Expansion.Restatement.Generalization,in sum,Expansion.Restatement.Generalization,24,42
+when+Contingency.Cause.Reason,when,Contingency.Cause.Reason,111,1215
+rather+Expansion.Alternative.Chosen alternative,rather,Expansion.Alternative.Chosen alternative,68,153
+yet+Comparison,yet,Comparison,13,109
+indeed+Expansion.Restatement.Generalization,indeed,Expansion.Restatement.Generalization,23,505
+then+Contingency.Cause.Result,then,Contingency.Cause.Result,18,760
+in fact+Expansion,in fact,Expansion,29,944
+similarly+Expansion.Conjunction,similarly,Expansion.Conjunction,83,86
+first+Expansion.List,first,Expansion.List,8,27
+then+Expansion.List,then,Expansion.List,5,760
+but+Comparison.Concession.Contra-expectation,but,Comparison.Concession.Contra-expectation,563,4102
+then+Expansion.Restatement.Specification,then,Expansion.Restatement.Specification,5,760
+similarly+Expansion,similarly,Expansion,1,86
+for instance+Expansion.Restatement.Specification,for instance,Expansion.Restatement.Specification,26,695
+if+Contingency.Pragmatic condition.Implicit assertion,if,Contingency.Pragmatic condition.Implicit assertion,29,1234
+then+Comparison.Contrast,then,Comparison.Contrast,2,760
+simultaneously+Temporal.Synchrony,simultaneously,Temporal.Synchrony,9,10
+although+Comparison.Concession.Contra-expectation,although,Comparison.Concession.Contra-expectation,45,536
+when+Temporal,when,Temporal,8,1215
+indeed+Expansion.Conjunction,indeed,Expansion.Conjunction,174,505
+in short+Expansion.Restatement.Generalization,in short,Expansion.Restatement.Generalization,79,158
+in the end+Expansion,in the end,Expansion,9,65
+indeed+Contingency.Pragmatic cause.Justification,indeed,Contingency.Pragmatic cause.Justification,9,505
+by contrast+Comparison.Contrast,by contrast,Comparison.Contrast,69,174
+because+Contingency.Pragmatic cause.Justification,because,Contingency.Pragmatic cause.Justification,39,2847
+indeed+Expansion.Restatement.Equivalence,indeed,Expansion.Restatement.Equivalence,39,505
+meanwhile+Comparison.Contrast.Juxtaposition,meanwhile,Comparison.Contrast.Juxtaposition,53,655
+when+Temporal.Asynchronous.Succession,when,Temporal.Asynchronous.Succession,240,1215
+further+Expansion.Conjunction,further,Expansion.Conjunction,66,67
+later+Temporal.Asynchronous.Precedence,later,Temporal.Asynchronous.Precedence,103,106
+in addition+Comparison.Contrast,in addition,Comparison.Contrast,1,418
+ultimately+Expansion.Conjunction,ultimately,Expansion.Conjunction,6,51
+ultimately+Temporal.Asynchronous.Precedence,ultimately,Temporal.Asynchronous.Precedence,21,51
+in other words+Expansion.Restatement.Equivalence,in other words,Expansion.Restatement.Equivalence,180,271
+meanwhile+Temporal,meanwhile,Temporal,3,655
+on the other hand+Comparison.Contrast.Juxtaposition,on the other hand,Comparison.Contrast.Juxtaposition,27,73
+in response+Expansion.Conjunction,in response,Expansion.Conjunction,1,1
+regardless+Comparison.Contrast,regardless,Comparison.Contrast,2,4
+if+Contingency.Condition.Unreal past,if,Contingency.Condition.Unreal past,53,1234
+while+Temporal,while,Temporal,2,1550
+in the end+Expansion.Conjunction,in the end,Expansion.Conjunction,20,65
+either or+Expansion.Alternative,either or,Expansion.Alternative,1,4
+in fact+Expansion.Restatement,in fact,Expansion.Restatement,7,944
+on the whole+Expansion.Restatement.Generalization,on the whole,Expansion.Restatement.Generalization,17,48
+in addition+Expansion.Restatement.Specification,in addition,Expansion.Restatement.Specification,1,418
+first+Expansion.Restatement.Specification,first,Expansion.Restatement.Specification,13,27
+indeed+Expansion.Restatement.Specification,indeed,Expansion.Restatement.Specification,146,505
+as a matter of fact+Expansion.Conjunction,as a matter of fact,Expansion.Conjunction,1,1
+furthermore+Comparison.Contrast,furthermore,Comparison.Contrast,1,358
+or+Expansion.Conjunction,or,Expansion.Conjunction,5,111
+likewise+Expansion.Conjunction,likewise,Expansion.Conjunction,26,26
+by comparison+Expansion.Conjunction,by comparison,Expansion.Conjunction,4,211
+in the end+Temporal.Asynchronous.Precedence,in the end,Temporal.Asynchronous.Precedence,6,65
+hence+Contingency.Cause.Result,hence,Contingency.Cause.Result,17,18
+if+Comparison.Concession.Expectation,if,Comparison.Concession.Expectation,38,1234
+but+Comparison.Pragmatic contrast,but,Comparison.Pragmatic contrast,32,4102
+on the whole+Expansion.Restatement,on the whole,Expansion.Restatement,11,48
+if+Contingency.Condition.Factual present,if,Contingency.Condition.Factual present,76,1234
+nevertheless+Comparison.Concession.Contra-expectation,nevertheless,Comparison.Concession.Contra-expectation,32,72
+in turn+Expansion.Conjunction,in turn,Expansion.Conjunction,24,71
+in other words+Expansion.Restatement.Specification,in other words,Expansion.Restatement.Specification,15,271
+rather+Expansion.Restatement.Specification,rather,Expansion.Restatement.Specification,37,153
+while+Comparison.Contrast.Opposition,while,Comparison.Contrast.Opposition,108,1550
+at the same time+Temporal.Synchrony,at the same time,Temporal.Synchrony,8,14
+at the same time+Expansion.Conjunction,at the same time,Expansion.Conjunction,3,14
+now+Temporal.Asynchronous.Precedence,now,Temporal.Asynchronous.Precedence,1,1
+specifically+Contingency.Cause.Reason,specifically,Contingency.Cause.Reason,2,1177
+but+Temporal.Asynchronous.Precedence,but,Temporal.Asynchronous.Precedence,11,4102
+in turn+Contingency.Cause.Result,in turn,Contingency.Cause.Result,13,71
+once+Contingency.Condition.Hypothetical,once,Contingency.Condition.Hypothetical,3,95
+whereas+Comparison.Contrast.Juxtaposition,whereas,Comparison.Contrast.Juxtaposition,45,82
+for instance+Comparison.Contrast,for instance,Comparison.Contrast,1,695
+for one+Expansion.Instantiation,for one,Expansion.Instantiation,1,1
+consequently+Temporal.Asynchronous.Precedence,consequently,Temporal.Asynchronous.Precedence,1,204
+in fact+Expansion.Restatement.Equivalence,in fact,Expansion.Restatement.Equivalence,5,944
+thus+Temporal.Asynchronous.Precedence,thus,Temporal.Asynchronous.Precedence,1,297
+in the end+Expansion.Restatement.Equivalence,in the end,Expansion.Restatement.Equivalence,1,65
+in short+Expansion,in short,Expansion,7,158
+indeed+Comparison,indeed,Comparison,1,505
+in turn+Temporal.Asynchronous.Precedence,in turn,Temporal.Asynchronous.Precedence,27,71
+afterward+Temporal.Asynchronous.Precedence,afterward,Temporal.Asynchronous.Precedence,11,11
+in short+Expansion.Restatement,in short,Expansion.Restatement,22,158
+instead+Comparison.Contrast,instead,Comparison.Contrast,29,253
+overall+Expansion.Restatement,overall,Expansion.Restatement,10,43
+next+Temporal.Asynchronous.Precedence,next,Temporal.Asynchronous.Precedence,15,16
+additionally+Expansion.Conjunction,additionally,Expansion.Conjunction,20,20
+since+Expansion.Instantiation,since,Expansion.Instantiation,2,415
+when+Comparison.Concession.Expectation,when,Comparison.Concession.Expectation,12,1215
+yet+Comparison.Contrast.Juxtaposition,yet,Comparison.Contrast.Juxtaposition,22,109
+if and when+Contingency.Condition.General,if and when,Contingency.Condition.General,1,4
+while+Comparison.Concession.Expectation,while,Comparison.Concession.Expectation,82,1550
+nor+Expansion.Conjunction,nor,Expansion.Conjunction,26,33
+whereas+Comparison.Contrast.Opposition,whereas,Comparison.Contrast.Opposition,12,82
+that is+Expansion.Restatement,that is,Expansion.Restatement,43,119
+as+Contingency.Pragmatic cause.Justification,as,Contingency.Pragmatic cause.Justification,20,1370
+alternatively+Expansion.Alternative.Disjunctive,alternatively,Expansion.Alternative.Disjunctive,4,6
+even though+Comparison.Contrast,even though,Comparison.Contrast,11,37
+ultimately+Expansion.Restatement,ultimately,Expansion.Restatement,8,51
+or+Contingency.Pragmatic condition.Implicit assertion,or,Contingency.Pragmatic condition.Implicit assertion,2,111
+afterwards+Temporal.Asynchronous.Precedence,afterwards,Temporal.Asynchronous.Precedence,4,4
+rather+Comparison.Contrast.Juxtaposition,rather,Comparison.Contrast.Juxtaposition,6,153
+nonetheless+Expansion.Conjunction,nonetheless,Expansion.Conjunction,1,34
+because+Expansion.Instantiation,because,Expansion.Instantiation,29,2847
+indeed+Expansion,indeed,Expansion,18,505
+that is+Expansion.Restatement.Specification,that is,Expansion.Restatement.Specification,34,119
+although+Expansion.Conjunction,although,Expansion.Conjunction,3,536
+still+Temporal.Synchrony,still,Temporal.Synchrony,1,203
+yet+Comparison.Contrast,yet,Comparison.Contrast,28,109
+moreover+Expansion.Restatement.Specification,moreover,Expansion.Restatement.Specification,1,191
+although+Comparison.Contrast.Juxtaposition,although,Comparison.Contrast.Juxtaposition,61,536
+when+Temporal.Asynchronous.Precedence,when,Temporal.Asynchronous.Precedence,7,1215
+in short+Expansion.Restatement.Equivalence,in short,Expansion.Restatement.Equivalence,22,158
+specifically+Expansion.Restatement,specifically,Expansion.Restatement,1,1177
+even though+Comparison.Concession.Expectation,even though,Comparison.Concession.Expectation,8,37
+in particular+Expansion.Instantiation,in particular,Expansion.Instantiation,62,645
+in the end+Expansion.Restatement,in the end,Expansion.Restatement,10,65
+after+Comparison.Concession.Expectation,after,Comparison.Concession.Expectation,3,651
+even though+Comparison.Concession.Contra-expectation,even though,Comparison.Concession.Contra-expectation,8,37
+till+Temporal.Asynchronous.Precedence,till,Temporal.Asynchronous.Precedence,3,3
+in contrast+Comparison.Contrast.Juxtaposition,in contrast,Comparison.Contrast.Juxtaposition,12,28
+finally+Temporal.Asynchronous.Precedence,finally,Temporal.Asynchronous.Precedence,23,51
+otherwise+Expansion.Alternative.Disjunctive,otherwise,Expansion.Alternative.Disjunctive,21,24
+until+Contingency.Condition.Hypothetical,until,Contingency.Condition.Hypothetical,18,164
+still+Comparison.Contrast.Juxtaposition,still,Comparison.Contrast.Juxtaposition,25,203
+although+Expansion.Restatement.Specification,although,Expansion.Restatement.Specification,3,536
+as if+Expansion,as if,Expansion,11,16
+or+Expansion.Alternative,or,Expansion.Alternative,35,111
+nevertheless+Expansion.Conjunction,nevertheless,Expansion.Conjunction,2,72
+since+Temporal.Asynchronous.Precedence,since,Temporal.Asynchronous.Precedence,1,415
+while+Expansion.List,while,Expansion.List,24,1550
+inasmuch as+Contingency.Cause.Reason,inasmuch as,Contingency.Cause.Reason,13,18
+thereby+Contingency.Cause.Result,thereby,Contingency.Cause.Result,12,12
+nevertheless+Comparison.Contrast.Juxtaposition,nevertheless,Comparison.Contrast.Juxtaposition,9,72
+in fact+Comparison.Contrast.Juxtaposition,in fact,Comparison.Contrast.Juxtaposition,10,944
+now that+Contingency.Cause.Result,now that,Contingency.Cause.Result,2,31
+subsequently+Temporal.Asynchronous.Precedence,subsequently,Temporal.Asynchronous.Precedence,45,50
+before and after+Temporal.Asynchronous,before and after,Temporal.Asynchronous,1,1
+nonetheless+Comparison.Concession.Contra-expectation,nonetheless,Comparison.Concession.Contra-expectation,20,34
+in fact+Expansion.Instantiation,in fact,Expansion.Instantiation,20,944
+by contrast+Comparison.Contrast.Juxtaposition,by contrast,Comparison.Contrast.Juxtaposition,78,174
+when+Contingency.Condition.Hypothetical,when,Contingency.Condition.Hypothetical,23,1215
+and+Comparison.Contrast,and,Comparison.Contrast,5,4477
+as+Expansion.Conjunction,as,Expansion.Conjunction,15,1370
+although+Comparison.Concession,although,Comparison.Concession,5,536
+consequently+Temporal.Synchrony,consequently,Temporal.Synchrony,1,204
+if+Contingency.Condition.Factual past,if,Contingency.Condition.Factual past,9,1234
+finally+Contingency.Cause.Result,finally,Contingency.Cause.Result,3,51
+at the time+Temporal.Synchrony,at the time,Temporal.Synchrony,21,22
+in addition+Expansion.List,in addition,Expansion.List,2,418
+also+Expansion.List,also,Expansion.List,12,2206
+furthermore+Contingency.Cause.Reason,furthermore,Contingency.Cause.Reason,1,358
+meantime+Temporal.Synchrony,meantime,Temporal.Synchrony,12,18
+also+Expansion.Alternative.Conjunctive,also,Expansion.Alternative.Conjunctive,1,2206
+nor+Expansion.Alternative,nor,Expansion.Alternative,2,33
+nor+Expansion.Alternative.Conjunctive,nor,Expansion.Alternative.Conjunctive,4,33
+in sum+Expansion.Restatement.Equivalence,in sum,Expansion.Restatement.Equivalence,4,42
+although+Expansion.Instantiation,although,Expansion.Instantiation,1,536
+later+Expansion.Conjunction,later,Expansion.Conjunction,3,106
+ultimately+Expansion,ultimately,Expansion,4,51
+ultimately+Temporal.Asynchronous.Succession,ultimately,Temporal.Asynchronous.Succession,1,51
+if then+Contingency.Condition.Hypothetical,if then,Contingency.Condition.Hypothetical,22,38
+finally+Expansion.List,finally,Expansion.List,9,51
+while+Comparison.Concession.Contra-expectation,while,Comparison.Concession.Contra-expectation,4,1550
+and+Expansion.Restatement.Specification,and,Expansion.Restatement.Specification,7,4477
+however+Expansion.Conjunction,however,Expansion.Conjunction,18,1201
+by contrast+Comparison.Contrast.Opposition,by contrast,Comparison.Contrast.Opposition,24,174
+for one thing+Expansion.Restatement.Specification,for one thing,Expansion.Restatement.Specification,9,25
+so+Expansion.Conjunction,so,Expansion.Conjunction,5,1079
+so+Expansion.Alternative.Chosen alternative,so,Expansion.Alternative.Chosen alternative,2,1079
+because+Expansion.Conjunction,because,Expansion.Conjunction,7,2847
+if+Comparison.Concession.Contra-expectation,if,Comparison.Concession.Contra-expectation,7,1234
+specifically+Expansion.Instantiation,specifically,Expansion.Instantiation,25,1177
+regardless+Comparison.Concession.Contra-expectation,regardless,Comparison.Concession.Contra-expectation,2,4
+overall+Expansion,overall,Expansion,1,43
+yet+Comparison.Contrast.Opposition,yet,Comparison.Contrast.Opposition,6,109
+although+Expansion.List,although,Expansion.List,1,536
+rather+Comparison.Contrast.Opposition,rather,Comparison.Contrast.Opposition,3,153
+thus+Expansion.Instantiation,thus,Expansion.Instantiation,2,297
+thereafter+Temporal.Asynchronous.Precedence,thereafter,Temporal.Asynchronous.Precedence,12,14
+on the one hand+Expansion.Instantiation,on the one hand,Expansion.Instantiation,2,4
+specifically+Expansion,specifically,Expansion,1,1177
+in sum+Expansion.Conjunction,in sum,Expansion.Conjunction,6,42
+and+Temporal.Asynchronous.Precedence,and,Temporal.Asynchronous.Precedence,43,4477
+however+Comparison.Contrast.Opposition,however,Comparison.Contrast.Opposition,59,1201
+although+Comparison.Contrast.Opposition,although,Comparison.Contrast.Opposition,11,536
+indeed+Contingency.Cause.Reason,indeed,Contingency.Cause.Reason,7,505
+now that+Contingency.Cause.Reason,now that,Contingency.Cause.Reason,18,31
+now that+Temporal.Asynchronous.Succession,now that,Temporal.Asynchronous.Succession,4,31
+separately+Temporal.Synchrony,separately,Temporal.Synchrony,2,81
+on the contrary+Comparison.Contrast.Opposition,on the contrary,Comparison.Contrast.Opposition,3,15
+in turn+Comparison.Concession.Contra-expectation,in turn,Comparison.Concession.Contra-expectation,1,71
+unless+Contingency.Condition.Hypothetical,unless,Contingency.Condition.Hypothetical,1,95
+and+Temporal.Synchrony,and,Temporal.Synchrony,6,4477
+as soon as+Temporal.Asynchronous.Succession,as soon as,Temporal.Asynchronous.Succession,11,20
+and+Comparison.Contrast.Opposition,and,Comparison.Contrast.Opposition,7,4477
+as+Temporal.Asynchronous.Succession,as,Temporal.Asynchronous.Succession,27,1370
+ultimately+Contingency.Cause.Reason,ultimately,Contingency.Cause.Reason,1,51
+as long as+Temporal.Synchrony,as long as,Temporal.Synchrony,11,31
+as long as+Contingency.Condition.Factual present,as long as,Contingency.Condition.Factual present,4,31
+meanwhile+Comparison.Contrast.Opposition,meanwhile,Comparison.Contrast.Opposition,11,655
+by comparison+Comparison.Contrast.Opposition,by comparison,Comparison.Contrast.Opposition,8,211
+meanwhile+Expansion.List,meanwhile,Expansion.List,12,655
+by comparison+Expansion.List,by comparison,Expansion.List,1,211
+when+Expansion.Restatement.Specification,when,Expansion.Restatement.Specification,8,1215
+thus+Expansion.Restatement.Specification,thus,Expansion.Restatement.Specification,6,297
+except+Expansion.Exception,except,Expansion.Exception,9,10
+although+Expansion.Exception,although,Expansion.Exception,1,536
+as+Expansion.Instantiation,as,Expansion.Instantiation,6,1370
+rather+Expansion.Restatement.Equivalence,rather,Expansion.Restatement.Equivalence,1,153
+specifically+Expansion.Conjunction,specifically,Expansion.Conjunction,7,1177
+indeed+Expansion.Instantiation,indeed,Expansion.Instantiation,11,505
+since+Expansion.Restatement.Specification,since,Expansion.Restatement.Specification,8,415
+in fact+Contingency.Cause.Reason,in fact,Contingency.Cause.Reason,5,944
+ultimately+Expansion.Restatement.Generalization,ultimately,Expansion.Restatement.Generalization,2,51
+in short+Expansion.Restatement.Specification,in short,Expansion.Restatement.Specification,19,158
+instead+Expansion.Instantiation,instead,Expansion.Instantiation,1,253
+in the end+Expansion.Restatement.Generalization,in the end,Expansion.Restatement.Generalization,5,65
+however+Temporal.Asynchronous.Succession,however,Temporal.Asynchronous.Succession,2,1201
+first+Expansion.Instantiation,first,Expansion.Instantiation,1,27
+indeed+Temporal.Asynchronous.Succession,indeed,Temporal.Asynchronous.Succession,1,505
+still+Comparison,still,Comparison,9,203
+specifically+Expansion.Restatement.Equivalence,specifically,Expansion.Restatement.Equivalence,4,1177
+rather+Expansion.Exception,rather,Expansion.Exception,1,153
+neither nor+Expansion.Conjunction,neither nor,Expansion.Conjunction,1,3
+overall+Expansion.Conjunction,overall,Expansion.Conjunction,15,43
+for one thing+Contingency.Cause.Reason,for one thing,Contingency.Cause.Reason,7,25
+as a result+Expansion.Instantiation,as a result,Expansion.Instantiation,1,362
+since then+Temporal.Asynchronous.Precedence,since then,Temporal.Asynchronous.Precedence,5,5
+subsequently+Temporal.Asynchronous.Succession,subsequently,Temporal.Asynchronous.Succession,1,50
+lest+Contingency.Condition.Hypothetical,lest,Contingency.Condition.Hypothetical,1,2
+that is+Expansion.Restatement.Equivalence,that is,Expansion.Restatement.Equivalence,28,119
+first+Temporal.Asynchronous.Succession,first,Temporal.Asynchronous.Succession,1,27
+as though+Expansion.Restatement.Specification,as though,Expansion.Restatement.Specification,2,5
+if+Contingency.Condition,if,Contingency.Condition,2,1234
+on the whole+Expansion.Conjunction,on the whole,Expansion.Conjunction,10,48
+as+Expansion.Restatement.Specification,as,Expansion.Restatement.Specification,32,1370
+soon+Temporal.Asynchronous.Precedence,soon,Temporal.Asynchronous.Precedence,1,1
+as it turns out+Contingency.Cause.Result,as it turns out,Contingency.Cause.Result,1,2
+finally+Expansion.Conjunction,finally,Expansion.Conjunction,13,51
+but+Expansion.Exception,but,Expansion.Exception,2,4102
+furthermore+Contingency.Cause.Result,furthermore,Contingency.Cause.Result,1,358
+because+Temporal.Asynchronous.Succession,because,Temporal.Asynchronous.Succession,4,2847
+nonetheless+Comparison.Contrast,nonetheless,Comparison.Contrast,5,34
+thereafter+Temporal.Asynchronous.Succession,thereafter,Temporal.Asynchronous.Succession,1,14
+since+Contingency.Pragmatic cause.Justification,since,Contingency.Pragmatic cause.Justification,5,415
+in turn+Expansion.Restatement.Specification,in turn,Expansion.Restatement.Specification,1,71
+and+Temporal.Asynchronous.Succession,and,Temporal.Asynchronous.Succession,1,4477
+in fact+Contingency.Cause.Result,in fact,Contingency.Cause.Result,6,944
+for one thing+Expansion.Instantiation,for one thing,Expansion.Instantiation,7,25
+whereas+Temporal.Asynchronous.Precedence,whereas,Temporal.Asynchronous.Precedence,1,82
+so+Comparison.Contrast,so,Comparison.Contrast,1,1079
+now that+Temporal.Synchrony,now that,Temporal.Synchrony,6,31
+until+Temporal.Asynchronous.Succession,until,Temporal.Asynchronous.Succession,7,164
+conversely+Comparison.Contrast,conversely,Comparison.Contrast,2,2
+also+Temporal.Synchrony,also,Temporal.Synchrony,2,2206
+even though+Comparison.Contrast.Juxtaposition,even though,Comparison.Contrast.Juxtaposition,2,37
+separately+Expansion.Alternative,separately,Expansion.Alternative,1,81
+if then+Contingency.Condition.Factual present,if then,Contingency.Condition.Factual present,9,38
+when+Comparison.Contrast.Opposition,when,Comparison.Contrast.Opposition,2,1215
+furthermore+Expansion.Restatement.Specification,furthermore,Expansion.Restatement.Specification,2,358
+and+Expansion.Instantiation,and,Expansion.Instantiation,2,4477
+so+Expansion.Instantiation,so,Expansion.Instantiation,1,1079
+once+Contingency.Cause.Reason,once,Contingency.Cause.Reason,7,95
+by contrast+Expansion.Alternative,by contrast,Expansion.Alternative,1,174
+also+Expansion.Restatement.Specification,also,Expansion.Restatement.Specification,1,2206
+hence+Expansion.Instantiation,hence,Expansion.Instantiation,1,18
+in the end+Comparison.Contrast.Juxtaposition,in the end,Comparison.Contrast.Juxtaposition,1,65
+if+Expansion.Restatement.Specification,if,Expansion.Restatement.Specification,2,1234
+in the end+Expansion.Restatement.Specification,in the end,Expansion.Restatement.Specification,5,65
+so+Expansion.Alternative,so,Expansion.Alternative,1,1079
+if+Comparison.Contrast.Juxtaposition,if,Comparison.Contrast.Juxtaposition,5,1234
+however+Expansion.Restatement.Specification,however,Expansion.Restatement.Specification,4,1201
+otherwise+Expansion.Exception,otherwise,Expansion.Exception,2,24
+instead+Expansion.Conjunction,instead,Expansion.Conjunction,1,253
+and+Contingency.Condition.Hypothetical,and,Contingency.Condition.Hypothetical,2,4477
+so+Contingency.Cause.Reason,so,Contingency.Cause.Reason,2,1079
+ever since+Contingency.Cause.Result,ever since,Contingency.Cause.Result,1,2
+ever since+Temporal.Asynchronous.Precedence,ever since,Temporal.Asynchronous.Precedence,1,2
+in other words+Contingency.Cause.Reason,in other words,Contingency.Cause.Reason,2,271
+in contrast+Comparison.Contrast.Opposition,in contrast,Comparison.Contrast.Opposition,3,28
+that is+Contingency.Cause.Reason,that is,Contingency.Cause.Reason,1,119
+then+Temporal.Synchrony,then,Temporal.Synchrony,6,760
+yet+Expansion.Conjunction,yet,Expansion.Conjunction,5,109
+because+Expansion.Alternative.Chosen alternative,because,Expansion.Alternative.Chosen alternative,2,2847
+because+Contingency.Pragmatic condition.Implicit assertion,because,Contingency.Pragmatic condition.Implicit assertion,2,2847
+previously+Temporal.Asynchronous.Precedence,previously,Temporal.Asynchronous.Precedence,2,157
+that is+Contingency.Cause.Result,that is,Contingency.Cause.Result,3,119
+as well+Expansion.Conjunction,as well,Expansion.Conjunction,6,6
+but+Comparison.Pragmatic concession,but,Comparison.Pragmatic concession,8,4102
+still+Comparison.Concession,still,Comparison.Concession,1,203
+however+Comparison.Concession,however,Comparison.Concession,5,1201
+still+Comparison.Contrast.Opposition,still,Comparison.Contrast.Opposition,7,203
+to this end+Contingency.Cause.Result,to this end,Contingency.Cause.Result,1,1
+when+Expansion.Alternative.Disjunctive,when,Expansion.Alternative.Disjunctive,2,1215
+however+Comparison.Pragmatic concession,however,Comparison.Pragmatic concession,1,1201
+but+Comparison.Concession.Expectation,but,Comparison.Concession.Expectation,14,4102
+when+Contingency.Pragmatic condition.Implicit assertion,when,Contingency.Pragmatic condition.Implicit assertion,12,1215
+in fact+Comparison.Concession.Contra-expectation,in fact,Comparison.Concession.Contra-expectation,1,944
+rather+Contingency.Cause.Result,rather,Contingency.Cause.Result,1,153
+once+Contingency.Condition.General,once,Contingency.Condition.General,4,95
+but+Expansion.List,but,Expansion.List,1,4102
+however+Expansion.List,however,Expansion.List,1,1201
+much as+Expansion.Alternative.Chosen alternative,much as,Expansion.Alternative.Chosen alternative,2,7
+much as+Temporal.Synchrony,much as,Temporal.Synchrony,1,7
+however+Comparison.Pragmatic contrast,however,Comparison.Pragmatic contrast,3,1201
+in comparison+Comparison.Contrast.Juxtaposition,in comparison,Comparison.Contrast.Juxtaposition,2,2
+inasmuch as+Contingency.Pragmatic cause.Justification,inasmuch as,Contingency.Pragmatic cause.Justification,4,18
+but+Expansion,but,Expansion,6,4102
+but+Expansion.Alternative.Chosen alternative,but,Expansion.Alternative.Chosen alternative,2,4102
+meantime+Comparison.Contrast.Juxtaposition,meantime,Comparison.Contrast.Juxtaposition,1,18
+when+Contingency.Condition.Factual present,when,Contingency.Condition.Factual present,8,1215
+in summary+Expansion.Restatement.Generalization,in summary,Expansion.Restatement.Generalization,1,1
+then+Contingency.Cause.Reason,then,Contingency.Cause.Reason,2,760
+on the one hand+Expansion.Restatement.Specification,on the one hand,Expansion.Restatement.Specification,2,4
+as+Expansion,as,Expansion,2,1370
+rather+Expansion.Restatement.Generalization,rather,Expansion.Restatement.Generalization,1,153
+even though+Comparison,even though,Comparison,5,37
+when+Comparison.Contrast,when,Comparison.Contrast,1,1215
+though+Comparison.Concession,though,Comparison.Concession,6,325
+as a consequence+Contingency.Cause.Result,as a consequence,Contingency.Cause.Result,2,2
+as long as+Contingency.Condition.General,as long as,Contingency.Condition.General,7,31
+on the whole+Expansion.Restatement.Specification,on the whole,Expansion.Restatement.Specification,8,48
+rather+Expansion,rather,Expansion,1,153
+particularly+Expansion.Restatement.Specification,particularly,Expansion.Restatement.Specification,4,4
+on the whole+Expansion,on the whole,Expansion,2,48
+though+Comparison,though,Comparison,13,325
+plus+Expansion.Conjunction,plus,Expansion.Conjunction,7,8
+And+Expansion.List,And,Expansion.List,1,1
+ultimately+Expansion.Restatement.Specification,ultimately,Expansion.Restatement.Specification,3,51
+for instance+Expansion.List,for instance,Expansion.List,1,695
+besides+Contingency.Pragmatic cause.Justification,besides,Contingency.Pragmatic cause.Justification,1,37
+furthermore+Expansion.List,furthermore,Expansion.List,1,358
+and+Contingency.Cause.Reason,and,Contingency.Cause.Reason,1,4477
+but+Comparison.Concession,but,Comparison.Concession,2,4102
+in sum+Expansion.Restatement,in sum,Expansion.Restatement,6,42
+in particular+Contingency.Pragmatic cause.Justification,in particular,Contingency.Pragmatic cause.Justification,1,645
+for example+Contingency.Pragmatic cause.Justification,for example,Contingency.Pragmatic cause.Justification,3,993
+nor+Comparison.Contrast,nor,Comparison.Contrast,1,33
+finally+Comparison.Contrast.Juxtaposition,finally,Comparison.Contrast.Juxtaposition,1,51
+much as+Comparison.Concession.Expectation,much as,Comparison.Concession.Expectation,2,7
+when+Contingency,when,Contingency,4,1215
+in particular+Expansion.Restatement,in particular,Expansion.Restatement,1,645
+as if+Comparison.Concession.Contra-expectation,as if,Comparison.Concession.Contra-expectation,4,16
+specifically+Expansion.Restatement.Generalization,specifically,Expansion.Restatement.Generalization,1,1177
+and+Expansion,and,Expansion,4,4477
+or+Expansion.Restatement.Equivalence,or,Expansion.Restatement.Equivalence,2,111
+similarly+Comparison,similarly,Comparison,2,86
+meanwhile+Temporal.Asynchronous.Precedence,meanwhile,Temporal.Asynchronous.Precedence,1,655
+for example+Contingency.Cause.Reason,for example,Contingency.Cause.Reason,2,993
+in particular+Contingency.Cause.Reason,in particular,Contingency.Cause.Reason,1,645
+if+Comparison,if,Comparison,1,1234
+previously+Comparison.Contrast.Juxtaposition,previously,Comparison.Contrast.Juxtaposition,3,157
+in particular+Expansion,in particular,Expansion,2,645
+on the contrary+Comparison,on the contrary,Comparison,1,15
+simultaneously+Expansion.Conjunction,simultaneously,Expansion.Conjunction,1,10
+or+Expansion.Restatement,or,Expansion.Restatement,1,111
+or+Expansion,or,Expansion,1,111
+or+Comparison.Contrast,or,Comparison.Contrast,1,111
+until+Expansion.Alternative.Disjunctive,until,Expansion.Alternative.Disjunctive,3,164
+meantime+Temporal.Asynchronous.Succession,meantime,Temporal.Asynchronous.Succession,2,18
+thus+Contingency.Pragmatic cause.Justification,thus,Contingency.Pragmatic cause.Justification,1,297
+furthermore+Contingency,furthermore,Contingency,1,358
+but+Contingency.Cause.Reason,but,Contingency.Cause.Reason,2,4102
+still+Expansion.Conjunction,still,Expansion.Conjunction,1,203
+instead+Comparison.Contrast.Juxtaposition,instead,Comparison.Contrast.Juxtaposition,2,253
+so+Expansion.Restatement.Generalization,so,Expansion.Restatement.Generalization,3,1079
+for instance+Contingency.Cause.Reason,for instance,Contingency.Cause.Reason,1,695
+so+Temporal.Asynchronous.Precedence,so,Temporal.Asynchronous.Precedence,5,1079
+by then+Temporal.Synchrony,by then,Temporal.Synchrony,2,8
+earlier+Comparison.Contrast.Juxtaposition,earlier,Comparison.Contrast.Juxtaposition,1,41
+thereafter+Comparison.Contrast.Opposition,thereafter,Comparison.Contrast.Opposition,1,14
+for example+Expansion,for example,Expansion,2,993
+then+Comparison,then,Comparison,1,760
+accordingly+Expansion.Restatement.Specification,accordingly,Expansion.Restatement.Specification,2,91
+indeed+Contingency.Cause.Result,indeed,Contingency.Cause.Result,2,505
+instead+Expansion.Alternative,instead,Expansion.Alternative,5,253
+by comparison+Comparison,by comparison,Comparison,2,211
+in fact+Comparison,in fact,Comparison,1,944
+in particular+Expansion.Conjunction,in particular,Expansion.Conjunction,2,645
+in particular+Comparison.Contrast.Juxtaposition,in particular,Comparison.Contrast.Juxtaposition,1,645
+that is+Expansion.Restatement.Generalization,that is,Expansion.Restatement.Generalization,6,119
+as a result+Expansion.Conjunction,as a result,Expansion.Conjunction,1,362
+indeed+Contingency,indeed,Contingency,1,505
+though+Comparison.Contrast.Opposition,though,Comparison.Contrast.Opposition,3,325
+consequently+Expansion.Conjunction,consequently,Expansion.Conjunction,1,204
+subsequently+Contingency.Cause.Result,subsequently,Contingency.Cause.Result,2,50
+at the same time+Comparison,at the same time,Comparison,1,14
+however+Expansion,however,Expansion,1,1201
+much as+Comparison,much as,Comparison,1,7
+as+Contingency,as,Contingency,1,1370
+what's more+Expansion.Conjunction,what's more,Expansion.Conjunction,1,1
+if+Comparison.Concession,if,Comparison.Concession,1,1234
+although+Expansion,although,Expansion,1,536
+nevertheless+Comparison,nevertheless,Comparison,1,72
+as+Contingency.Cause.Result,as,Contingency.Cause.Result,3,1370
+while+Temporal.Asynchronous.Precedence,while,Temporal.Asynchronous.Precedence,4,1550
+when+Contingency.Cause.Result,when,Contingency.Cause.Result,3,1215
+further+Expansion.Restatement.Specification,further,Expansion.Restatement.Specification,1,67
+if+Comparison.Pragmatic contrast,if,Comparison.Pragmatic contrast,1,1234
+because+Expansion.List,because,Expansion.List,1,2847
+separately+Comparison.Contrast,separately,Comparison.Contrast,1,81
+until+Temporal.Synchrony,until,Temporal.Synchrony,1,164
+by then+Temporal.Asynchronous.Precedence,by then,Temporal.Asynchronous.Precedence,2,8
+by then+Contingency.Cause.Reason,by then,Contingency.Cause.Reason,1,8
+in turn+Comparison.Contrast.Opposition,in turn,Comparison.Contrast.Opposition,2,71
+and+Comparison.Concession.Contra-expectation,and,Comparison.Concession.Contra-expectation,1,4477
+rather+Expansion.Alternative,rather,Expansion.Alternative,1,153
+as a result+Expansion.Restatement.Specification,as a result,Expansion.Restatement.Specification,1,362
+still+Comparison.Concession.Expectation,still,Comparison.Concession.Expectation,2,203
+even though+Expansion.Restatement.Specification,even though,Expansion.Restatement.Specification,1,37
+as soon as+Temporal.Synchrony,as soon as,Temporal.Synchrony,9,20
+although+Comparison.Pragmatic concession,although,Comparison.Pragmatic concession,1,536
+except+Expansion.Alternative.Disjunctive,except,Expansion.Alternative.Disjunctive,1,10
+also+Contingency.Cause.Result,also,Contingency.Cause.Result,1,2206
+in short+Expansion.Conjunction,in short,Expansion.Conjunction,6,158
+whereas+Expansion.Conjunction,whereas,Expansion.Conjunction,2,82
+accordingly+Expansion.Conjunction,accordingly,Expansion.Conjunction,1,91
+alternatively+Expansion.Alternative,alternatively,Expansion.Alternative,2,6
+therefore+Expansion.Restatement.Specification,therefore,Expansion.Restatement.Specification,2,142
+next+Expansion.Conjunction,next,Expansion.Conjunction,1,16
+because+Comparison.Contrast,because,Comparison.Contrast,1,2847
+once+Temporal.Synchrony,once,Temporal.Synchrony,2,95
+meantime+Expansion.Conjunction,meantime,Expansion.Conjunction,2,18
+by then+Temporal.Asynchronous.Succession,by then,Temporal.Asynchronous.Succession,3,8
+ultimately+Contingency.Cause.Result,ultimately,Contingency.Cause.Result,5,51
+however+Comparison.Concession.Expectation,however,Comparison.Concession.Expectation,3,1201
+eventually+Expansion.Restatement.Specification,eventually,Expansion.Restatement.Specification,1,6
+as+Comparison.Concession.Expectation,as,Comparison.Concession.Expectation,2,1370
+but+Expansion.Restatement.Specification,but,Expansion.Restatement.Specification,4,4102
+that is+Expansion.Conjunction,that is,Expansion.Conjunction,2,119
+incidentally+Expansion.Conjunction,incidentally,Expansion.Conjunction,1,1
+so+Expansion.Restatement.Specification,so,Expansion.Restatement.Specification,3,1079
+overall+Expansion.Restatement.Generalization,overall,Expansion.Restatement.Generalization,8,43
+in the end+Comparison.Concession.Contra-expectation,in the end,Comparison.Concession.Contra-expectation,1,65
+before+Temporal.Asynchronous.Succession,before,Temporal.Asynchronous.Succession,8,331
+also+Temporal.Asynchronous.Succession,also,Temporal.Asynchronous.Succession,1,2206
+for+Contingency.Cause.Reason,for,Contingency.Cause.Reason,4,4
+as+Comparison.Contrast.Opposition,as,Comparison.Contrast.Opposition,1,1370
+then+Comparison.Concession.Contra-expectation,then,Comparison.Concession.Contra-expectation,1,760
+at the time+Expansion.Conjunction,at the time,Expansion.Conjunction,1,22
+separately+Expansion.List,separately,Expansion.List,1,81
+on the other hand+Expansion.Conjunction,on the other hand,Expansion.Conjunction,1,73
+moreover+Expansion.List,moreover,Expansion.List,1,191
+inasmuch as+Expansion.Restatement.Specification,inasmuch as,Expansion.Restatement.Specification,1,18
+for one thing+Expansion.Conjunction,for one thing,Expansion.Conjunction,1,25
+finally+Expansion,finally,Expansion,1,51
+as though+Comparison,as though,Comparison,3,5
+when and if+Temporal.Asynchronous.Succession,when and if,Temporal.Asynchronous.Succession,1,2
+when and if+Contingency.Condition.Hypothetical,when and if,Contingency.Condition.Hypothetical,1,2
+while+Comparison.Concession,while,Comparison.Concession,1,1550
+first+Expansion.Conjunction,first,Expansion.Conjunction,4,27
+overall+Expansion.Restatement.Specification,overall,Expansion.Restatement.Specification,8,43
+for one thing+Contingency.Pragmatic cause.Justification,for one thing,Contingency.Pragmatic cause.Justification,1,25
+in sum+Expansion.Restatement.Specification,in sum,Expansion.Restatement.Specification,1,42
+even though+Comparison.Concession,even though,Comparison.Concession,2,37
+so far+Expansion,so far,Expansion,1,1
+by contrast+Temporal.Asynchronous.Precedence,by contrast,Temporal.Asynchronous.Precedence,1,174
+in short+Contingency.Cause.Reason,in short,Contingency.Cause.Reason,2,158
+in fact+Temporal.Asynchronous.Precedence,in fact,Temporal.Asynchronous.Precedence,1,944
+in sum+Expansion,in sum,Expansion,1,42
+eventually+Temporal.Asynchronous.Precedence,eventually,Temporal.Asynchronous.Precedence,4,6
+that is+Expansion,that is,Expansion,2,119
+as+Contingency.Cause,as,Contingency.Cause,1,1370
+because+Comparison.Contrast.Juxtaposition,because,Comparison.Contrast.Juxtaposition,1,2847
+since+Expansion,since,Expansion,1,415
+either or+Expansion.Alternative.Conjunctive,either or,Expansion.Alternative.Conjunctive,1,4
+and+Expansion.Restatement.Generalization,and,Expansion.Restatement.Generalization,1,4477
+in fact+Contingency,in fact,Contingency,1,944
+so+Expansion.Exception,so,Expansion.Exception,1,1079
+in other words+Contingency.Cause.Result,in other words,Contingency.Cause.Result,1,271
+meantime+Temporal.Asynchronous,meantime,Temporal.Asynchronous,1,18
+after+Expansion.Conjunction,after,Expansion.Conjunction,1,651
+else+Expansion.Alternative,else,Expansion.Alternative,1,1
+then+Comparison.Contrast.Opposition,then,Comparison.Contrast.Opposition,1,760
+either or+Expansion.Alternative.Disjunctive,either or,Expansion.Alternative.Disjunctive,2,4
+meanwhile+Comparison.Concession.Contra-expectation,meanwhile,Comparison.Concession.Contra-expectation,1,655
+once+Contingency.Cause.Result,once,Contingency.Cause.Result,1,95
+plus+Contingency.Cause.Reason,plus,Contingency.Cause.Reason,1,8
+if then+Contingency.Condition.General,if then,Contingency.Condition.General,5,38
+if+Contingency.Cause.Result,if,Contingency.Cause.Result,1,1234
+when+Comparison.Concession.Contra-expectation,when,Comparison.Concession.Contra-expectation,1,1215
+then+Expansion.Alternative,then,Expansion.Alternative,1,760
+otherwise+Expansion.Alternative.Conjunctive,otherwise,Expansion.Alternative.Conjunctive,1,24
+when+Contingency.Pragmatic condition.Relevance,when,Contingency.Pragmatic condition.Relevance,1,1215
+meanwhile+Expansion,meanwhile,Expansion,3,655
+besides+Expansion.Alternative.Conjunctive,besides,Expansion.Alternative.Conjunctive,1,37
+subsequently+Expansion,subsequently,Expansion,2,50
+in other words+Expansion.Conjunction,in other words,Expansion.Conjunction,3,271
+as an alternative+Expansion.Alternative.Disjunctive,as an alternative,Expansion.Alternative.Disjunctive,2,2
+much as+Expansion.Restatement.Specification,much as,Expansion.Restatement.Specification,1,7
+in turn+Temporal.Asynchronous,in turn,Temporal.Asynchronous,1,71
+if and when+Contingency.Condition.Hypothetical,if and when,Contingency.Condition.Hypothetical,2,4
+at the same time+Comparison.Contrast,at the same time,Comparison.Contrast,2,14
+in the meantime+Temporal.Synchrony,in the meantime,Temporal.Synchrony,1,1
+as+Comparison,as,Comparison,2,1370
+lest+Expansion.Alternative.Disjunctive,lest,Expansion.Alternative.Disjunctive,1,2
+now that+Temporal.Asynchronous.Precedence,now that,Temporal.Asynchronous.Precedence,1,31
+in fact+Expansion.List,in fact,Expansion.List,1,944
+and+Contingency.Condition.General,and,Contingency.Condition.General,1,4477
+if then+Contingency.Pragmatic condition.Implicit assertion,if then,Contingency.Pragmatic condition.Implicit assertion,1,38
+but+Contingency.Condition.Hypothetical,but,Contingency.Condition.Hypothetical,1,4102
+nonetheless+Comparison.Contrast.Juxtaposition,nonetheless,Comparison.Contrast.Juxtaposition,3,34
+or+Expansion.Restatement.Specification,or,Expansion.Restatement.Specification,1,111
+so+Contingency.Pragmatic cause.Justification,so,Contingency.Pragmatic cause.Justification,1,1079
+but+Expansion.Alternative.Conjunctive,but,Expansion.Alternative.Conjunctive,1,4102
+neither nor+Comparison.Contrast.Opposition,neither nor,Comparison.Contrast.Opposition,1,3
+as if+Comparison.Pragmatic concession,as if,Comparison.Pragmatic concession,1,16
+as+Comparison.Concession.Contra-expectation,as,Comparison.Concession.Contra-expectation,1,1370
+instead+Comparison.Contrast.Opposition,instead,Comparison.Contrast.Opposition,1,253
+finally+Expansion.Restatement,finally,Expansion.Restatement,1,51
+since+Temporal.Synchrony,since,Temporal.Synchrony,1,415
+besides+Comparison.Contrast.Juxtaposition,besides,Comparison.Contrast.Juxtaposition,1,37
+by comparison+Expansion,by comparison,Expansion,1,211
+if+Comparison.Contrast,if,Comparison.Contrast,1,1234
+so+Contingency.Pragmatic condition.Relevance,so,Contingency.Pragmatic condition.Relevance,1,1079
+if then+Contingency.Condition.Unreal past,if then,Contingency.Condition.Unreal past,1,38
+but+Expansion.Restatement,but,Expansion.Restatement,1,4102
+as+Temporal,as,Temporal,1,1370
+so+Expansion.Restatement,so,Expansion.Restatement,1,1079
+on the contrary+Comparison.Contrast.Juxtaposition,on the contrary,Comparison.Contrast.Juxtaposition,2,15
+neither nor+Expansion.Alternative.Disjunctive,neither nor,Expansion.Alternative.Disjunctive,1,3
+second+Expansion.List,second,Expansion.List,2,2
+third+Expansion.List,third,Expansion.List,1,1
+as it turns out+Expansion.Conjunction,as it turns out,Expansion.Conjunction,1,2
+by comparison+Comparison.Concession.Contra-expectation,by comparison,Comparison.Concession.Contra-expectation,1,211
+nevertheless+Comparison.Contrast.Opposition,nevertheless,Comparison.Contrast.Opposition,1,72
+still+Temporal.Asynchronous.Precedence,still,Temporal.Asynchronous.Precedence,2,203
+for instance+Temporal.Asynchronous.Succession,for instance,Temporal.Asynchronous.Succession,1,695
+thus+Expansion.Restatement.Generalization,thus,Expansion.Restatement.Generalization,1,297
+instead+Expansion.Restatement.Specification,instead,Expansion.Restatement.Specification,1,253
+then+Contingency.Condition.Unreal present,then,Contingency.Condition.Unreal present,1,760
+overall+Contingency.Cause.Result,overall,Contingency.Cause.Result,1,43
+in short+Contingency.Cause.Result,in short,Contingency.Cause.Result,1,158
+for instance+Contingency.Pragmatic cause.Justification,for instance,Contingency.Pragmatic cause.Justification,1,695
+in return+Expansion.Conjunction,in return,Expansion.Conjunction,1,1
+at that time+Temporal.Synchrony,at that time,Temporal.Synchrony,1,1
+in turn+Expansion,in turn,Expansion,1,71
+while+Expansion,while,Expansion,1,1550
+eventually+Contingency.Cause.Result,eventually,Contingency.Cause.Result,1,6
+as+Comparison.Contrast.Juxtaposition,as,Comparison.Contrast.Juxtaposition,2,1370
+if+Temporal.Synchrony,if,Temporal.Synchrony,1,1234
+nevertheless+Comparison.Pragmatic concession,nevertheless,Comparison.Pragmatic concession,5,72
+whereas+Expansion.List,whereas,Expansion.List,1,82
+after+Expansion.Restatement.Specification,after,Expansion.Restatement.Specification,1,651
+when+Contingency.Pragmatic cause.Justification,when,Contingency.Pragmatic cause.Justification,1,1215
+if and when+Temporal.Synchrony,if and when,Temporal.Synchrony,1,4
+by contrast+Comparison.Concession.Contra-expectation,by contrast,Comparison.Concession.Contra-expectation,1,174
+in turn+Temporal.Synchrony,in turn,Temporal.Synchrony,1,71
+on the one hand on the other hand+Comparison.Contrast,on the one hand on the other hand,Comparison.Contrast,1,1
