@@ -55,14 +55,14 @@
 	a single argument pair (m, n) with the gold discourse relation y*
  	objective function: L(θ)=∑_(y^':y^'≠y*)▒〖max⁡(0,1-ψ(y*)+ψ(y^' ))+λ|(|θ|)|^2 〗,θ=θ_class 〖∪θ〗_comp,|(|θ|)|^2 is regularization term
   4.1 Learning the classification parameters
-In the objective function, L(θ)=0,∀y^'≠y*,ψ(y*)-ψ(y^' )≥1
-Otherwise…… <
-The gradient for the classification parameters therefore depends on the margin value between gold label and all other labels.
-
-4.2 Learning the composition parameters
-two composition matrices U and V, corresponding to the upward and downward composition procedures
-
-5.Implementation
+  In the objective function, L(θ)=0,∀y^'≠y*,ψ(y*)-ψ(y^' )≥1
+  Otherwise…… <
+  The gradient for the classification parameters therefore depends on the margin value between gold label and all other labels.
+  
+  4.2 Learning the composition parameters
+  two composition matrices U and V, corresponding to the upward and downward composition procedures
+  
+  5.Implementation
 
 Learning: used AdaGrad to tune the learning rate in each iteration
 To avoid the exploding gradient problem, we used the norm clipping trick proposed by Pascanu et al., fixing the norm threshold at τ= 5.0.
