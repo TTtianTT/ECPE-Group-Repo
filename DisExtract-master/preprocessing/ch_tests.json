@@ -1,0 +1,46 @@
+{
+    "test_items": [
+        {
+            "sentence": "当周二开始申购时,有数万人涌入索取MTRC的申请表,可以说是盛况空前。",
+            "previous_sentence": ".",
+            "marker": "当",
+            "output": "[\",有数万人涌入索取MTRC的申请表,可以说是盛况空前 .\", \"周二开始申购时 .\"]"
+        },
+        {
+            "sentence": "据报导,上个月细螺旋体病已感染了四千八百八十九人,并且造成一百六十五人丧生。",
+            "previous_sentence": ".",
+            "marker": "并且",
+            "output": "[\"据报导,上个月细螺旋体病已感染了四千八百八十九人 .\", \"造成一百六十五人丧生 .\"]"
+        }
+    ],
+    "curious_cases": [
+        {
+            "sentence": "菲律宾总统艾斯特拉达今天洋洋得意的向世人介绍从菲国回教游击组织手中救出的十二名基督教传教士,并且声称菲国回游阿布沙耶夫组织气数将尽。目前该叛乱组织还扣押了五名人质。",
+            "previous_sentence": ".",
+            "marker": "并且",
+            "output": null,
+            "comment": "this is a crazy wrong parse"
+        },
+        {
+            "sentence": "消息人士并且引述盈动总裁李泽楷的谈话表示,这项协议仍然有待解决。",
+            "previous_sentence": ".",
+            "marker": "并且",
+            "output": null,
+            "comment": "actually refers to prev sentence"
+        },
+        {
+            "sentence": "为了筹措到八十亿到九十三点八亿美元的资金,MTRC将释出十亿股、相当于其资产的百分之二十,并且以每股八到九点三八美元的价位出售。",
+            "previous_sentence": ".",
+            "marker": "并且",
+            "output": null,
+            "comment": "dependency parse is slightly wrong. and should attach to a diff verb"
+        },
+        {
+            "sentence": "易利信公司主管研究和发展的主管艾瑞克森表示,第四代行动电话的速度将比第三代快上五十倍,并且可以提供影像和三度空间的画面。",
+            "previous_sentence": ".",
+            "marker": "并且",
+            "output": "test",
+            "comment": "dunno. who cares"
+        }
+    ]
+}

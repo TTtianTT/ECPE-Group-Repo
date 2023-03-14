@@ -1,0 +1,7 @@
+{
+  "books_dir": "/home/anie/discourse/data/books_new",
+  "gigaword_cn_dir": "/home/anie/DisExtract/data/cmn_gw_5",
+  "gigaword_sp_dir": "/home/anie/DisExtract/data/spa_gw_3",
+  "ptb_dir": "/home/anie/DisExtract/preprocessing/corpus/ptb/",
+  "wikitext_dir": "/home/anie/DisExtract/preprocessing/corpus/wikitext/"
+}

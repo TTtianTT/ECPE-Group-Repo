@@ -1,0 +1,38 @@
+{
+    "test_items": [
+        {
+            "sentence": "esto sucedió porque eso sucedió .",
+            "previous_sentence": ".",
+            "marker": "porque",
+            "output": ["Esto sucedió .", "Eso sucedió ."]
+        },
+        {
+            "sentence": "Un vocero de la Casa Blanca , quien pidió que se respeta se el secreto de su identidad , dijo que el gobierno estaba \" muy complacido \" con la declaración porque había permitido que China -- uno de los cinco países de el consejo de Seguridad de la ONU que goza poder de veto -- participara de la acción de la ONU .",
+            "previous_sentence": ".",
+            "marker": "porque",
+            "output": ["Que el gobierno estaba \" muy complacido \" con la declaración .", "Había permitido que China -- uno de los cinco países de el consejo de Seguridad de la ONU que goza poder de veto -- participara de la acción de la ONU ."]
+        },
+        {
+            "sentence": "La visitante belga dijo que se ofreció porque buscaba ayuda divina para su madre enferma .",
+            "previous_sentence": "\"Ahora me siento con más fe\" , dijo Rombaut, que fue la primera extranjera que participara en el ritual en San Pedro Cutud desde que la tradición comenzó allí en 1955 .",
+            "marker": "porque",
+            "output": ["Que se ofreció .", "Buscaba ayuda divina para su madre enferma ."]
+        }
+    ],
+    "curious_cases": [
+        {
+            "sentence": "Su abogado , Gary Parker , dijo que Hance no debía ser llevado a la silla eléctrica porque era retardado , y porque fue condenado por un jurado con perjuicios raciales .",
+            "previous_sentence": ".",
+            "marker": "porque",
+            "comment": "wrong parse",
+            "output": null
+        },
+        {
+            "sentence": "Tras un año en que los estudios han experimentado graves pérdidas con Eurodisney , y en una época del año en que muchas de sus películas se exhiben en salas casi vacías , los ejecutivos de Disney oran porque su decisión haya sido acertada .",
+            "previous_sentence": ".",
+            "marker": "porque",
+            "output": null,
+            "comment": "'orar porque' means pray for something to happen, not sure if this parse is right, but either way, i don't think we can disambiguate examples like this."
+        }
+    ]
+}
