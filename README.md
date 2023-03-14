@@ -31,14 +31,14 @@
   we augment the representation of each argument with additional vectors, representing the semantics of the role played by each coreferent entity in each argument.
   Additional distributed vectors
   its parent ρ(i), and its siblings(i).upward vector of the sibling us(i)
-  d_i=tanh⁡(V[d_ρ(i) ;u_s(i)  ])
+  $d_i=tanh⁡(V[d_ρ(i) ;u_s(i)  ])$
   algorithm is designed to maintain the feedforward nature of the neural network, so that we can efficiently compute all nodes without iterating. 
   the upward and downward passes are each feedforward
   finish in time that is linear in the length of the input
   
   3. Predicting discourse relation
   Deciding function
-  ψ(y)=(u_0^m )ℸA_y u_0^n+∑_(i,j∈A(m,n))▒〖(d_i^m )ℸB_y d_j^n+b_y 〗
+  $ψ(y)=(u_0^m )ℸA_y u_0^n+∑_(i,j∈A(m,n))▒〖(d_i^m )ℸB_y d_j^n+b_y 〗$
   avoid overfitting, we apply a lowdimensional approximation to each Ay,
   A_y=a_(y,1) a_(y,2)^T+diag(a_y,3)
   Surface features
