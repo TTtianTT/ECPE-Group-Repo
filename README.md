@@ -40,22 +40,22 @@
   Deciding function
   $ψ(y)=(u_0^m )ℸA_y u_0^n+∑_(i,j∈A(m,n))▒〖(d_i^m )ℸB_y d_j^n+b_y 〗$
   avoid overfitting, we apply a lowdimensional approximation to each Ay,
-  A_y=a_(y,1) a_(y,2)^T+diag(a_y,3)
+  $A_y=a_(y,1) a_(y,2)^T+diag(a_y,3)$
   Surface features
-  ψ(y)=(u_0^m )^T u_0^n+∑_(i,j∈A(m,n))▒〖(d_i^m )^T B_y d_j^n+b_y+β_y^T φ_(m,n) 〗
+  $ψ(y)=(u_0^m )^T u_0^n+∑_(i,j∈A(m,n))▒〖(d_i^m )^T B_y d_j^n+b_y+β_y^T φ_(m,n) 〗$
   4. Large-margin learning framework
   Two things to learn: 
-  the classification parameters θ_class={A_y,B_y,β_y,b_y }_(y∈Y)
-  the composition parameters θ_comp={U,V}
+  the classification parameters $θ_class={A_y,B_y,β_y,b_y }_(y∈Y)$
+  the composition parameters $θ_comp={U,V}$
   define a large margin objective
   use backpropagation to learn all parameters of the network
   using stochastic gradient descent
   
   final learning method:
 	a single argument pair (m, n) with the gold discourse relation y*
- 	objective function: L(θ)=∑_(y^':y^'≠y*)▒〖max⁡(0,1-ψ(y*)+ψ(y^' ))+λ|(|θ|)|^2 〗,θ=θ_class 〖∪θ〗_comp,|(|θ|)|^2 is regularization term
+ 	objective function: $L(θ)=∑_(y^':y^'≠y*)▒〖max⁡(0,1-ψ(y*)+ψ(y^' ))+λ|(|θ|)|^2 〗,θ=θ_class 〖∪θ〗_comp,|(|θ|)|^2 is regularization term$
   4.1 Learning the classification parameters
-  In the objective function, L(θ)=0,∀y^'≠y*,ψ(y*)-ψ(y^' )≥1
+  In the objective function, $L(θ)=0,∀y^'≠y*,ψ(y*)-ψ(y^' )≥1$
   Otherwise…… <
   The gradient for the classification parameters therefore depends on the margin value between gold label and all other labels.
   
@@ -71,7 +71,7 @@ Hyperparameters: 3 tunable hyperparameters: the latent dimension K for the distr
 K∈{20,30,40,50,60} for the latent dimensionality, λ∈{0.0002,0.002,0.02,0.2} for the regularization (on each training instance), and η∈{0.01,0.03,0.05,0.09} for the learning rate.
 
 Initialization: All the classification parameters are initialized to 0.
-follow Bengio (2012) and initialize U and V with uniform random values drawn from the range [-√(6/2K),√(6/2K)].
+follow Bengio (2012) and initialize U and V with uniform random values drawn from the range $[-√(6/2K),√(6/2K)]$.
 
 Word representations
 a word2vec model on the PDTB corpus, standardizing the induced representations to zeromean, unit-variance 
