@@ -12,5 +12,5 @@
   代码还在阅读  
 
 ### 论文PDTB-Lin
-
+  https://github.com/cgpotts/pdtb2  
 ### Automatic sense prediction for implicit discourse relations in text
