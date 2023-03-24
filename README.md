@@ -1,3 +1,11 @@
+# Weiyao的工作记录
+
+#
+
+## 3.24
+GNN代码，用于模型包含上下文信息
+
+
 # Leveraging Connectives in ECPE
 
 ## Contents
