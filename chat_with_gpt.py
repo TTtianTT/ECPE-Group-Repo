@@ -1,7 +1,7 @@
 import openai
 import time
 
-openai.api_key = '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'
+openai.api_key = '<your_api_key>'
 
 # 初始化对话历史
 conversation_history = []
