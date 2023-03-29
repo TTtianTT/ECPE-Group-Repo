@@ -24,4 +24,5 @@
   基于深度学习的训练模型，https://github.com/cjhutto/vaderSentiment 上提供了一个训练好的模型，可以直接下载使用，由于加入了pos、neg、neu三维的属性，使得在分类上相对细致了一点，通过比较这三者谁的评分更突出判断情感，对于TextBlob库中遇到的上述问题能够解决得很好，但是在更细致而隐形的情感判断，如“令人激动的”这些的决策方面有些保守。但是整体而言还是明显好于TextBlob
   
 ### Bert
-  论文出自N19-1423，代码 https://github.com/gaoliwei1102/csdn_bert_classifier
+  论文出自N19-1423，代码 https://github.com/gaoliwei1102/csdn_bert_classifier 此代码训练的是中文语料库
+  
