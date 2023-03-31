@@ -339,7 +339,7 @@
 32 6
  (4,6)
 1,null,null,after rescue
-2,null,null,both children and Mr. Zhou were revived and out of danger
+2,null,null,both children and Mr Zhou were revived and out of danger
 3,null,null,but Guo Huiying was rescued until the early morning of the next day
 4,happiness,moved,let Guo Huiying moved
 5,null,null,when she wakes up
@@ -778,7 +778,7 @@
 3,happiness,joy,the birth of a child brings endless joy to the family
 4,null,null,family though life is miserable
 5,null,null,but happy
-6,null,null,because Mr. And Mrs. Li Shiming are busy for life
+6,null,null,because Mr And Mrs Li Shiming are busy for life
 7,null,null,the child has been taken care of by grandma
 8,null,null,watching my son grow up
 9,null,null,all year round in Houma City worker Li Shiming think his son character is a little introverted
@@ -819,7 +819,7 @@
 2,null,null,when the project team of police with the suspect and with the rescue of small Xinxin triumphantly return
 3,null,null,the freeway entrance
 4,null,null,received a warm welcome and sympathy from the volunteer team
-5,null,null,10 a.m
+5,null,null,10 a.m.
 6,null,null,Li Shiming's family rushed to the Houma City Public Security Bureau after hearing the news
 7,null,null,see lost son found
 8,happiness,tears,the family could not help but burst into tears
@@ -1132,18 +1132,18 @@ Seven,null,null,so I don't want to treat it
 118 6
  (6,5)
 1,null,null,after meeting
-2,null,null,Mr. Hu is pleased with Ms Yang who is fashionably dressed with blonde hair
+2,null,null,Mr Hu is pleased with Ms Yang who is fashionably dressed with blonde hair
 3,null,null,and so the two became involved
 4,null,null,not long after they started dating
 5,null,null,Ms Yang told him she had decided to marry him
-6,happiness,happy,Mr. Hu is very happy
+6,happiness,happy,Mr Hu is very happy
 119 6
  (5,4)
 1,null,null,Mr Hu had thought he was spending generously on Ms Yang
 2,null,null,the relationship is stronger
 3,null,null,and behold
 4,null,null,after this Ms Yang's phone was disconnected
-5,disgust,confusion,Mr. Hu is filled with confusion
+5,disgust,confusion,Mr Hu is filled with confusion
 6,null,null,tells Boss Ye of the matchmaking center about this
 120 10
  (7,6)
@@ -1370,7 +1370,7 @@ Seven,null,null,so I don't want to treat it
 15,null,null,she immediately called Ding Shuangqin's mother
 16,null,null,because of the noise in the factory
 17,null,null,Ding Shuangqin's mother did not reach the phone
-18,null,null,6 p.m
+18,null,null,6 p.m.
 19,null,null,Ding Shuangqin's mother sees a missed call and calls me back
 20,null,null,until then
 21,fear,scared,we're starting to get scared
@@ -1460,7 +1460,7 @@ Seven,null,null,so I don't want to treat it
 10,null,null,but still only recognize her
 142 21
  (21,20)
-1,null,null,accident at 10 a.m
+1,null,null,accident at 10 a.m.
 2,null,null,the falling steel bar slips away from Zhou Xinggui
 3,null,null,pull him from the third floor
 4,null,null,straight to the ground
@@ -1564,7 +1564,7 @@ sadness is her sadness. The plight her husband is faced with once made her sad
 5,null,null,Feb
 6,null,null,retrieved from the Chinese Myeloid Database
 7,null,null,a leukemia patient in Belgium was a bone marrow match with Jing Suidong
-8,null,null,recalled by Mr. Gao a staff member of the Xinzheng City Red Society
+8,null,null,recalled by Mr Gao a staff member of the Xinzheng City Red Society
 9,null,null,learned that the match was successful
 10,null,null,when they first found Kyung Suidong
 11,null,null,Jing Suidong said he wanted to save this man
@@ -1975,7 +1975,7 @@ sadness endless thoughts Yuan Mouzhen from now on into the endless thoughts of h
 8,null,null,people are envious when they see good handwriting
 181 6
  (5,6)
-1,null,null,2 around 9:30 p.m
+1,null,null,2 around 9:30 p.m.
 2,null,null,A crazy scene on Fengqi Road in Longquan City Lishui where a woman drove into a passer-by
 3,null,null,leaving six people injured
 4,null,null,damage to multiple vehicles
@@ -2007,7 +2007,7 @@ Seven,null,null. The car is not stopping
 183 22
  (5,4)
 1,null,null,two months ago
-2,null,null,cornered Mr. He had no choice but to return to his hometown Ningbo
+2,null,null,cornered Mr He had no choice but to return to his hometown Ningbo
 3,null,null,trying to contact his children
 4,null,null,not seen in years
 5,disgust,resentment,it's hard to avoid resentment among children
@@ -2022,7 +2022,7 @@ Seven,null,null. The car is not stopping
 14,null,null,Ms Chang said
 15,null,null,she felt a pang in her heart
 16,null,null,didn't think much of it
-17,null,null,just take Mr. He home
+17,null,null,just take Mr He home
 18,null,null. I just agreed with the kids yesterday
 19,null,null,agreed for their dad to move back
 20,null,null,whatever happens later
@@ -2031,7 +2031,7 @@ Seven,null,null. The car is not stopping
 184 21
  (14,12)
 1,null,null,two months ago
-2,null,null,cornered Mr. He had no choice but to return to his hometown Ningbo
+2,null,null,cornered Mr He had no choice but to return to his hometown Ningbo
 3,null,null,trying to contact his children
 4,null,null,not seen in years
 5,null,null,children will inevitably have resentment
@@ -2045,7 +2045,7 @@ Seven,null,null. The car is not stopping
 13,null,null,said Ms Chang
 14,sadness,sad,she was sad at that time
 15,null,null,not thinking too much
-16,null,null,just take Mr. He home
+16,null,null,just take Mr He home
 17,null,null. I just agreed with the kids yesterday
 18,null,null,agreed for their dad to move back
 19,null,null,whatever happens later
@@ -2339,7 +2339,7 @@ Seven,null,null. The car is not stopping
 6,null,null,often entrust his relatives to introduce a partner
 7,null,null,a month's salary is not high
 8,null,null,so he don't have enough money for a treat
-9,null,null,Mr. Wu said
+9,null,null,Mr Wu said
 10,null,null,after graduation he was on the blind date road
 11,null,null,usually three or four dates a month
 12,null,null,it's a drain on his wallet
@@ -2350,14 +2350,14 @@ Seven,null,null. The car is not stopping
 3,null,null,via preliminary chat
 4,null,null,both parties were satisfied
 5,null,null,learnt that the other party is from Yunnan
-6,null,null,Mr. Wu also specially spent 164 yuan group to buy Yunnan food from a restaurant
+6,null,null,Mr Wu also specially spent 164 yuan group to buy Yunnan food from a restaurant
 7,null,null,date day
 8,null,null,he also paid special attention to dress mannerisms
 9,null,null,but after the meal
 10,null,null,the other person said you're mean
 11,null,null,she politely refused him
 12,null,null,no more contact
-13,sadness,upset,Mr. Wu is particularly upset about the rejection
+13,sadness,upset,Mr Wu is particularly upset about the rejection
 14,null,null,teasing friends that there is nothing wrong with group buying
 15,null,null,people will need it for the rest of their life
 203 32
@@ -2366,7 +2366,7 @@ Seven,null,null. The car is not stopping
 2,null,null,last month due to work
 3,null,null,transferred from Beijing to Chongqing
 4,null,null,friend see she has no boyfriend
-5,null,null,then introduced Mr. Mo
+5,null,null,then introduced Mr Mo
 6,null,null,who works in a state-owned enterprise
 7,null,null,the next day the man invited her to eat hot pot
 8,null,null,and set up a time and place
@@ -2669,11 +2669,11 @@ Seven,null,null,the doctor told us to start with $1 million to $1.5 million
 7,sadness,unhappy,the wife is naturally unhappy
 8,null,null,but I can't help it
 9,null,null,he wakes up his wife after watching the ball
-10,null,null,but too excited Monday morning after 3 a.m
+10,null,null,but too excited Monday morning after 3 a.m.
 11,null,null. Netherlands beat Mexico 2-1
 12,null,null,close to the last eight of the World Cup
 13,null,null,as a big Dutch fan
-14,null,null,Mr. Xu is thrilled
+14,null,null,Mr Xu is thrilled
 15,null,null,back in the room
 16,null,null,look at the wife's sleeping face
 17,null,null,he suddenly realizes he's been snubbing his wife too much lately
@@ -2708,7 +2708,7 @@ Seven,null,null,the doctor told us to start with $1 million to $1.5 million
 11,null,null,civilian police notify the power department and ambulance to assist
 12,null,null,for the safety of the woman and the rescuers
 13,null,null,the power department has decided to temporarily cut power
-14,null,null. Power was not restored until after the rescue ended around 8:00 p.m
+14,null,null. Power was not restored until after the rescue ended around 8:00 p.m.
 225 14
  (6,5)
 1,null,null,Hu Jiafa has little culture
@@ -2770,7 +2770,7 @@ Seven,null,null,the doctor told us to start with $1 million to $1.5 million
 4,null,null,Liu found that Liang often used his mobile phone to contact his friend Huang
 5,null,null,and every call was veiled
 6,null,null,to find out
-7,null,null,8 a.m
+7,null,null,8 a.m.
 8,null,null,after Liu checked Huang's address in advance
 9,null,null,drive to Huang's home to inquire about the situation
 10,null,null,who knows
@@ -2980,12 +2980,12 @@ Seven,null,null,the doctor told us to start with $1 million to $1.5 million
 2,null,null,the two are on a date
 3,null,null,planning to return to Hunan the next day to handle divorce procedures
 4,null,null,said Mei
-5,null,null,at 4:00 p.m
+5,null,null,at 4:00 p.m.
 6,null,null,she heard Nobita talking to a friend on the phone about wanting to marry after a divorce
 7,anger,angry,she felt very angry
 8,null,null,bought a bottle of pesticide from the market and went home
 9,null,null,ready to commit suicide
-10,null,null,at 10:00 p.m
+10,null,null,at 10:00 p.m.
 11,null,null,a fellow countryman came to the store and asked about Mei
 12,null,null,Nobita complains that Mei is bad
 13,sadness,sad,she feels sad and angry when she hears it
@@ -3057,7 +3057,7 @@ Seven,null,null,the doctor told us to start with $1 million to $1.5 million
 19,null,null,a close encounter with the Mercedes Buick opposite
 20,null,null,with the force of the impact
 21,null,null,Great Wall front airbags all ejected
-22,null,null,Mr. And Mrs. He were injured in the neck and face by the powerful impact of the ejected airbag
+22,null,null,Mr And Mrs He were injured in the neck and face by the powerful impact of the ejected airbag
 23,null,null,as unexpected as it is
 24,null,null,while the couple continues to argue and blame the other for the accident
 25,anger,overwhelmed with emotion,he was overwhelmed with emotion
@@ -3297,7 +3297,7 @@ Seven,null,null,I dove in and got the baby out
 7,null,null,the night of October 15,1999
 8,null,null,Xiao Peng hasn't been home since school
 9,null,null,Li Mou went to the school near his son to look for
-10,null,null,at 8 p.m
+10,null,null,at 8 p.m.
 11,null,null,Lee found her son
 12,null,null,after returning home
 13,null,null,for a lesson son
@@ -3456,7 +3456,7 @@ Six,null,null,thank you so much
 13,null,null,in the process of getting along with Fang Li
 14,null,null,Wang Hua is very attentive
 15,null,null,often take the initiative to cook and cook
-16,null,null,let Fang Li mistakenly think that Wang Hua is her years of looking for Mr. Right
+16,null,null,let Fang Li mistakenly think that Wang Hua is her years of looking for Mr Right
 281 18
  (15,16)
 1,null,null,one car two houses
@@ -3630,7 +3630,7 @@ Six,null,null,thank you so much
 5,anger,angry,Ma is very angry
 6,null,null,after a huge argument with his girlfriend online
 7,null,null,agree to break up
-8,null,null,2 p.m
+8,null,null,2 p.m.
 9,null,null,four roommates leave for the exam one after another
 10,null,null,leaving Ma alone in the dorm
 11,null,null,irritated Ma wants to piss off his girlfriend
@@ -3754,22 +3754,22 @@ Six,null,null,thank you so much
 2,null,null,for days
 3,null,null,many caring people came to the ward to donate
 4,happiness,grateful,their whole family are very grateful
-5,null,null,April 21 at 4:00 p.m
+5,null,null,April 21 at 4:00 p.m.
 6,null,null,the director of Pingdingshan Love Home came to visit Li Meijia in the ward
 7,null,null,and brought 50,500 yuan donation
 8,null,null,yesterday morning
-Nine,null,null,all the cadres and staff members in Jiaxian Longshan Sub-district Office donated 6000 yuan for Li Meijia again
-Jiaxian Hospital of Traditional Chinese Medicine received 5000 yuan together with the donation
-11,null,null,a donation of $3,000 from Sanli International School of County
-12,null,null,a donation of $1,000 each from the Credit Union of Chengguan County Health Center
+9,null,null,all the cadres and staff members in Jiaxian Longshan Sub-district Office donated 6000 yuan for Li Meijia again
+10,null,null,received a donation of 5000 yuan from Jiaxian Hospital of Traditional Chinese Medicine
+11,null,null,a donation of 3,000 yuan from Sanli International School of County
+12,null,null,a donation of 1,000 yuan each from the Credit Union of Chengguan County Health Center
 13,null,null,all sent to Li Meijia's parents
-301 18
- (14,13)
-1,null,null,Lee Meijia lies quietly in her hospital bed with her eyes closed
+301 17
+ (13,12)
+1,null,null,Li Meijia lies quietly in her hospital bed with her eyes closed
 2,null,null,stretching her legs from time to time
-3,null,null,twist your face
+3,null,null,twist her face
 4,null,null,see someone coming
-5,null,null,Yana Hu leans over her daughter's ear and whispers baby
+5,null,null,Hu Yanna leans over her daughter's ear and whispers baby
 6,null,null,wake up
 7,null,null,take a look
 8,null,null,aunts and uncles have come to see you
@@ -3777,22 +3777,21 @@ Jiaxian Hospital of Traditional Chinese Medicine received 5000 yuan together wit
 10,null,null,Li Meijia actually opened her eyes
 11,null,null,with a smile on her lips
 12,null,null,the child is awake
-13,null,null,the child has woken up
-14,happiness excitement Yana Hu shouted excitedly
-15,null,null,happy
-16,null,null,maybe tired
-17,null,null,Meijia opened her eyes and looked around at the people
-18,null,null,slowly closes her eyes again
+13,happiness,excitedly,Hu Yanna shouted excitedly
+14,null,null,happy
+15,null,null,maybe tired
+16,null,null,Meijia opened her eyes and looked around at the people
+17,null,null,slowly closes her eyes again
 302 11
  (8,7)
 1,null,null,learned that Wei lost her husband at an early age
 2,null,null,and has been single
-3,null,null. Lun has an idea
+3,null,null,Lin has an idea
 4,null,null,after all she is single
 5,null,null,why not two people make do with a lifetime
 6,null,null,but Wei is not attracted to Lun
-7,null,null,i. The Lun tried to ingratiate herself but was rejected
-8,In anger in a fit of rage
+7,null,null,Lin tried to ingratiate herself but was rejected
+8,anger,rage,in a fit of rage
 9,null,null,he began to threaten Wei
 10,null,null,if not go to her hometown in Henan and kill them
 11,null,null,Wei had no choice but to surrender under threats and inducements
@@ -3801,7 +3800,7 @@ Jiaxian Hospital of Traditional Chinese Medicine received 5000 yuan together wit
 1,null,null,I Liu × ×
 2,null,null,due to a huge dispute with his ex-wife Wu × × after their divorce in 2008
 3,null,null,feeling fooled
-4,anger anger the mind is in a state of extreme anger
+4,anger,anger,the mind is in a state of extreme anger
 5,null,null,so some extreme statements are made
 6,null,null,some facts cannot be 100 percent verified
 7,null,null,sincerely apologize to Wu × × for this
@@ -3814,7 +3813,7 @@ Jiaxian Hospital of Traditional Chinese Medicine received 5000 yuan together wit
 304 14
  (12,11)
 1,null,null,tonight
-2,null,null,Sichuan News Network reporter contacted Chen Fei a firefighter who went deep into the truck rescue
+2,null,null,Sichuan News reporter contacted Chen Fei a firefighter who went deep into the truck rescue
 3,null,null,he told the Sichuan News Network
 4,null,null,the driver was conscious
 5,null,null,saw the rescue officers and men entered the car rescue lit a cigarette and took a few puffs
@@ -3824,7 +3823,7 @@ Jiaxian Hospital of Traditional Chinese Medicine received 5000 yuan together wit
 9,null,null,and asked her if you would still love me if my legs were broken
 10,null,null,would you still be with me
 11,null,null,maybe I got a positive answer from my wife
-12,happiness excitement then he is very excited
+12,happiness,excited,then he is very excited
 13,null,null,smoked a few cigarettes in quick succession
 14,null,null,at times giving advice to rescuers
 305 15
@@ -3837,7 +3836,7 @@ Jiaxian Hospital of Traditional Chinese Medicine received 5000 yuan together wit
 6,null,null,but according to a source close to the situation
 7,null,null,Shi's family is not rich
 8,null,null,but Shi's relationship has always been complicated
-Most Internet users expressed their anger at the bizarre wedding
+9,anger,anger,most Internet users expressed their anger at the bizarre wedding
 10,null,null,many netizens thought
 11,null,null,if this is true
 12,null,null,that is a double violation of law and social morality
@@ -3852,8 +3851,8 @@ Most Internet users expressed their anger at the bizarre wedding
 4,null,null,her mood rises
 5,null,null,why not worry
 6,null,null,college boyfriend sent a mouse glued to the dorm
-7,null,null,didn't call me called my roommate
-8,anger anger anger
+7,null,null,didn't call me but called my roommate
+8,anger,pissed off,I was pissed off
 9,null,null,said Miss Zeng
 10,null,null,not that what really happened to these two at the end
 11,null,null,but the boyfriend just skipped it and got a roommate
@@ -3876,32 +3875,32 @@ Most Internet users expressed their anger at the bizarre wedding
 11,null,null,the woman suddenly says she has a good friend
 12,null,null,wants to introduce her
 13,null,null,I don't know if I'm getting too close to him
-14,sadness not happy. His girlfriend is a little upset
+14,sadness,upset,his girlfriend is a little upset
 15,null,null,said Miss Wu
 16,null,null,because there are always three of us cooking at home
 17,null,null,male bestie always complimented her on her cooking
 18,null,null,then compliment her girlfriend
 308 9
  (6,5)
-1,null,null,17 o 'clock that day
+1,null,null,17 o'clock that day
 2,null,null,Lei Chenglin chartered a car and took the woman from Jinzhai
 3,null,null,arrived at Shangshiqiao Town police station in Shangcheng County at night
 4,null,null,Wang Congxian old man has come to the police station early to wait
 5,null,null,see daughter safe and sound get off
-6,happiness old tears Wang Congxian old tears
+6,happiness,in tears,Wang Congxian was in tears
 7,null,null,holding Lei Chenglin's hand for a long time
-8,null,null,Lei Chenglin then do not want anything in return
-9,null,null,return to Jinzhai overnight
+8,null,null,Lei Chenglin then didn't not want anything in return
+9,null,null,returned to Jinzhai overnight
 309 19
- 18 (17)
+ (18,17)
 1,null,null,April 9
-2,null,null,for the question of whether the child will stay or go
-3,null,null,they fight again
+2,null,null,for the question of whether the child would stay or go
+3,null,null,they fought again
 4,null,null,knowing that I'm nearly three months pregnant
 5,null,null,in addition to punching me in the face and head
-Six,null,null,and kicked me in the stomach
-Seven,null,null,and then I had to call the police
-8,null,null,Cho said
+6,null,null,and kicked me in the stomach
+7,null,null,and then I had to call the police
+8,null,null,Zhao said
 9,null,null,the days that followed were harder for her
 10,null,null,these days
 11,null,null,police Gao looked for people in society to directly intimidate her and her family
@@ -3909,75 +3908,77 @@ Seven,null,null,and then I had to call the police
 13,null,null,my personal safety has been compromised
 14,null,null,whether he knows it or not
 15,null,null,I'm going to have the baby
-16,null,null,Cho said
+16,null,null,Zhao said
 17,null,null,she already had an abortion
-18) fear that she will be infertile for life
-19,null,null,so there will be no second abortion
-310 12
- (8,7)
+18,fear,worried,was worried that she would be infertile for life
+19,null,null,so there would be no second abortion
+310 13
+ (9,8)
 1,null,null,back-to-back accidents of people and vans
 2,null,null,leaving him 180,000 in external debt
 3,null,null,Chen Huaijun whitehead overnight
 4,null,null,New Year's Day
-5,null,null,the creditor has moved all the grain out of the house. It's almost Chinese New Year
-6,null,null,the rest of the family is happy New Year
-7,null,null,and my family can't even afford to cut meat
-8,sadness hold my head and cry my mother and I hold my head and cry
-9,null,null,Chen Huaijun's fifth daughter Chen Changling said
-10,null,null,late 2001
-11,null,null,a creditor called Wang Ming alias came to us demanding payment
-12,null,null,the family surplus food has moved away
-311 12
+5,null,null,the creditor had moved all the grain out of the house 
+6,null,null,the Spring Festival is coming 
+7,null,null,other families are celebrating the New Year
+8,null,null,but my family can't even afford to cut meat
+9,sadness,have a good cry,my mother and I have a good cry
+10,null,null,Chen Huaijun's fifth daughter Chen Changling said
+11,null,null,late 2001
+12,null,null,a creditor called Wang Ming alias came to us demanding payment
+13,null,null,the family surplus food was moved away
+311 13
  (2,1)
 1,null,null,about Chen Huaijun traveling 10,000 miles across 3 provinces to find her
-2,happiness touched Xia Shumei also touched Chen brother you are so old
-3,null,null,find Anhui from Henan
-4,null,null,from Anhui to Hebei
-5,null,null,looking for so many years
-6,null,null,I never dreamed of it
-7,null,null,3 bowls of soybeans
-8,null,null,it's not worth remembering all these years
-9,null,null,more than 50 years
-10,null,null,think of those two tears
-11,null,null,this stone in my heart has finally fallen
-12,null,null,Chen Huaijun old man repeatedly sighed
+2,happiness,moved,Xia Shumei wax also moved 
+3,null,null,brother Chen you are so old
+4,null,null,find Anhui from Henan
+5,null,null,from Anhui to Hebei
+6,null,null,looking for so many years
+7,null,null,I never dreamed of it
+8,null,null,3 bowls of soybeans
+9,null,null,it's not worth remembering all these years
+10,null,null,more than 50 years
+11,null,null,think of those two tears
+12,null,null,this stone in my heart has finally fallen
+13,null,null,Chen Huaijun old man repeatedly sighed
 312 19
- 11 (8)
+ (11,8)
 1,null,null,original
 2,null,null,this woman's surname is Huang
 3,null,null,30 years old
 4,null,null,Wulijie
-5,null,null,because my husband works downtown
-6,null,null,but rarely come home
+5,null,null,because her husband works downtown
+6,null,null,but rarely comes home
 7,null,null,Hwang stays empty
 8,null,null,suspected her husband was having an affair
-9,null,null,husband and wife have fought about this many times
+9,null,null,husband and wife had fought about this many times
 10,null,null,the night before
-11,disgust depressed Huang's mood has been very depressed
+11,disgust,depressed,Huang's mood had been very depressed
 12,null,null,after drinking 1 jin of white wine alone
-13,null,null,find life boring
-14,null,null,want to jump to death
-15,null,null,find out what happened
+13,null,null,found life boring
+14,null,null,wanted to jump to death
+15,null,null,finding out what happened
 16,null,null,the police asked Huang's parents and siblings to come to reassure
 17,null,null,more than an hour later
-18,null,null,police officers took advantage of Huang while he was talking to his family
+18,null,null,police officers took advantage of Huang while she was talking to his family
 19,null,null,held her from the balcony and carried her into the house
 313 18
  (9,10)
 1,null,null,two months later
-2,null,null,Liu Hong pregnant
-3,null,null,the two decide to get married
+2,null,null,Liu Hong was pregnant
+3,null,null,the two decided to get married
 4,null,null,Li Xiang gave Liu Hong 30,000 yuan and some gifts according to the old rules
 5,null,null,who knows the two people planning for the wedding
-6,null,null,Liu Hong miscarries
+6,null,null,Liu Hong miscarried
 7,null,null,according to doctors
-8,null,null,the woman had a recurrent miscarriage
-9,disgust disgust disgust Li Xiang feels very uncomfortable
+8,null,null,the woman has a recurrent miscarriage
+9,disgust,uncomfortable,Li Xiang feels very uncomfortable
 10,null,null,he suspects Liu Hong is hiding something
 11,null,null,even thinks the child is not his
 12,null,null,Liu Hong does not show weakness either
 13,null,null,accusing Li Xiang of having no stable income
-14,null,null,unable to support his family
+14,null,null,unable to support the family
 15,null,null,it's better not to have kids
 16,null,null,they turn from lovers to enemies
 17,null,null,the two families even fight over it
@@ -3997,18 +3998,19 @@ Seven,null,null,and then I had to call the police
 11,null,null,but Li Juan considers the family
 12,null,null,ultimately no yes
 13,null,null,and refused to meet with Chen Feilong again
-315 5
- (4,5)
+315 6
+ (4,6)
 1,null,null,43-year-old Chen Feilong is a small contractor in Liuyang
-2,null,null,a little bit of money
-3,null,null,food and clothing
-4) disgust disgust disgust but one thing in particular upset him Having been married to his wife for over ten years
-5,null,null,they quarreled and quarreled and broke down and became strangers
+2,null,null,has a little bit of money
+3,null,null,without worrying about food or clothing
+4,disgust,upset,but one thing in particular upsets him 
+5,null,null,having been married to his wife for over ten years
+6,null,null,they quarreled and quarreled and broke down and became strangers
 316 10
  (3,3)
 1,null,null,he said
-2,null,null,the parents were married for four years before they had him
-3) His birth brings great joy to his family
+2,null,null,he was born four years after his parents were married
+3,happiness,joy,his birth brought great joy to his family
 4,null,null,but this happiness came to an abrupt end when he was one and a half years old
 5,null,null,that time he fell out of bed
 6,null,null,his mouth won't stop bleeding
@@ -4017,52 +4019,53 @@ Seven,null,null,and then I had to call the police
 9,null,null,the doctor gave a critical notice
 10,null,null,informing the parents that they must pay for a blood transfusion immediately
 317 6
- (4)
+ (4,4)
 1,null,null,at the same time
 2,null,null,he reached out to hemophiliacs through the Internet on his cell phone
 3,null,null,he saw that some patients lack the correct knowledge to protect themselves
-4,To see some patients' parents feel sad about the disease
-5,null,null,so he told them what he knew and learned about hemophilia patiently
-6,null,null,comfort the parents
+4,sadness,worried,seeing some patients' parents worried about the disease
+5,null,null,he told them what he knew and learned about hemophilia patiently
+6,null,null,to comfort the parents
 318 9
- (4)
-1,null,null,I didn't expect Mr. Zhang to admit he was seeing someone
-2,null,null,is divorcing Ms Wu
-3,null,null,it turns out that Huang is 4 months pregnant
-4,Mr. Zhang feels that he is very happy to have a child in his old age
-5,null,null,Ben decided to have a showdown with Ms Wu
-6,null,null,Ms Wu is confused
+ (4,4)
+1,null,null,it is unexpected that Mr Zhang immediately admitted he was seeing someone else
+2,null,null,wanted to divorce Ms Wu
+3,null,null,it turned out that Huang had been pregnant for 4 months
+4,happiness,happy,Mr Zhang felt very happy to have a child in his old age
+5,null,null,decided to have a showdown with Ms Wu
+6,null,null,Ms Wu was confused
 7,null,null,though prepared for the worst
 8,null,null,trying to get her husband back for her daughter
-9,null,null,I didn't realize he was the first one to talk
-319 11
+9,null,null,didn't realize he was the first one to talk
+319 12
  (6,6)
 1,null,null,January of this year
-2,null,null,when Mr. Zhang visited his daughter
-3,null,null,tells Ms Wu about the misfortune of his marriage status
+2,null,null,when Mr Zhang visited his daughter
+3,null,null,told Ms Wu about the misfortune of his marriage status
 4,null,null,Ms Wu moved on
-5,null,null,and kind comfort
-6,sadness guilt. His ex-wife's understanding makes Mr. Zhang feel guilty
-7,null,null,the affection that the two people built up from scratch before comes back
-8,null,null,ex-wife accompanied by an agreed divorce earlier this month
-9,null,null,Mr. Zhang sued the court to divorce Huang
-10,null,null,when the court organizes mediation
-11,null,null,Mr. Zhang is accompanied by Ms Wu
+5,null,null,and kindly comforted
+6,sadness,guilty,his ex-wife's understanding made Mr Zhang feel guilty
+7,null,null,the affection that the two people built up from scratch before came back
+8,null,null,divorce by agreement with ex-wife 
+9,null,null,earlier this month
+10,null,null,Mr Zhang sued the court to divorce Huang
+11,null,null,when the court organized mediation
+12,null,null,Mr Zhang was accompanied by Ms Wu
 320 13
  (12,11)
 1,null,null,yesterday afternoon
-2,null,null,in the hand Surgery Department on the 5th floor of the inpatient Department of Shajing People's Hospital
-3,null,null,Narada reporter met Ms Huang lying on the hospital bed
-4,null,null,her right arm is still stained with dried blood
-5,null,null,at this point she has come to
-6,null,null,her husband Hwang is sitting beside her to take care of her
-7,null,null,although Ms Huang is out of danger at this time
-8,null,null,but because of multiple stab wounds to her head and back especially her arms
-9,null,null,she's weak from surgery
+2,null,null,in the hand surgery department on the 5th floor of the inpatient department of Shajing People's Hospital
+3,null,null,Nandu reporter met Ms Huang lying on the hospital bed
+4,null,null,her right arm was still stained with dried blood
+5,null,null,at that point she had come to herself
+6,null,null,her husband Hwang was sitting aside to take care of her
+7,null,null,although Ms Huang was out of danger at this time
+8,null,null,because of multiple stab wounds to her head and back especially her arms
+9,null,null,she was weak from surgery
 10,null,null,still unable to get out of bed and walk
 11,null,null,for the unprovoked encounter with his wife
-12,sadness. The husband Huang is very sad
-13,null,null,occasionally sobbing softly during her conversation with reporters
+12,sadness,sad,the husband Huang was very sad
+13,null,null,occasionally sobbing softly during his conversation with reporters
 321 12
  (10,9)
 1,null,null,according to him
@@ -4070,205 +4073,206 @@ Seven,null,null,and then I had to call the police
 3,null,null,rushed to the hair studio after hearing the news
 4,null,null,rushed his wife to Shajing People's Hospital for rescue
 5,null,null,the husband said
-6,null,null,the wife has been slashed at least eight times
+6,null,null,the wife had been slashed at least eight times
 7,null,null,the bone of the hand on the left hand was almost cut off
-8,null,null,only the epidermis is connected
-9,null,null,crazy move on Yang
-10 He was very angry
+8,null,null,only the epidermis was connected
+9,null,null,about Yang's crazy move
+10,anger,angry,he was very angry
 11,null,null,but he didn't know why Yang was so mad
 12,null,null,that an innocent wife would suffer such a sudden calamity
 322 12
  (12,10)
-1,null,null,says the husband
-2,null,null,the wife has been slashed at least eight times
+1,null,null,said the husband
+2,null,null,the wife had been slashed at least eight times
 3,null,null,the bone of the hand on the left hand was almost cut off
-4,null,null,only the epidermis is connected
-5,null,null,crazy move on Yang
-6,null,null,he's mad
-7,null,null,but he doesn't know why Yang is so mad
-8,null,null,so that the innocent wife suffered such a sudden disaster
+4,null,null,only the epidermis was connected
+5,null,null,about Yang's crazy move
+6,null,null,he was very angry
+7,null,null,but he didn't know why Yang was so mad
+8,null,null,that an innocent wife would suffer such a sudden calamity
 9,null,null,for now
 10,null,null,what happened to Ms Wong is known only to her husband
-11,null,null,did not tell her family
-12) fear fear fear fear
+11,null,null,without telling her family
+12,fear,worry,lest them worry
 323 15
  (9,8)
 1,null,null,November 2013
 2,null,null,Yang released from prison after serving five years
 3,null,null,while talking to reporters
-4,null,null,Ms Huang prying into Wei's news from time to time
+4,null,null,Ms Huang pried into Wei's news from time to time
 5,null,null,said 8 years together
 6,null,null,like sisters
 7,null,null,on good terms
 8,null,null,after learning of each other's death
-She is sad and can't contain her sadness
+9,sadness,sadness,she was sad and couldn't contain her sadness
 10,null,null,Yang was supposed to get out of prison in October
 11,null,null,but somehow it dragged on to November
-12,null,null,Ms Wong's memories of the occasion are still fresh
+12,null,null,Ms Wong's memories of the occasion were still fresh
 13,null,null,Yang did nothing after being released from prison
-14,null,null,to his wife Wei is violent
-15,null,null,but never expected Yang will brutally strangle his wife to death
+14,null,null,to his wife Wei was violent
+15,null,null,but never expected Yang would brutally strangle his wife to death
 324 10
  (7,7)
-1,null,null,Beijing News Someone thinks they killed people on purpose and set them free
-2,null,null,conniving crime
-3,null,null,Zhang Xucen's failure to prosecute is not a crime of condoning
-4,null,null,it reflects our criminal policy of leniency and leniency
+1,null,null,Beijing News someone thinks setting people who killed people on purpose free
+2,null,null,is conniving crime
+3,null,null,Zhang Xucen's failure to prosecute is not condoning crime
+4,null,null,but reflects our lenient criminal policy
 5,null,null,reflects the soft and tender side of the law
 6,null,null,we can feel it when we communicate with Yang Jiu
-7,sadness guilt. He feels very guilty about hurting his mother
+7,sadness,guilty,he feels very guilty about hurting his mother
 8,null,null,by visiting the investigation and organizing hearings
 9,null,null,the prosecution also learned about daily life
 10,null,null,Yang Jiu has been taking good care of his sick mother
-325 11
- (1,1)
-1 Soft little hands make people feel at ease. My son's arrival is definitely a surprise to me
-2,null,null,this petite girl accompanied me through the most helpless time
-3,null,null,let my heart lit up with hope again
-4,null,null,there is care
-5,null,null,I rented a house with Miss
-6,null,null,moved out of the house
-7,null,null,receded from the once vain and fractious
-8,null,null,I learned to enjoy the ordinary and ordinary life
-9,null,null,keep the day of my son
-10,null,null,light
-11,null,null,but very happy
+325 12
+ (2,2)
+1,null,null,soft little hands make me feel at ease
+2,happiness,surprise,Nian's arrival is definitely a surprise to me
+3,null,null,this petite girl accompanied me through the most helpless time
+4,null,null,let my heart lit up with hope again
+5,null,null,have a concern
+6,null,null,I rented a house with Nian
+7,null,null,moved out of the house
+8,null,null,receded from the once vain and fractious
+9,null,null,I learned to enjoy the ordinary life
+10,null,null,keep the day of Nian
+11,null,null,light
+12,null,null,but very happy
 326 19
  (7,7)
 1,null,null,three months ago
-2,null,null,I got a call from Shinoshino
+2,null,null,I got a call from Xiaoxiao
 3,null,null,she said she wasn't happy
-4,null,null,she wants to leave her husband and come back to me
-5,null,null,as long as I say yes
-6,null,null,she's divorcing immediately
-7 I was surprised by her confidence
-8,null,null,after betraying me
-9,null,null,she's sure I'll take her again
-10,null,null,and by then I had my mind set
+4,null,null,she wanted to leave her husband and come back to me
+5,null,null,as long as I said yes
+6,null,null,she would divorce immediately
+7,surprise,surprised,I was surprised by her confidence
+8,null,null,why after betraying me
+9,null,null,she was sure I would take her again
+10,null,null,and by then I had Nian
 11,null,null,so I rejected her with a tone of disdain
-12,null,null,who think she did not give up
+12,null,null,who knows she did not give up
 13,null,null,always saying strange things on the Internet
-14,null,null. To be honest I was really honest with Shinosho
+14,null,null,to be honest I was really honest with Xiaoxiao
 15,null,null,if it was the old days
-16,null,null,hear her say these words and I will run to her
+16,null,null,heard her saying these words and I would run to her
 17,null,null,be her girdle
-null,null,but she has rebelled against me
-19,null,null,throws my heart away
+18,null,null,but she rebelled against me
+19,null,null,threw away my heart like garbage
 327 13
  (4,2)
-1,null,null,when I'm not looking
-2,null,null,I wonder what Shinoshino said to Nanyo
-3,null,null,her face changed
-4,sadness despair she glanced at me with an almost desperate look
-5,null,null,I suddenly confused
-6,null,null,her pale appearance let me love dearly
-7,null,null,after we figure out what Shinoshino said to Nian
-8,null,null,I really want to go up there and slap her in the mouth
-9,null,null,but I can't do anything I'm gonna regret
-10,null,null,I'm trying to hold back my anger
-11,null,null,even though my heart is about to explode
-12,null,null,it turns out that Shinoshino told Nian that she was pregnant
-13,null,null,and the baby is mine
+1,null,null,when I was not looking
+2,null,null,didn't know what Xiaoxiao said to Nian
+3,null,null,Nian's face changed
+4,sadness,desperate,she glanced at me with an almost desperate look
+5,null,null,I was suddenly confused
+6,null,null,her pale appearance made my heart ache
+7,null,null,after figuring out what Xiaoxiao said to Nian
+8,null,null,I really wanted to go up there and slap her
+9,null,null,but I couldn't do anything I would regret
+10,null,null,I tried to hold back my anger
+11,null,null,even though my heart was about to explode
+12,null,null,it turned out that Xiaoxiao told Nian that she was pregnant
+13,null,null,and the baby was mine
 328 12
  (10,12)
 1,null,null,when I wasn't looking
-2,null,null,I wonder what Shinoshino said to Nanyo
-3,null,null,her face changed
-4,null,null,shot me a look of near-despair
-5,null,null,I'm all over the place
-6,null,null,her pale appearance let me love dearly
-7,null,null,after we figure out what Shinoshino said to Nian
-8,null,null,I really want to go up there and slap her in the mouth
-9,null,null,but I can't do anything I'm gonna regret
-10,I try to hold on to my anger
-11,null,null,though my heart is about to explode
-12,null,null,it turns out that Shinoshino told Nian that she was pregnant and that the baby was mine
+2,null,null,didn't know what Xiaoxiao said to Nian
+3,null,null,Nian's face changed
+4,null,null,she glanced at me with an almost desperate look
+5,null,null,I was suddenly confused
+6,null,null,her pale appearance made my heart ache
+7,null,null,after figuring out what Xiaoxiao said to Nian
+8,null,null,I really wanted to go up there and slap her
+9,null,null,but I couldn't do anything I would regret
+10,anger,anger,I tried to hold back my anger
+11,null,null,even though my heart was about to explode
+12,null,null,it turned out that Xiaoxiao told Nian that she was pregnant and that the baby was mine
 329 15
  (7,8)
-1,null,null,it took me a lot of effort to get Nanyo to believe me
+1,null,null,it took me a lot of effort to get Nian to believe me
 2,null,null,and agreed to my proposal
-3,null,null,and the backlash against our relationship from her family
-4,null,null,her parents don't want her to marry Northeast
-5,null,null,Nian 'er was called back to Lanzhou
-6,null,null,though her heart is still determined to love me
-7) fear I am so afraid
-8,null,null,fear of losing her
-9,null,null,after the child is gone
-10,null,null,my heart will follow her across the mountains and rivers
-11,null,null,all day long for gain and loss
-12,null,null,more painful than love
-13,null,null,now the future is uncertain
-14,null,null,all I can pray for is an end to our suffering
-15,null,null,give us a happy ending
+3,null,null,but our relationship met with strong opposition from her family
+4,null,null,her parents didn't want her to marry Northeast
+5,null,null,Nian was called back to Lanzhou
+6,null,null,though her heart was still determined to love me
+7,fear,afraid,I was so afraid
+8,null,null,afraid of losing her
+9,null,null,after Nian left
+10,null,null,my heart also followed her across the mountains and rivers
+11,null,null,all day long worrying about gain and loss
+12,null,null,More painful than a broken heart
+13,null,null,now the future was uncertain
+14,null,null,all I could pray for was an end to our suffering
+15,null,null,gave us a happy ending
 330 10
  (6,5)
 1,null,null,Chan Nv on the evening of the 5th
 2,null,null,found her boyfriend chatting with friends on LINE a mobile messaging app
-3,null,null,she wants to watch it on a whim
-4,null,null,rejected by her boyfriend
-5,null,null,hear boyfriend say this
-6,disgust suspicion Chen Nu suspects that he has another love interest
+3,null,null,she wanted to watch it on a whim
+4,null,null,was rejected by her boyfriend
+5,null,null,heard boyfriend saying this
+6,disgust,suspected,Chen Nv suspected that he had another love interest
 7,null,null,sending flirty text messages with another girl
 8,null,null,repeatedly clamoring to see the content
-9,null,null,but the boyfriend takes privacy as a priority
+9,null,null,but the boyfriend took privacy as a priority
 10,null,null,refused to give the password for LINE
 331 14
  (5,4)
-1,null,null,and the forest wife explains to the judge
-2,null,null,the man's alleged stabbing
-3,null,null,it was the husband who had been drinking and called her dirty names
-4,null,null,threatened against her
-5) fear she used the knife to defend herself
-6,null,null,husband tries to grab her knife
-7,null,null,cut each other in confusion
+1,null,null,Lin Qi explained to the judge
+2,null,null,what her husband said about hurting people with a knife
+3,null,null,it was her husband who cursed her after drinking alcohol
+4,null,null,threatened to do something against her
+5,fear,fear,she used the knife to defend herself due to fear
+6,null,null,husband tried to grab her knife
+7,null,null,cut him in confusion
 8,null,null,and she herself was wounded by her husband
 9,null,null,they lived together for 4 years after the attack
-10,null,null,said the wife
+10,null,null,said Lin Qi
 11,null,null,she was driven out of the house by her husband
-12,null,null,not running away from home as the husband said and missing
-13,null,null,two people and sexual relations
-14,null,null. As for texting someone to sign the divorce papers quickly it's angry
+12,null,null,not running away from home and missing as her husband said
+13,null,null,the two also had sexual relations
+14,null,null,as for texting the other one to sign the divorce papers quickly it's angry words
 332 9
  (2,1)
 1,null,null,after the daughter's accident
-2,In sadness many netizens express their sadness here
-3,null,null,he knew that his daughter's blog is laughing
-4,null,null,he wants to express his thanks for the concern
+2,sadness,sadness,many netizens expressed their sadness here
+3,null,null,he knew that his daughter's blog is Congzhongxiao
+4,null,null,he would like to express his gratitude to the netizens for their concern
 5,null,null,he communicated with Sina headquarters
 6,null,null,after a month of proof and negotiation
 7,null,null,Wei Kaicheng's true feelings moved Sina staff
 8,null,null,helped him solve the problem
-9,null,null,tells him the password
+9,null,null,told him the password
 333 20
  (11,10)
 1,null,null,roof unit doorway
-2,null,null,a big sister is standing over there
-3,null,null,hold the door
-4,null,null,don't go out either
-5,null,null,old IP asks her
+2,null,null,a big sister was standing over there
+3,null,null,holding the door
+4,null,null,not going out either
+5,null,null,Lao Ye asked her
 6,null,null,what's going on out there
-7,null,null,Wayan replied in Hangzhou dialect How do I know
-8,null,null,sounds like it
-9,null,null,Wayan is a little pissed off
-10,null,null,that's what I'm talking about
-11,disgust disgust disgust Ye is somewhat disgusted
-12,null,null,you stood here and watched Ha
+7,null,null,the sister replied in Hangzhou dialect saying how do I know
+8,null,null,it sounded like
+9,null,null,the sister was a little pissed off
+10,null,null,being offended by such words
+11,disgust,disgusted,Lao Ye was somewhat disgusted
+12,null,null,you stood here and watched
 13,null,null,how could you not know
-14,null,null,Wayan's getting a little soft
-15,null,null,say there
-16,null,null,the wor
-17,null,null,come for my son
+14,null,null,the sister's tone got a little soft
+15,null,null,said
+16,null,null,the girl
+17,null,null,comes for my son
 18,null,null,my son doesn't want her anymore
-19,null,null,come again
-20,null,null,not clear
-334 19
+19,null,null,still comes again
+20,null,null,can't make it clear
+334 18
  (6,5)
 1,null,null,talking about the initial travails
 2,null,null,Wang Yongtao felt actually not tired
-3,null,null,because every day I live in a hope
-4,null,null,always believing that my brother will suddenly open his eyes
+3,null,null,because every day lived in a hope
+4,null,null,always believing that my brother would suddenly open his eyes
 5,null,null,brother has hope
-6,happiness happy parents will be happier
+6,happiness,happier,parents will be happier
 7,null,null,she said
 8,null,null,a year on
 9,null,null,Wang Yongliang woke up as expected
@@ -4276,132 +4280,131 @@ null,null,but she has rebelled against me
 11,null,null,when I was singing to him
 12,null,null,saw his smiling face
 13,null,null,I immediately called my mother to come and see
-14,null,null,my mom still doesn't believe it
-15,null,null,here it is
-16,null,null. I hugged him and kissed him a few times
-17,null,null,call him by his nickname
-18,null,null. I can't believe he opened his eyes
-19,null,null,for
+14,null,null,my mom still didn't believe it
+15,null,null,the result was that 
+16,null,null,I hugged him and kissed him a few times
+17,null,null,called him by his nickname
+18,null,null,I couldn't believe he opened his eyes
 335 12
  (6,5)
-1,null,null,original
+1,null,null,it turned out that
 2,null,null,2011
-3,null,null,Li Wei has a serious illness
+3,null,null,Li Wei had a serious illness
 4,null,null,also suffering from no treatment costs
-5,null,null,through the classmate's fundraising
-6,happiness gratitude for which he is always grateful
-7,null,null,hope to have the chance to pass on this love
-8,null,null,since Shi Tao fell ill
-9,null,null,counselor teacher Wu Zhaowang's mobile phone is busy
-10,null,null,there are a lot of strange numbers calling recently
-11,null,null,asking about the way Shi Tao was funded
+5,null,null,survived the difficulties with donations from his classmates
+6,happiness,grateful,for which he is always grateful
+7,null,null,hopes to have the chance to pass on this love
+8,null,null,since Shi Tao fall ill
+9,null,null,counselor teacher Wu Zhaowang's mobile phone has been busy
+10,null,null,there have been a lot of strange numbers calling recently
+11,null,null,asking how to support Shi Tao
 12,null,null,including already graduated students and some warm-hearted members of the community
 336 11
  (10,11)
-1,null,null,after Ms Line was inexplicably splashed with water
-2,null,null,she's not to be outdone
-3,null,null,grabs her purse and swings it at her
-4,null,null,and a scuffle ensues
+1,null,null,after Ms Lian was inexplicably splashed with water
+2,null,null,she was not to be outdone
+3,null,null,grabbed her purse and swung it at the other one
+4,null,null,a scuffle ensued
 5,null,null,grabbing and pulling at each other
-6,null,null,onlookers see the fight going on
+6,null,null,onlookers saw the fight going on
 7,null,null,then reported to the South Street police station
 8,null,null,police arrived to see the two parties hair disheveled
-9,null,null,both parties have several facial and neck scratches
-10 The woman was clutching at the half of her gold necklace that had broken off
-null,null,repeatedly asked the other side why on earth to find her trouble in the street
+9,null,null,both had several facial and neck scratches
+10,anger,furious,Ms Lianwas clutched the half of her gold necklace broken off due to fight and was furious
+11,null,null,repeatedly asked the other side why on earth to find her trouble in the street
 337 17
  (7,6), (13,13)
-1,null,null,2011 between 67
-2,null,null,Ping Ping is pregnant
+1,null,null,2011 between June and July
+2,null,null,Pingping was pregnant
 3,null,null,gave birth to a son the following year
-4,null,null,as it is not known whether it is the husband's or Yu's
+4,null,null,as it was not known whether the baby was her husband's or Yu's
 5,null,null,she told Yu that the baby was his
-6,null,null,learns that his mistress has given birth to a fat baby boy
-7,happiness Yu looks very happy
-8,null,null,is considerate to Ping Ping and the child
+6,null,null,knowing that his mistress had given birth to a fat baby boy for him
+7,happiness,happy,Yu looked very happy
+8,null,null,was considerate to Pingping and the child
 9,null,null,spent a lot of money on mother and son
 10,null,null,also spent a lot of energy
 11,null,null,but
 12,null,null,not yet a few days for Yu to be happy
-sadness breakdown a paternity test let Yu completely breakdown
-14,null,null,original
-15,null,null,Yu in order to confirm that the child is his biological
-16,null,null,and Ping Ping together with the child to Nanjing to do a paternity test
-17,null,null,and the test result is -- the child is not his
+13,sadness,breakdown,a paternity test let Yu completely breakdown
+14,null,null,it turned out that
+15,null,null,Yu in order to confirm that the child was his own
+16,null,null,and Pingping together with the child to Nanjing to do a paternity test
+17,null,null,and the test result was -- the child was not his
 339 14
  (11,10)
 1,null,null,last September
 2,null,null,Xia Yu was diagnosed with a late-stage malignant tumor at Zhaoyuan People's Hospital
 3,null,null,at that time thought it must be wrong
-4,null,null,it can't be true
-5,null,null,cannot accept this result
+4,null,null,it couldn't be true
+5,null,null,couldn't accept this result
 6,null,null,Wang Yang accompanied her boyfriend to Jinan again for inspection
-7,null,null,the result is still
+7,null,null,the result was the same
 8,null,null,Wang Yang accompanied her boyfriend back to Zhaoyuan to continue the treatment
-9,null,null,the agreed wedding date is near
-10,null,null,the boyfriend is getting worse and worse
-11) fear that he won't be able to wait for the day
+9,null,null,the appointed wedding day was near
+10,null,null,the boyfriend was getting worse and worse
+11,fear,worried,worried that he won't be able to wait for that day
 12,null,null,Wang Yang made a bold decision
-13,null,null,get married early
-14,null,null,become the bride of the man who treats you well early
+13,null,null,to get married early
+14,null,null,to become the bride of the man who treated her well early
 340 13
- (13,14)
+ (13,12)
 1,null,null,this violin is the fourth
 2,null,null,has been with me for over a decade
 3,null,null,I know the obsession that music lovers have with instruments
-4,null,null,so I offered to play for her
-5,null,null,introduction of Song Guangcan
+4,null,null,so I offer to play for her
+5,null,null,Song Guangcan introduced
 6,null,null,because there can't be a loud noise in the hospital to affect other patients
 7,null,null,he only played the violin softly three times in the hospital room
 8,null,null,and not for long
-9,null,null,but for his love
+9,null,null,but for his dedicated performance
 10,null,null,Houshifeng's heart is full of gratitude
 11,null,null,she said though we are not familiar with it
-12,null,null,but he played the violin for me
-13,happiness I am very happy
+12,null,null,he played the violin for me
+13,happiness,happy,I am very happy
 341 8
  (5,5)
-1,null,null,a chance
+1,null,null,an accidental chance
 2,null,null,retired Zhu Mincai saw on TV a young female teacher in Guizhou province giving a lecture with a child on her back
 3,null,null,the couple felt the lack of teachers in Guizhou
-4,null,null,Mr. Zhu is from Guizhou
-sadness miss away from home for many years is missing
+4,null,null,Mr Zhu is from Guizhou
+5,sadness,miss,missed the hometown even more after many years away
 6,null,null,volunteer to teach
 7,null,null,the couple didn't give it much thought
-8,null,null,pack up and go to Guizhou
+8,null,null,packed up and went to Guizhou
 342 12
  (7,8)
 1,null,null,the woman's father Uncle Jiang
 2,null,null,also rushed to the hospital after being notified
 3,null,null,maybe I was at home in the morning
-4,null,null,can still persuade jail
+4,null,null,could still persuade 
 5,null,null,my daughter and the old woman
-Six,null,null. You can't stop it
-sadness is very sad. Uncle Jiang is very upset when he gets to the hospital
-8,null,null,even said he happened to have something to go out this morning
+6,null,null,can't stop them even though I want to
+7,sadness,very upset,uncle Jiang was very upset when he got to the hospital
+8,null,null,said he happened to have something to go out this morning
 9,null,null,Uncle Jiang is from Jiang Village
 10,null,null,after the house was demolished about 4 years ago
 11,null,null,with his wife and daughter
 12,null,null,live together in Ruyi Garden in Jiang Cun Garden
 343 12
  (9,8)
-1,null,null,past 9 p.m
-2,null,null,Russell suddenly gets a text from the girl
+1,null,null,past 9 p.m.
+2,null,null,Xiao Luo suddenly got a text from the girl
 3,null,null,she said we are not destined for each other
 4,null,null,it takes two blind dates to prove we don't like each other
 5,null,null,why are we so pathetic
 6,null,null,it's been two years and we're dating again
 7,null,null,don't see each other again
 8,null,null,finish reading this message
-9,sadness sadness my heart how so sad
-Xiao Luo said he decided not to go on a blind date this spring
+9,sadness,sad,why my heart so sad
+10,null,null,Xiao Luo said he decided not to go on a blind date this spring
 11,null,null,take advantage of the spring to get out more
-12,null,null,maybe we'll meet the other half
+12,null,null,maybe will meet the other half
 344 14
  (14,14)
-1,null,null,noon March 18,2014
+1,null,null,noon March 18 2014
 2,null,null,they were witnessed by loved ones and friends
-3,null,null,drink the happy wedding wine
+3,null,null,drank the happy wedding wine
 4,null,null,after marriage
 5,null,null,Hu Yang and Yu Dongxue will live in a rented one-bedroom living room in Wuhan
 6,null,null,the house is not big
@@ -4411,29 +4414,29 @@ Xiao Luo said he decided not to go on a blind date this spring
 10,null,null,she is trying to find a job
 11,null,null,we are fighting together in one direction
 12,null,null,life will surely get better and better
-13,null,null,this beautiful 22-year-old
-14,happiness excitement tears of excitement at the wedding
+13,null,null,this beautiful 22-year-old girl
+14,happiness,excitement,shed tears of excitement at the wedding
 345 4
  (3,2)
-1,null,null,84 year old disabled soldier Wang Linrong is from Nanqiaotou Village Wanglian Street Shidao Administrative District Rongcheng City
-2,null,null,15 years rain or shine obligation to take care of hemiplegic neighbors
-3,happiness touched kindness touched the village
-4,null,null,Wang Linrong has won the honor of Rongcheng City Model of Morality and Weihai City Model of Helping others nomination Award
+1,null,null,84-year-old disabled soldier Wang Linrong is from Nanqiaotou Village Wanglian Street Shidao Administrative District Rongcheng City
+2,null,null,for 15 years has been volunteering to take care of neighbors with hemiplegia regardless of difficulty
+3,happiness,touched,his kindness touched the village
+4,null,null,Wang Linrong has won the honor of Rongcheng City Moral Model and Weihai City Moral Model Nomination Award of helping others 
 346 16
  (11,10)
 1,null,null,March 20 at noon
-2,null,null,Wang Linrong is thinking about the recent situation of Wang Zhongshan
+2,null,null,Wang Linrong was thinking about the recent situation of Wang Zhongshan
 3,null,null,went to visit him again
-4,null,null,Wang Linrong helps Wang Zhongshan do the palm telescopic training
-5,null,null,Wang Zhongshan will compare his hands together and call the reporter to see
+4,null,null,Wang Linrong helped Wang Zhongshan do the palm telescopic training
+5,null,null,Wang Zhongshan had two hands together and called the reporter to see the contrast
 6,null,null,thanks to Lin Rongbo helping me with my training
 7,null,null,you see my right hand is not atrophied at all
-8,null,null,Wang Zhongshan's right leg muscles are also stronger
+8,null,null,Wang Zhongshan's right leg muscles are also strong
 9,null,null,there is no obvious atrophy
-10,null,null,recall the 15 years Wang Linrong helped himself
-11,happiness tears Wang Zhongshan grateful tears
-12,null,null,if there is no Lin Rongbo to help me ah
-13,null,null,I'd be done by now
+10,null,null,recalling the 15 years Wang Linrong helped him
+11,happiness,tears,Wang Zhongshan was in tears of gratitude
+12,null,null,if there is no Lin Rongbo to help me
+13,null,null,I'd have be done
 14,null,null,15 years
 15,null,null,it's not a day or two
 16,null,null,said Wang Zhongshan
@@ -4441,40 +4444,40 @@ Xiao Luo said he decided not to go on a blind date this spring
  (4,3)
 1,null,null,Uncle Huang is popular
 2,null,null,likes to go out with friends for drinks and play cards
-3,null,null,go out a lot
-4,In sadness Aunt Li is sad
+3,null,null,have gone out a lot
+4,sadness,unhappy,Aunt Li is a little unhappy
 5,null,null,early March this year
-6,null,null,Uncle Huang is out partying with his friends again
+6,null,null,Uncle Huang was out partying with his friends again
 7,null,null,after coming back
-8,null,null,Aunt Li blames her uncle for not caring about the family
-9,null,null,want to move a heavy thing
+8,null,null,Aunt Li blamed Uncle Huang for not caring about the family
+9,null,null,to move a heavy thing
 10,null,null,you're not home either
-11,null,null,I am old also don't know love me
-12,null,null,I was busy at work
+11,null,null,I am old and you don't consider me
+12,null,null,used to be busy at work
 13,null,null,now retired
 14,null,null,still no home
 348 7
  (7,7)
-1,null,null,as quintessentially British middle class
+1,null,null,as typical British middle class
 2,null,null,Hawken habitually maintains the idea of self-abstinence in consumption
-3,null,null,hence the relationship with rich wives
+3,null,null,hence the relationship with the rich wife
 4,null,null,becomes more of a struggle against an alternative way of life
 5,null,null,this kind of life
-6,null,null. In her book the Unspoken Rules of British Behavior the anthropologist Kate Fox has a graphic description of men who jump up the class ladder by marrying an upper-middle class wife they met at university
-7,disgust disgust sometimes feeling disgust and anger at changing one's daily habits
+6,null,null,in her book the Unspoken Rules of British Behavior the anthropologist Kate Fox has a graphic description of men who jump up the class ladder by marrying an upper-middle class wife they met at university
+7,disgust,resentful,sometimes feel resentful and annoyed about changing daily habits
 349 9
  (9,8)
-1,null,null,when Chan Chi-yuen bought Cardiff City FC
+1,null,null,when Chen Zhiyuen bought Cardiff City FC
 2,null,null,there was no one else in the limelight
-3,null,null,but the move to change the regime -- changing the colours the crest and the Cardiff City name -- quickly provoked a backlash from fans
-4,null,null,Chen Chi-yuen himself was baffled by the backlash
+3,null,null,but the move to change the regime in the style of the emperor -- changing the colours, badges and Cardiff City's team name -- quickly sparked a backlash from fans
+4,null,null,Chen Zhiyuen himself was baffled by the backlash
 5,null,null,I saved the club from debt and bankruptcy
 6,null,null,spent a lot of money to build something that hasn't happened in 51 years
 7,null,null,but
 8,null,null,some fans don't appreciate it
-9,sadness disappointment makes me very disappointed
+9,sadness,disappointed,makes me very disappointed
 350 16
- (16,9)
+ (16,15)
 1,null,null,lack of sex education is fundamental to the problem of sexual harassment sexual assault
 2,null,null,second
 3,null,null,male sole care for girls
@@ -4490,269 +4493,272 @@ Xiao Luo said he decided not to go on a blind date this spring
 13,null,null,Ms Ma in Wanjiang is worried
 14,null,null,four-year-old daughter has been taken by her grandfather
 15,null,null,the daughter who is used to spending time with her grandfather is noticeably less wary of other males
-16,This is really scary in this day and age of sexual abuse of girls
+16,fear,frightening,this is frightening at a time when sexual abuse of girls is so common
 351 8
  (6,5)
-1,null,null,understood
+1,null,null,by understanding
 2,null,null,the woman's surname is Huang
 3,null,null,she left home with her son in a fit of rage over a domestic dispute
 4,null,null,chose to commit suicide by the river
 5,null,null,stuck in the mud while attempting to enter the water
-6,fear crying when the son is frightened and crying
-7,null,null,Ms Wong wakes up
-8,null,null,call for help
-352 14
+6,fear,crying,when the son was frightened and crying
+7,null,null,Ms Huang got a rude awakening
+8,null,null,calling for help
+352 15
  (11,11)
-1,null,null,confirmed
+1,null,null,it is proved that
 2,null,null,when Fan Yuanfeng arrives
 3,null,null,there is an old epidermal exfoliation about 0.35 cm in length on the right finger
 4,null,null,consistent with his statement
 5,null,null,the killer is borderline intelligent
-6,null,null,but with full capacity for criminal responsibility at the time of the crime. 20 February
-7,null,null,when the court was in session
-8,null,null,Fan Yuanfeng's defense lawyer suggested that Fan's motive was to abduct Xiao Yu Meng for his own upbringing
-9,null,null,his subjective intention was not to kill her
-10,null,null,en route
-Van was worried that the baby's crying would make things worse
-12,null,null,before covering her nose and mouth with her hand
-13,null,null,because of borderline intelligence
-14,null,null,he did not expect the act to result in the victim's death
+6,null,null,but with full capacity for criminal responsibility at the time of the crime
+5,null,null,20 February
+8,null,null,when the court was in session
+9,null,null,Fan Yuanfeng's defense lawyer suggested that Fan's motive was to abduct Xiao Yumeng for his own upbringing
+10,null,null,his subjective intention was not to kill her
+11,null,null,on the way
+12,fear,worried,Fan was worried that the baby's crying would make things worse
+13,null,null,before covering her nose and mouth with her hand
+14,null,null,because of borderline intelligence
+15,null,null,he did not expect the act to result in the victim's death
 353 18
  (4,5)
 1,null,null,yesterday morning
 2,null,null,City Court of First instance judgment in this case
 3,null,null,sentenced the murderer Fan Yuanfeng to death
-4,surprise surprise surprise
+4,surprise,surprising,it was surprising that
 5,null,null,relatives of the original defendant were not present
-6,null,null,one question
+6,null,null,when asking why
 7,null,null,say no notice was received
 8,null,null,afternoon
 9,null,null,I drove to the pen factory where Fan Yuanfeng's parents worked
-10,null,null,as I pass the wasteland near the factory
-11,null,null,my heart shudders
+10,null,null,as I passed the wasteland near the factory
+11,null,null,my heart shuddered
 12,null,null,on the morning of August 17 last year
-13,null,null,that's where Umu Koyu's body was found
+13,null,null,that's where Xiao Yumeng's body was found
 14,null,null,in the fitting shop of the pen factory
-15,null,null,Fan Yuanfeng's parents are busy with their heads down
+15,null,null,Fan Yuanfeng's parents were busy with their heads down
 16,null,null,my countryman Mu Lian told me
 17,null,null,the people in the workshop heard the verdict on the radio
-18,null,null,but afraid to tell Van's parents
+18,null,null,but afraid to tell Fan's parents
 354 11
- (4)
-1,null,null,after
-2,null,null,I see Yang Mouyi still lying on the bed panting for breath
+ (4,4)
+1,null,null,after that
+2,null,null,I saw Yang Mouyi still lying on the bed panting for breath
 3,null,null,but not moving
-At this time I was afraid that Yang Mouyi called the police
-5,null,null,I was afraid her boyfriend would take revenge on me
-6,null,null,thought to kill Yang Mouyi forget it
+4,fear,afraid,at this time I was afraid that Yang Mouyi called the police
+5,null,null,and afraid her boyfriend would take revenge on me
+6,null,null,thought to kill Yang Mouyi
 7,null,null,so Zhong Jianning picked up the empty beer bottle and hit Yang several times on the head
-8,null,null,his head immediately bleeding
-9,null,null,Zhong Jianning saw Yang Mouyi is still breathing quickly
+8,null,null,his head was immediately bleeding
+9,null,null,Zhong Jianning saw Yang Mouyi still breathing quickly
 10,null,null,so he went to the kitchen
 11,null,null,took out a small sharp knife and stabbed Yang in the neck
 355 5
  (1,1)
-1) fear that fingerprints left at the scene will be found by the public security
-2,null,null,find a big luggage bag containing his touch quilt pillow beer bottle pointed knife Yang Mouyi was wearing pants shoes
+1,fear,afraid,Zhong Jianning afraid of fingerprints left at the scene would be found by the public security 
+2,null,null,found a big duffel bag containing quilt pillow beer bottle sharp knife he touched pants shoes Yang Mouyi was wearing at that time
 3,null,null,and went to the bathroom to take the floor to clean the blood on the ground
-4,null,null,and lift the sheet to cover Yang Mouyi's body
+4,null,null,and lifted the sheet to cover Yang Mouyi's body
 5,null,null,took the duffel bag and fled the scene
-356 6
+356 7
  (3,3)
-1,null,null,Chen Bei Bao lost money experience reprinted through the network
+1,null,null,Chen Beibao's lost money experience reprinted through the network
 2,null,null,caused widespread concern among netizens
-3,sadness is sad. Many netizens feel 3,000 yuan for Chen Beibao's suffering
-4,null,null,is a dish for some people and a bottle of wine for others
-5,null,null,but there are three months of hardship
-6,null,null,and a man's dignity and tears
+3,sadness,sad,many netizens felt sad for Chen's treatment
+4,null,null,3000 yuan
+5,null,null,is a dish for someone and a bottle of wine for someome
+6,null,null,but is three months' hardship for someone
+7,null,null,and a man's dignity and tears
 357 12
  (7,6)
-1,null,null,in the process of first reading
+1,null,null,in the process of preliminary review
 2,null,null,Zhou tried to calm himself and asked me what I had done
 3,null,null,but in the face of evidence
 4,null,null,he quickly confessed to what he had done
-5,null,null,original
+5,null,null,it turned out that
 6,null,null,that night Zhou and his wife had a fight over trivia
-disgust n. The next person is going outside to relax
-8,null,null,accidentally see alone Ms Li quite beautiful
+7,disgust,depress,relaxed outside alone with extreme depress
+8,null,null,accidentally saw Ms Li who is alone quite beautiful
 9,null,null,he went rogue
-10,null,null,I heard she had AIDS
+10,null,null,after hearing she had AIDS
 11,null,null,I lost interest immediately
-12,null,null,Chow confessions
+12,null,null,Zhou gave a confession
 358 13
  (9,8)
-1,null,null,around 9 p.m
-2,null,null,when Mr Toh drove to Soling Road for petrol
-3,null,null,only to realize that the bag in which he had put the money was missing
+1,null,null,around 9 p.m.
+2,null,null,when Mr Du drove to Soling Road for petrol
+3,null,null,only to find that the bag in which he had put the money was missing
 4,null,null,in addition to 220,000 yuan in the bag
-5,null,null,six credit cards and more than 20 bank cards
-6,null,null,I'm sweating all over
-7,null,null,I'm driving back
+5,null,null,there were six credit cards and more than 20 bank cards
+6,null,null,I was sweating all over
+7,null,null,driving back
 8,null,null,bring up the scene
-E.g. Mr Du is still in fear
+9,fear,fear,Mr Du is still in fear
 10,null,null,he and his family split up and searched the mall for half an hour
-11,null,null,to no avail
+11,null,null,without result
 12,null,null,just think about it
 13,null,null,I was freaking out
 359 9
  (8,7)
-1,null,null,according to Hong Kong's Ming Pao newspaper
-2,null,null,married new immigrants suspect they are not happy to lose marriage cohabiting girlfriend to find a new love
+1,null,null,according to Hong Kong's Ming Bao newspaper
+2,null,null,a married new immigrant is suspected to be unhappy with the divorced cohabiting girlfriend who had a new love
 3,null,null,also found a lover's used condom in the apartment ladder
-4,null,null,they argue about it
-5,null,null,during which the guy cuts his girlfriend off with a kitchen knife
+4,null,null,they argued about it
+5,null,null,during the argument the guy chopped his girlfriend with a kitchen knife
 6,null,null,girlfriend died with over 200 knife wounds
 7,null,null,after his arrest he said under caution that he was provoked by his girlfriend
-8,He committed the crime in a fit of anger
+8,anger,anger,he committed the crime in a fit of anger
 9,null,null,appeared in the High Court yesterday 17th on one count of murder
 360 8
  (8,8)
 1,null,null,16th
-2,null,null,college student Xiao Ke buys something in the supermarket under an alias
+2,null,null,college student Xiao Ke under an alias bought something in the supermarket
 3,null,null,saw some children playing on the elevator
-4,null,null,one of the youngest boys accidentally falls on the elevator
+4,null,null,one of the youngest boys accidentally fell on the elevator
 5,null,null,Xiao Ke hurried up to help him
 6,null,null,did not think that he fell
 7,null,null,when she led the children to their parents
-8,sadness sadness a word from her parents makes Xiao Ke feel sad
+8,sadness,sad,a word from her parents made Xiao Ke feel sad
 361 11
  (8,8)
 1,null,null,wedding eve
-2,null,null,Panjin guy Anning was diagnosed with leukemia
+2,null,null,Panjin guy An Ning was diagnosed with leukemia
 3,null,null,two years of treatment cost millions
-4,null,null,hundreds of thousands of dollars in debt
+4,null,null,hundreds of thousands of yuan in debt
 5,null,null,to take care of boyfriend
 6,null,null,the post-90s girl Sun Ju gave up her job as a nurse
 7,null,null,took care of her boyfriend for two years under pressure
-8,happiness moved this love has touched the whole country's caring people
-9,null,null,for them to donate 300,000 yuan to Beijing for bone marrow transplant
-10,null,null,because the matching bone marrow is semi-compatible
-11,null,null,surgery is risky
+8,happiness,touched,this love touched the whole country's caring people
+9,null,null,donated 300,000 yuan for them to Beijing for bone marrow transplant
+10,null,null,because the matching bone marrow was semi-compatible
+11,null,null,surgery had some risks
 362 11
  (8,8)
-1,null,null,Marina told reporters
+1,null,null,Ma Lina told reporters
 2,null,null,this wedding dress was made in Shenyang
 3,null,null,also the most expensive wedding dress in the store
 4,null,null,worth over 5,000 yuan
 5,null,null,it's wedding season
 6,null,null,the store has decided not to rent out the dress
-7,null,null,send it to Sun Ju and Anning
-8,happiness moved she was moved by Sun Ju's faith in holding on to love
+7,null,null,send it to Sun Ju and An Ning
+8,happiness,moved,she was moved by Sun Ju's faith in holding on to love
 9,null,null,to help them realize their dreams
-10,null,null,Guo Mingyi love team Panjin United's sister Li Mei drove more than 1,000 kilometers overnight to Beijing with her wedding dress
-11,null,null,hand-delivered the wedding dress to Sun Ju in Tian 'anmen Square
+10,null,null,Guo Mingyi love team Panjin United's Sister Li Mei drove more than 1,000 kilometers overnight to Beijing with the wedding dress
+11,null,null,hand-delivered the wedding dress to Sun Ju in Tian'anmen Square
 363 13
- (13,14)
-1,null,null,2009
-2,null,null,Jiang Mohong comes to the home to help take care of the child
-3,null,null,the 8-month-old baby often cries at night
-4,null,null,Jiang Mohong takes good care of her
+ (13,12)
+1,null,null,in 2009
+2,null,null,Jiang Mohong came to the home to help take care of the child
+3,null,null,the 8-month-old baby often cried at night
+4,null,null,Jiang Mohong took good care of her
 5,null,null,very patient with the child
-6,null,null,I heard that Jiang Mohong will sell labor for ten years
-7,null,null,I feel terrible in my heart
-8,null,null,would like to appeal to everyone to help them
+6,null,null,after hearing that Jiang Mohong would sell labor for ten years
+7,null,null,I felt terrible in my heart
+8,null,null,wanted to appeal to everyone to help them
 9,null,null,said Jiang Mohong
 10,null,null,two weeks later
 11,null,null,son will come to the hospital for review
 12,null,null,Qiu Jilei's two older brothers are willing to donate bone marrow to their younger brother
-13,happiness happiness this is the most happy thing for her at present
+13,happiness,happiest,this is the happiest thing for her at present
 364 7
  (3,1)
 1,null,null,a reservation confirmation message
-2,null,null,causing a crisis of trust in a couple who have been dating naked for ten years
-3) disgust suspicion the wife suspects her husband is having an affair
-4,null,null,Sue for divorce
-5,null,null,this reporter learned yesterday
+2,null,null,let the young couple with ten years of love naked marriage have a crisis of trust
+3,disgust,suspects,the wife suspects her husband is having an affair
+4,null,null,sue for divorce
+5,null,null,reporters learned yesterday
 6,null,null,mediated by Miyun Court
 7,null,null,the parties have dissolved the marriage
 365 9
  (9,8)
-1,null,null,Guo Yudong principal of Caoji Primary School in Yesiao Township Xiayi county told reporters
-2,null,null,these gifts are Guo Progressive let the school's teacher Guo Xiaowei transferred to you
+1,null,null,Guo Yudong principal of Caoji Primary School in Yemiao Village Xiayi county told reporters
+2,null,null,it is Guo Jinbu who asked the school's teacher Guo Xiaowei to give to everyone
 3,null,null,according to Guo Xiaowei
-4,null,null,she and Guo Jinyang have been classmates from primary school to junior high school
+4,null,null,she and Guo Jinbu have been classmates from primary school to junior high school
 5,null,null,a week ago
-6,null,null,suddenly received a phone call from Guo Jinjin
-7,null,null,expresses his desire to donate money
-8,null,null,and told her about losing his shift money
-9,She is sad. She feels sorry for herself
+6,null,null,suddenly received a phone call from Guo Jinbu
+7,null,null,expressed his desire to donate money
+8,null,null,and told her about losing class fee
+9,sadness,guilty,something to feel guilty about all the time
 366 10
  (7,5)
 1,null,null,police ascertained
 2,null,null,recently
 3,null,null,working outside Xie returned home to find his wife Li Mou abnormal mood
 4,null,null,after some questioning
-5,null,null,Li admitted that he could not resist the temptation to have sex with the taxi running Qin
+5,null,null,Li admitted that she could not resist the temptation to have sex with the taxi driver Qin
 6,null,null,after the event
-7) sadness regret she is very sorry
-8,null,null,wants to break off the relationship
-9,null,null,but Qin won't stop
+7,sadness,sorry,she was very sorry
+8,null,null,wanted to break off the relationship
+9,null,null,but Qin was pestering
 10,null,null,and threatening her
-367 9
- (2,2)
-1,null,null,but life for the couple after the wedding is far from satisfactory
-2,disgust not very happy I was not very happy the night of the wedding because she decided to drop the nearly 30,000 gift money off with her mom
-3,null,null,3 months from the wedding to the end of the year
-4,null,null,she lived in my home for more than twenty days
-5,null,null,she only slept with me three times
-6,null,null,and told me I'm not going to have kids for two years
-7,null,null,I get the feeling she doesn't want a life with me
-8,null,null,she's trying to rip my family off
-9,null,null,said Zhao Ling
+367 10
+ (2,3)
+1,null,null,but life for the couple after the wedding was far from satisfactory
+2,disgust,not very happy,I was not very happy the night of the wedding
+3,null,null,because she was going to leave the nearly 30,000 gift money at her mom's
+4,null,null,3 months from the wedding to the end of the year
+5,null,null,she lived in my home for more than twenty days
+6,null,null,but only slept with me three times
+7,null,null,and told me she was not going to have kids for two years
+8,null,null,I feel that she doesn't want a life with me
+9,null,null,she's trying to cheat my family out of money
+10,null,null,said Zhao Ling
 368 11
  (8,7)
-1,null,null,although imagine this is the only pair that is similar
-2,null,null,but the whole date is down
-3,null,null,and the other two couples impressed each other too
-4,null,null,at 21
-5,null,null,blind date is over
-6,null,null,three couples holding hands
-7,null,null,look at the three couples holding hands
-8,happiness Mr. Zhu is very happy
-9,null,null,hope they can go further
+1,null,null,although assumed this was the only suitable pair
+2,null,null,during the whole blind date
+3,null,null,the other two couples impressed each other too
+4,null,null,at 9 p.m.
+5,null,null,the blind date was over
+6,null,null,three couples held hands successfully
+7,null,null,looking at the three couples holding hands
+8,happiness,happy,Mr Zhu was very happy
+9,null,null,hoping they could go further
 10,null,null,I will do more of these dating events in the future
 11,null,null,to help more single people find a partner as soon as possible
 369 17
  (5,4)
-1,null,null,gratitude book
+1,null,null,in a book of gratitude
 2,null,null,Zhu Mengfei recalls the moment his mother sent him on his way to study in September 2013
 3,null,null,I had an operation for appendicitis in junior high school
 4,null,null,unconscious due to delayed treatment
-5,sadness tears welling up. My mother is in tears sitting in front of her hospital bed
+5,sadness,in tears,my mother was in tears sitting in front of the hospital bed
 6,null,null,says Zhu Mengfei
-7,null,null,mother calls to take care of themselves
-8,null,null,but he says yes every time
+7,null,null,mother calls to ask me to take care of myself
+8,null,null,but every time he says yes perfunctorily
 9,null,null,has never been concerned about the physical condition of his parents
 10,null,null,hard to imagine
 11,null,null,how did mother learn to text
 12,null,null,such difficulty
-13,null,null,think think
+13,null,null,when I think about it
 14,null,null,I have a flutter
-15,null,null,Zhu Mengfei cried
-16,null,null,blame yourself before not sensible
-17,null,null,in the future will double to care and love them
+15,null,null,Zhu Mengfei cries
+16,null,null,blames himself for not being considerate before
+17,null,null,I will care and love them twice as much in the future
 370 7
  (4,3)
-1,null,null,read this thousand-word gratitude book
-2,null,null,Vice president of the college Zhang Aifeng also deeply felt
+1,null,null,after reading this thousand-word gratitude book
+2,null,null,vice president of the college Zhang Aifeng also felt deeply
 3,null,null,she said Zhu Mengfei's guilt and gratitude to his mother in the article
-4) happiness touched let oneself very moved
-5,null,null,story of a text message
-6,null,null,is a living text of gratitude
+4,happiness,touched,touched her a lot
+5,null,null,the story of a text message
+6,null,null,is a living textbook of gratitude
 7,null,null,is worth all college students to learn
 371 14
  (6,6)
 1,null,null,18:45
-2,null,null,Xu Yi used his mobile phone to send the first text message to Zheng this time
-3,null,null,Zheng finally replied
+2,null,null,Xu Yi used his mobile phone to send the first text message to Zheng 
+3,null,null,this time Zheng finally replied
 4,null,null,on the phone
-5,null,null,he's crying his eyes out
-sadness regret repeatedly said to Xu Yi how sorry he was after killing someone
-7,null,null,how scared I am
-8,null,null,this is a four-hour phone call
-9,null,null,period
-10,null,null,Jeong is emotional
-11,null,null,hung up repeatedly on as many as seven or eight calls
+5,null,null,he was crying his eyes out
+6,sadness,sorry,repeatedly said to Xu Yi how sorry he was after killing someone
+7,null,null,how scared he was
+8,null,null,this was a four-hour phone call
+9,null,null,during the period
+10,null,null,Zheng was emotional
+11,null,null,repeatedly hung up and on as many as seven or eight calls
 12,null,null,eventually
 13,null,null,at Xu Yi's patient persuasion
 14,null,null,he agreed to turn himself in
@@ -4760,13 +4766,13 @@ sadness regret repeatedly said to Xu Yi how sorry he was after killing someone
  (9,8)
 1,null,null,on the morning of 25 January
 2,null,null,Zheng stopped You on his way to work and asked for money
-3,null,null,You still won't give it
+3,null,null,You still didn't give
 4,null,null,and a scuffle ensued
-5,null,null,Jeong loses his mind
-6,null,null,grab you and hit the stone
+5,null,null,Zheng lost his mind
+6,null,null,grabbed You and hit the stone
 7,null,null,causing severe brain injury and death
 8,null,null,after the killing
-9,fear extreme fear Jeong fled to a nearby mountain
+9,fear,fearful,Zheng was extremely fearful and fled to a nearby mountain
 10,null,null,starved and cold for 4 days
 11,null,null,suffering both physically and mentally
 12,null,null,even wrote a suicide note to kill himself
@@ -4776,72 +4782,73 @@ sadness regret repeatedly said to Xu Yi how sorry he was after killing someone
 373 15
  (13,13)
 1,null,null,5th
-2,null,null,Han Sung-Wol's daughter told reporters
+2,null,null,Han Chengyue's daughter told reporters
 3,null,null,three days after the old man was hit
 4,null,null,unbearable pain in the chest
 5,null,null,the family took him to Xinjiang Hospital of Traditional Chinese Medicine
 6,null,null,was later diagnosed with a fracture of the seventh rib in his right chest
 7,null,null,trauma to the right chest wall
-8,null,null,hospitalization is recommended
-9,null,null,but the old man disagrees
-10,null,null,he took some medicine and stayed at home
+8,null,null,hospitalization was recommended
+9,null,null,but the old man disagreed
+10,null,null,took some medicine and stayed at home
 11,null,null,spent more than 1,000 yuan
-12,null,null,I watch the news every day
-I am very angry to see the news that some old people do wrong to people
+12,null,null,I watch news every day
+11,anger,angry,I am very angry to see the news that some old people cheat people
 14,null,null,what kind of people are they
 15,null,null,give us old people a bad name
 374 7
  (4,3)
 1,null,null,Ms Li had sex with Mr Wang after drinking
 2,null,null,gave birth to a baby boy
-3,null,null,but the man refuses to pay child support
-4,Ms Li is very sad
+3,null,null,but the man refused to pay child support
+4,sadness,had no choice,Ms Li had no choice
 5,null,null,as the child's legal agent recently appealed to the court
 6,null,null,asking the man to pay 2,600 yuan a month in child support
 7,null,null,Haidian Court has now accepted the case
-375 14
+375 15
  (3,2)
 1,null,null,that day
-2,null,null,Zhang repeatedly listens to a recording of her husband divorcing her
-3) anger anger the more she listened the angrier she became
+2,null,null,Zhang repeatedly listened to a recording of her husband divorcing her
+3,anger,angrier,the more she listened the angrier she became
 4,null,null,she bought sleeping pills
 5,null,null,mixed in a drink for her husband to drink
-6,null,null,wait for him to fall asleep
-7,null,null,picks up the scissors
+6,null,null,waited for him to fall asleep
+7,null,null,pickde up the scissors
 8,null,null,lying in the hospital bed
-9,null,null,man says I don't hate her surprise
-10,null,null,Han in a hospital bed
-11,null,null,does not show anger or despair
-12,null,null,on Zhang's chest
-13,null,null,with a big heart tattoo
-14,null,null,with three words written on it the name of Ai Zhang's wife
+9,null,null,the man said I don't hate her 
+10,null,null,to her surprise
+11,null,null,lying in the hospital bed
+12,null,null,Han didn't show anger or despair
+13,null,null,on Zhang's chest
+14,null,null,there was a big heart tattoo
+15,null,null,with three words the name of Zhang's wife written on it 
 376 14
  (8,7), (9,8), (12,11)
-1,null,null,to find out if the wife is cheating
+1,null,null,to find out if the wife was cheating
 2,null,null,early 2014
-3,null,null,Zhang secretly installed a camera in his home behind Hu's back
+3,null,null,Zhang secretly installed a camera in the home behind Hu's back
 4,null,null,not long after
-5,null,null,Hu found the extra camera in his home
+5,null,null,Hu found the extra camera in the home
 6,null,null,and therefore quarreled with Zhang
-7,null,null,in an argument
-Zhang said that the camera was installed in order to find out whether Hu cheated
-9,anger gas Hu Mou more think more gas
+7,null,null,in the argument
+8,anger,angry,angry Zhang said that the camera was installed in order to find out whether Hu cheated
+9,anger,angry,the more Hu thought about it the more angry she became
 10,null,null,ran to the court to Sue for divorce
-11,null,null,see wife for real
-12,Zhang was in tears with fear
-13,null,null,apologize to Hu
+11,null,null,seeing his wife for real
+12,fear,fear,Zhang was in tears with fear
+13,null,null,apologized to Hu
 14,null,null,the wife forgave him
 379 10
- (4)
+ (4,4)
 1,null,null,at 1:00 a.m. on February 5
-2,null,null,Xia who lives in Dongzi village Cold Water Town surrendered to the public security organs under pressure
+2,null,null,Xia who lived in Dongzi village Lengshui Town surrendered to the public security organs under pressure
 3,null,null,after investigation
-4,disgust Disgust have a grudge Xia confesses to having a grudge due to suspicion of an affair between Wang and his wife
-5,null,null,that day heard that his wife and Wang together after
-6,null,null,so drive around looking for
-7,null,null,22 hours
-8,null,null,stop Wang on National Road 316 Niujiao Village Chengguan Town
-9,null,null,Xia is with a knife to Wang's head shoulders back arms and other places cut
+4,disgust,grudge,Xia said that he suspected Wang and his wife had an affair with a grudge
+5,null,null,that day after hearing that his wife and Wang were together 
+6,null,null,drove around looking for
+7,null,null,about 22 o'clock
+8,null,null,stopped Wang on National Road 316 Niujiao Village Chengguan Town
+9,null,null,Xia then used a knife to cut Wang's head shoulders back arms and other places
 10,null,null,at present the suspect Xia has been detained
 380 6
  (5,3), (5,4)
@@ -4849,16 +4856,16 @@ Zhang said that the camera was installed in order to find out whether Hu cheated
 2,null,null,also partly because of emotional disputes
 3,null,null,Qiu Xinghua quarreled with the management of the Taoist temple
 4,null,null,and believed that the abbot of the Taoist temple had molested his wife
-5,anger anger therefore the heart is angry
-6,null,null,producing evil thoughts of killing people and destroying temples
+5,anger,anger,therefore out of anger
+6,null,null,had evil thoughts of killing people and destroying temples
 381 12
  (6,6)
 1,null,null,he gave the reporter an example
-2,null,null,a woman chatting via QQ and wechat
-3,null,null,love grows day by day
-4,null,null,with the child ran to Shanyang and netizens to live
-5,null,null,the public security police quickly help find
-6) fear that the child will be abducted
+2,null,null,a woman chatted via QQ and wechat
+3,null,null,love grew day by day
+4,null,null,with the child ran to Shanyang and lived with her net friend 
+5,null,null,the public security police quickly helped find
+6,fear,worried,worried that the child would be abducted
 7,null,null,the reporter found a member of the army of women left behind in the village -- Ms Qian
 8,null,null,she has two children at home
 9,null,null,eldest is son 9 years old
@@ -4870,118 +4877,118 @@ Zhang said that the camera was installed in order to find out whether Hu cheated
 1,null,null,the man is not home
 2,null,null,no help
 3,null,null,do you feel a little lonely
-4,null,null,the reporter asks
+4,null,null,the reporter asked
 5,null,null,haven't thought that far yet
 6,null,null,the baby is my hope
 7,null,null,I hope they do something
 8,null,null,leave this mountain village
-9,null,null,living in the big city just like you
-10,null,null,watch the kids
-11,happiness gratified Ms Qian smiled with relief
+9,null,null,live in big cities just like you
+10,null,null,watching the kids
+11,happiness,relief,Ms Qian smiled with relief
 383 6
  (4,3)
-1,null,null,alias of Ah Jin deputy head of the mining area of a coal mine in Huaibei Anhui Province
-2,null,null,will be ten years younger than his lover Xiaoya Huaming stabbed to death after cutting her throat to commit suicide
+1,null,null,A Jin under an alias deputy head of the mining area of a coal mine in Huaibei Anhui Province
+2,null,null,stabbed his lover Xiao Ya under an alias who was ten years younger than him to death and then slit his throat to commit suicide
 3,null,null,after the throat was slit
-4,fear fear Akin is afraid again
+4,fear,fearful,A Jin was fearful
 5,null,null,so he wrote 120 on the road with his bloody hand
-6,null,null,and to the passer-by for help
+6,null,null,and asked the passers-by for help
 384 12
  (7,7)
 1,null,null,due to worsening condition
 2,null,null,as early as January 28
 3,null,null,Yao Wangzhou was admitted to intensive care
-Four,null,null. Hospital rules
-5,null,null,daily visiting hours are 2:00 to 3:00 p.m
+4,null,null,there are rules in hospital
+5,null,null,daily visiting hours are 2:00 to 3:00 p.m.
 6,null,null,for one hour only
-7,sadness regret I really regret sending him in there
+7,sadness,regret,I really regret sending him there
 8,null,null,the last days
-9,null,null,he's so lonely
-10,null,null,if loved ones are around
-11,null,null,his heart will be a little more comfortable
+9,null,null,he was so lonely
+10,null,null,if loved ones were around
+11,null,null,his heart would be a little more comfortable
 12,null,null,maybe he won't go so early
 385 10
  (10,9)
-1,null,null,I regret sending him in there
+1,null,null,I really regret sending him in there
 2,null,null,the last days
-3,null,null,he's so lonely
-4,null,null,if loved ones are around
-5,null,null,his heart will be a little more comfortable
+3,null,null,he was so lonely
+4,null,null,if loved ones were around
+5,null,null,his heart would be a little more comfortable
 6,null,null,maybe he won't go so early
 7,null,null,but
-8,null,null,Gao Min can't help it
+8,null,null,Gao Min couldn't help it
 9,null,null,looking at the increasingly haggard Yao Wangzhou
-10,fear fear she is afraid
+10,fear,afraid,she was afraid
 386 14
  (10,9)
 1,null,null,the other day
 2,null,null,famous poet Shu Ting came to Lanxi
 3,null,null,specially came to visit Yao Wangzhou
 4,null,null,also gave Gao Min a book of poetry
-5,null,null,it says wish Gao Min Yao Wangzhou happy and happy every day
-6,null,null,the book of poetry wrote my name and Wangzhou
+5,null,null,it says wish Gao Min Yao Wangzhou happy every day
+6,null,null,the book of poetry writes Wangzhou and my names
 7,null,null,it means a lot to us
 8,null,null,said Gao Min
 9,null,null,I often read poems to Wangzhou
-10,happiness he is very happy
+10,happiness,happy,he is very happy
 11,null,null,Gao Min carries a notebook with him
 12,null,null,this is specially prepared for Yao Wangzhou
-13,null,null. On one of the pages was a scrawl
+13,null,null,one of the pages is a scrawl
 14,null,null,indistinguishable three words I love you
 387 13
  (7,6), (11,10)
 1,null,null,Li Min sees Xing Dawei's clothes on the ground
 2,null,null,she helps clean up
-3,null,null,accidentally saw the phone in the pocket
+3,null,null,accidentally sees the phone in the pocket
 4,null,null,she takes out her phone out of curiosity and looks through it
 5,null,null,only to find the phone turned off
 6,null,null,how can a businessman turn off his phone on a normal day
-7,disgust got suspicious Limin suddenly got suspicious
+7,disgust,gets suspicious,Limin suddenly gets suspicious
 8,null,null,Xing Dawei's phone boot password is Li Min's birthday
 9,null,null,Li Min opens the phone smoothly
-10,null,null,she found several ambiguous messages in wechat
-11 she couldn't help but get angry
-12,null,null,think of all you've done for him
-13,null,null,he's having an affair with another woman
+10,null,null,she find several ambiguous messages in wechat
+11,anger,angry,she can't help but get angry
+12,null,null,thinking of all she has done for him
+13,null,null,he is having an affair with another woman
 389 12
  (9,7), (9,8)
-1,null,null,and a heated argument ensues between the two
+1,null,null,a heated argument ensues between the two
 2,null,null,Xing Dawei can't stand Li Min's scolding
-3,null,null,raise your voice in response What good thing do you think you are
+3,null,null,raises his voice in response what good thing do you think you are
 4,null,null,you're not my wife either
 5,null,null,even though you're my wife
 6,null,null,it doesn't matter to me
-7,null,null,Rimin thought of her feelings being cheated
-8,null,null,and left him with a huge debt
-9,anger in the heat of the moment
-10,null,null,Rimin rushes into the kitchen
-11,null,null,grab a paring knife about thirty centimeters long
-12,null,null,stab Xing Dawei
+7,null,null,Li Min thinks of her feelings being cheated
+8,null,null,and leaves him with huge debts
+9,anger,wrath,under the wrath
+10,null,null,Li Min rushes into the kitchen
+11,null,null,grabs a fruit knife about thirty centimeters long
+12,null,null,stabs Xing Dawei
 390 9
  (7,6)
-1,null,null,Rimin sees the gap
-2,null,null,close your eyes and stab through
+1,null,null,Li Min sees a gap
+2,null,null,closes her eyes and stabs through
 3,null,null,pulls the knife out again
 4,null,null,this knife hits Xing Dawei in the upper abdomen
 5,null,null,Xing bends over
-6,null,null,cover the wound with your hand
-7,sadness pain then fall to the ground moaning in pain
-8,null,null,and begged Li Min fast
-9,null,null,help me
+6,null,null,covers the wound with his hands
+7,sadness,pain,then falls to the ground moaning in pain
+8,null,null,and begs Li Min
+9,null,null,save me quickly
 391 6
  (1,1), (5,4)
-Limin was also petrified by what was happening
+1,fear,petrified,Li Min was also petrified by what was happening
 2,null,null,she hurriedly dropped the knife in her hand
 3,null,null,covering Xing's wound with a towel
-4,null,null,see still unable to stop the bleeding
-5,fear Limin is afraid
-6,null,null,hurriedly asked her daughter to get her mobile phone and call 110 to the police
+4,null,null,seeing still unable to stop the bleeding
+5,fear,fearful,Li Min was fearful
+6,null,null,hurriedly asked her daughter to get her mobile phone and called 110 to the police
 393 8
  (4,3)
-1,null,null,prosecutor facing arraignment
-2,null,null,Rimin cried herself speechless several times
-3,null,null,she mumbles I really don't want him dead
-4) sadness regret I regret it so much
+1,null,null,facing the arraigned prosecutor
+2,null,null,Li Min cried herself speechless several times
+3,null,null,she mumbled I really don't want him dead
+4,sadness,regret,I regret it so much
 5,null,null,this affair is really playing with fire
 6,null,null,I'm sorry for my parents
 7,null,null,sorry for my husband and family
@@ -4989,79 +4996,79 @@ Limin was also petrified by what was happening
 394 11
  (9,10), (9,11)
 1,null,null,around 1 a.m. on the 28th
-2,null,null,when Wenting and his colleagues arrived at the couple's house
+2,null,null,when Wang Ting and his colleagues arrived at the couple's house
 3,null,null,Zhou Li has also gone home
 4,null,null,the child was sent back by Zhou Li's friend
-5,null,null,he also called Zhou Li to persuade him to return home
-6,null,null,let Wang Ting and colleagues worried
-7,null,null,Zhou Li's 2 and a half year old son has fallen asleep with tears
-8,null,null,11-year-old daughter is still crying
-9,fear fear the girl is scared
-10,null,null,she's worried about her parents fighting
+5,null,null,he also called to persuade Zhou Li to return home
+6,null,null,what made Wang Ting and colleagues anxious was that
+7,null,null,Zhou Li's two and a half year old son had fallen asleep with tears
+8,null,null,11-year-old daughter was still crying
+9,fear,scared,the girl was scared
+10,null,null,she was worried about her parents fighting
 11,null,null,more worried about being dropped again
 395 8
  (5,4)
 1,null,null,Ms Zhang said she threatened me hysterically every day
 2,null,null,she says my husband doesn't go or she dies on my doorstep
 3,null,null,my husband has a soft spot
-4,null,null. She gave in when she said she was going to die
-5) disgust disgust Disgust and Ms Zhang is disgusted by this
+4,null,null,he gave in when she said she was going to die
+5,disgust,distressed,Ms Zhang was distressed by this
 6,null,null,under the constant persuasion of the police
 7,null,null,Ms Zhang finally calmed down
-8,null,null,and thank the police help
+8,null,null,and thanked the police for their help
 396 16
  (15,14)
 1,null,null,as the only child in the family
 2,null,null,Wang Qing is not short of money
-3,null,null,no shortage of rooms
+3,null,null,not short of houses
 4,null,null,but she's taking real estate material very lightly
 5,null,null,that is the hard work of the parents
 6,null,null,I just inherit
 7,null,null,if I don't work
 8,null,null,is gnawing old
 9,null,null,said Wang Qing
-10,null,null,her parents have taught her since she was a child
+10,null,null,her parents have been teaching her since she was a child
 11,null,null,do not take pleasure
 12,null,null,be thrifty
 13,null,null,Wang Qing's parents have been retired for a few years
 14,null,null,always keep working
-15,happiness admire I especially admire them
+15,happiness,admire,I especially admire them
 16,null,null,also follow their example
 397 7
  (5,4)
 1,null,null,in life
 2,null,null,without flowers and coffee
 3,null,null,Valentine's Day 2014
-4,null,null,Chen Hua spent 300 yuan on a big bunch of blue demons
-5,My wife is very happy
+4,null,null,Chen Hua spent 300 yuan on a big bunch of blue enchantress
+5,happiness,happy,the wife was very happy
 6,null,null,and then bought a high-end cafe membership card
 7,null,null,they often go there
 398 7
  (2,1)
-1,null,null,meticulously planned date gone bad
-2,Xiao Wang is very sad
+1,null,null,meticulously planned date has gone bad
+2,sadness,sad,Xiao Wang is very sad
 3,null,null,it's raining heavily outside the car
-4,null,null,he couldn't help crying in the car
+4,null,null,he can't help crying in the car
 5,null,null,mixed emotions of anger and grievance
 6,null,null,he's honking his car horn
 7,null,null,venting his frustration
 399 6
  (1,1)
-1,happiness just when Dai Hua is happy that the search has narrowed down
-2,null,null,a difficult thing to get around my mind
+1,happiness,happy,just when Dai Hua is happy that the search has narrowed down
+2,null,null,a difficult thing to get around the mind
 3,null,null,I have identified two people now
-4,null,null,one of them must be Lee Enke's biological father
+4,null,null,one of them must be Li Enke's biological father
 5,null,null,but if I call the other person
-6,null,null,something is going to happen
+6,null,null,something is bound to happen
 400 10
  (5,4), (9,7), (9,8)
 1,null,null,in a 25-minute phone call and video
-2,null,null,the primary concern of daughters and mothers
+2,null,null,the daughter and mother are most concerned about
 3,null,null,when will Kong Qinghe go back to see them
-4,null,null,that is these ordinary words
-5,happiness touched touched all the people in the scene
+4,null,null,it is also these ordinary words
+5,happiness,touch,that touch all the people in the scene
 6,null,null,now I also become a grandfather
-7,null,null,I know my daughter is married
-8,null,null,and after giving birth to the baby
-9,happiness excitement Kong Qinghe is very excited
-10,null,null,said that these are the Longchuan Central police station police credit
+7,null,null,after knowing my daughter is married
+8,null,null,and giving birth to a baby
+9,happiness,excited,Kong Qinghe is very excited
+10,null,null,said that all these were the credit of the police at the Longchuan Central Police Station
