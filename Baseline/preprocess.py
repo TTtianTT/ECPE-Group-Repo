@@ -6,7 +6,7 @@ import csv
 cause_conn = []  # Set cause_conn
 
 # Load connectives info
-with open ('cause_conn_modified.txt', 'r', encoding='utf-8') as f:
+with open ('data/cause_conn_modified.txt', 'r', encoding='utf-8') as f:
     line = f.readline()
     while line:
         for word in line.split(','):
@@ -14,16 +14,16 @@ with open ('cause_conn_modified.txt', 'r', encoding='utf-8') as f:
         line = f.readline()
 
 # Init csv for recording result
-with open ('pairs.csv', 'w', encoding='utf-8', newline='') as f:
+with open ('data/pairs.csv', 'w', encoding='utf-8', newline='') as f:
             csv_writer = csv.writer(f)
             csv_writer.writerow(['section', 'emo_clause_index', 'cau_candidate_index', 'emotion_clause', 'cause_candidate', 'correctness'])
 
 # Init csv for recording raw
-with open ('discourse.csv', 'w', encoding='utf-8', newline='') as f:
+with open ('data/discourse.csv', 'w', encoding='utf-8', newline='') as f:
             csv_writer = csv.writer(f)
             csv_writer.writerow(['section', 'discourse', 'word_count', 'doc_len', 'clause_len', 'emotion_pos', 'cause_pos'])
 
-with open ('all_data_pair.txt', 'r', encoding='utf-8') as f:  # Encode by utf-8 for Chinese
+with open ('data/all_data_pair.txt', 'r', encoding='utf-8') as f:  # Encode by utf-8 for Chinese
     sec = f.readline()  # Read section ID and length
 
     # For each section
@@ -74,7 +74,7 @@ with open ('all_data_pair.txt', 'r', encoding='utf-8') as f:  # Encode by utf-8 
                 cau_index.append([])
             cau_index[emo_index.index(pair[0])].append(pair[1])  # pair[1] = cau_index
 
-        with open ('discourse.csv', 'a', encoding='utf-8', newline='') as g:
+        with open ('data/discourse.csv', 'a', encoding='utf-8', newline='') as g:
             csv_writer = csv.writer(g)
             csv_writer.writerow([section, refined_content, word_count, length, sentence_len, emo_index, cau_index])
 
@@ -107,6 +107,7 @@ with open ('all_data_pair.txt', 'r', encoding='utf-8') as f:  # Encode by utf-8 
             if refined_content[i] == '':
                 refined_content[i] = '[UNK]'
 
+        '''
         # For each emo_clause
         # Construct paris
         correctness = ''
@@ -122,7 +123,7 @@ with open ('all_data_pair.txt', 'r', encoding='utf-8') as f:  # Encode by utf-8 
                         correctness = 'true'
                     
                     # Write result in csv
-                    with open ('pairs.csv', 'a', encoding='utf-8', newline='') as g:
+                    with open ('data/test/pairs.csv', 'a', encoding='utf-8', newline='') as g:
                         csv_writer = csv.writer(g)
                         csv_writer.writerow([section, emo_clause_index, cau_candidate_index, emotion_clause, cause_candidate, correctness])
 
@@ -135,8 +136,27 @@ with open ('all_data_pair.txt', 'r', encoding='utf-8') as f:  # Encode by utf-8 
                 correctness = 'true'
             
             # Write result in csv
-            with open ('pairs.csv', 'a', encoding='utf-8', newline='') as g:
+            with open ('data/test/pairs.csv', 'a', encoding='utf-8', newline='') as g:
                 csv_writer = csv.writer(g)
                 csv_writer.writerow([section, emo_clause_index, cau_candidate_index, emotion_clause, cause_candidate, correctness])
-                
+        '''
+        
+        # For each emo_clause
+        # Construct paris
+        correctness = ''
+        for emo_clause_index in emo_index:
+            for i in range(length):
+                cau_candidate_index = i + 1
+                # pairs = '[CLS]' + refined_content[emo_clause_index - 1] + '[SEP]' + '[MASK]' + refined_content[i] + '[SEP]'
+                emotion_clause = refined_content[emo_clause_index - 1]
+                cause_candidate = refined_content[i]
+                correctness = 'false'
+                if i + 1 in cau_index[emo_index.index(emo_clause_index)]:
+                    correctness = 'true'
+                    
+                # Write result in csv
+                with open ('data/pairs.csv', 'a', encoding='utf-8', newline='') as g:
+                    csv_writer = csv.writer(g)
+                    csv_writer.writerow([section, emo_clause_index, cau_candidate_index, emotion_clause, cause_candidate, correctness])
+        
         sec = f.readline()  # Read following section length
