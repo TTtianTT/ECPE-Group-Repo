@@ -100,13 +100,13 @@ def main(configs, dataloader, tokenizer):
                     emo_cau_ans[int(doc_len) * i + cause_pos[i][j] - 1] = 1
             emo_cau_ans_mask = torch.ones(len(emotion_pos) * doc_len)
 
-            emo_pred = model(discourse, discourse_mask.unsqueeze(0), segment_mask.unsqueeze(0), query_len, clause_len, emotion_pos, cause_pos, doc_len, discourse_adj, 'emo')
-            # emo_cau_pred = model(discourse, discourse_mask.unsqueeze(0), segment_mask.unsqueeze(0), query_len, emotion_pos, cause_pos, doc_len, discourse_adj, 'emo_cau')
+            emo_pred = model(discourse, discourse_mask.unsqueeze(0), segment_mask.unsqueeze(0), query_len, clause_len, emotion_pos, cause_pos, doc_len, discourse_adj, conn, 'emo')
+            emo_cau_pred = model(discourse, discourse_mask.unsqueeze(0), segment_mask.unsqueeze(0), query_len, clause_len, emotion_pos, cause_pos, doc_len, discourse_adj, conn, 'emo_cau')
 
             loss_emo = model.loss_pre_emo(emo_pred, emo_ans, emo_ans_mask)
-            # loss_emo_cau = model.loss_emo_cau(emo_cau_pred, emo_cau_ans, emo_cau_ans_mask)
-            # loss = loss_emo + loss_emo_cau
-            loss_emo.backward()
+            loss_emo_cau = model.loss_emo_cau(emo_cau_pred, emo_cau_ans, emo_cau_ans_mask)
+            loss = loss_emo + loss_emo_cau
+            loss.backward()
 
             if train_step % configs.gradient_accumulation_steps == 0:
                 optimizer.step()
@@ -114,10 +114,10 @@ def main(configs, dataloader, tokenizer):
                 model.zero_grad()
 
             if train_step % 1 == 0:
-                print('epoch: {}, step: {}, loss_emo: {}'
-                    .format(epoch, train_step, loss_emo))
-                # print('epoch: {}, step: {}, loss_emo: {}, loss_emo_cau: {}, loss: {}'
-                #     .format(epoch, train_step, loss_emo, loss_emo_cau, loss))
+                # print('epoch: {}, step: {}, loss_emo: {}'
+                #     .format(epoch, train_step, loss_emo))
+                print('epoch: {}, step: {}, loss_emo: {}, loss_emo_cau: {}, loss: {}'
+                    .format(epoch, train_step, loss_emo, loss_emo_cau, loss))
 
     return None
 
