@@ -74,9 +74,13 @@ with open ('data/all_data_pair.txt', 'r', encoding='utf-8') as f:  # Encode by u
                 cau_index.append([])
             cau_index[emo_index.index(pair[0])].append(pair[1])  # pair[1] = cau_index
 
+        merged_content = ''
+        for item in refined_content:
+            merged_content += item
+        
         with open ('data/discourse.csv', 'a', encoding='utf-8', newline='') as g:
             csv_writer = csv.writer(g)
-            csv_writer.writerow([section, refined_content, word_count, length, sentence_len, emo_index, cau_index])
+            csv_writer.writerow([section, merged_content, word_count, length, sentence_len, emo_index, cau_index])
 
         # Delete original connectives
         for i in range(length):

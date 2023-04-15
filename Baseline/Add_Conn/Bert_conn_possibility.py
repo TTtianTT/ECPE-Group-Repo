@@ -12,7 +12,7 @@ condition_conn = []
 restatement_conn = []
 candidate_conn = []
 line_count = 0
-with open ('specified_conn.txt', 'r', encoding='utf-8') as f:
+with open ('../data/specified_conn.txt', 'r', encoding='utf-8') as f:
     line_count += 1
     line = f.readline()
     while line:
@@ -32,10 +32,10 @@ with open ('specified_conn.txt', 'r', encoding='utf-8') as f:
         line = f.readline()
 
 # Load dataset
-df = pd.read_csv('pairs.csv')
+df = pd.read_csv('../data/test/pairs.csv')
 
 # Init csv of result
-with open ('pairs_withconn&possibility.csv', 'w', encoding='utf-8', newline='') as f:
+with open ('../data/test/pairs_withconn&possibility.csv', 'w', encoding='utf-8', newline='') as f:
     csv_writer = csv.writer(f)
     csv_writer.writerow(['section', 'emo_clause_index', 'cau_candidate_index', 'emotion_clause', 'cause_candidate', 'conn_words', 'possibility_distribution', 'correctness', 'cause_conn_possibility', 'contrast_conn_possibility', 'conjunction_conn_possibility', 'condition_conn_possibility', 'restatement_conn_possibility'])
 
@@ -98,6 +98,6 @@ for i in range(len(df)):
     cause_conn_possibility, contrast_conn_possibility, conjunction_conn_possibility, condition_conn_possibility, restatement_conn_possibility = np.sum(possibility_distribution[0:4]), np.sum(possibility_distribution[4:8]), np.sum(possibility_distribution[8:12]), np.sum(possibility_distribution[12:16]), np.sum(possibility_distribution[16:20])
 
     # Write result in csv
-    with open ('pairs_withconn&possibility.csv', 'a', encoding='utf-8', newline='') as g:
+    with open ('../data/test/pairs_withconn&possibility.csv', 'a', encoding='utf-8', newline='') as g:
         csv_writer = csv.writer(g)
         csv_writer.writerow([section, emo_clause_index, cau_candidate_index, emotion_clause, cause_candidate, candidate_conn, possibility_distribution, correctness, cause_conn_possibility, contrast_conn_possibility, conjunction_conn_possibility, condition_conn_possibility, restatement_conn_possibility])

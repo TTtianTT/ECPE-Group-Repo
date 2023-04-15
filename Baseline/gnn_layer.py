@@ -36,7 +36,6 @@ class GraphAttentionLayer(nn.Module):
 
     def forward(self, feat_in, adj=None):
         batch, N, in_dim = feat_in.size()
-        print('feat_in.size()',feat_in.size())
         assert in_dim == self.in_dim
 
         feat_in_ = feat_in.unsqueeze(1)
@@ -48,16 +47,8 @@ class GraphAttentionLayer(nn.Module):
         attn = F.leaky_relu(attn, self.leaky_alpha, inplace=True)
 
         adj = torch.FloatTensor(adj).unsqueeze(0).to(DEVICE)
-        print('adj.size()',adj.size())
-        print(adj)
         mask = 1 - adj.unsqueeze(1)
-        print('attn', attn)
-        print(attn.size())
-        print('mask',mask)
-        print(mask.size())
-        print(mask.bool())
         attn.data.masked_fill_(mask.bool(), -999)
-        print('我试试')
 
         attn = F.softmax(attn, dim=-1)
         feat_out = torch.matmul(attn, h) + self.b

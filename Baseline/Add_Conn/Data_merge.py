@@ -9,13 +9,13 @@ connLists = []
 header = 0
 
 for i in range(len(df_discourse)):
-    discourse_connLists = []
+    discourse_connLists = ''
     for j in range(len(eval(df_discourse['emotion_pos'][i]))):
-        emotion_connList = []
+        emotion_connList = ''
         for k in range(int(df_discourse['doc_len'][i])):
-            emotion_connList.append(df_pairs['conn'][header])
+            emotion_connList += df_pairs['conn'][header]
             header += 1
-        discourse_connLists.append(emotion_connList)
+        discourse_connLists += emotion_connList
     connLists.append(discourse_connLists)
 
 df_discourse['conn'] = connLists

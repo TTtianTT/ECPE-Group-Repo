@@ -3,7 +3,6 @@
         Only section 1577 and section 1578 not satisfy, maybe delete them
     1.2 Use json instead of csv
     1.3 Make fold check, maybe 10 fold
-    1.4 (Need discussion) Add [CLS] in the front of discourses.
 2.Sentiment classification
     2.1 Multi-Sentiment in one discourse enhancement. Origin method may have a consequense of different number of one-hot vectors in evaluate stage.
 3.Bert connectives embedding
