@@ -21,7 +21,7 @@ with open ('data/pairs.csv', 'w', encoding='utf-8', newline='') as f:
 # Init csv for recording raw
 with open ('data/discourse.csv', 'w', encoding='utf-8', newline='') as f:
             csv_writer = csv.writer(f)
-            csv_writer.writerow(['section', 'discourse', 'word_count', 'doc_len', 'clause_len', 'emotion_pos', 'cause_pos'])
+            csv_writer.writerow(['section', 'discourse', 'word_count', 'doc_len', 'clause_len', 'emotion_pos', 'cause_pos', 'true_pairs'])
 
 with open ('data/all_data_pair.txt', 'r', encoding='utf-8') as f:  # Encode by utf-8 for Chinese
     sec = f.readline()  # Read section ID and length
@@ -80,7 +80,7 @@ with open ('data/all_data_pair.txt', 'r', encoding='utf-8') as f:  # Encode by u
         
         with open ('data/discourse.csv', 'a', encoding='utf-8', newline='') as g:
             csv_writer = csv.writer(g)
-            csv_writer.writerow([section, merged_content, word_count, length, sentence_len, emo_index, cau_index])
+            csv_writer.writerow([section, merged_content, word_count, length, sentence_len, emo_index, cau_index, pairs_index])
 
         # Delete original connectives
         for i in range(length):

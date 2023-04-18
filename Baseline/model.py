@@ -160,29 +160,23 @@ class Pre_Predictions_emo_cau(nn.Module):
         self.feat_dim = 768
         self.out_emo_cau = nn.Linear(self.feat_dim, 1)
         self.bert = BertModel.from_pretrained(configs.bert_cache_path)
-
+ 
     def forward(self, doc_sents_h, emotion_pos, doc_len, conn):
-        # Embedding conn
-        conn_embedding = torch.zeros([len(conn), self.feat_dim]).to(DEVICE)
-        for i in range(len(conn)):
-            segment_ids = torch.tensor([[0]]).to(DEVICE)
-            inputs = torch.tensor(conn[0][i]).unsqueeze(0).unsqueeze(0).to(DEVICE)
-            layers, output = self.bert(inputs, segment_ids)
-            conn_embedding[i] = pooled_output
-        # conn_embedding = torch.tensor([self.bert(**conn[i]).pooler_output for i in range(len(conn))])
-        # bs=1
-        conn_embedding = conn_embedding.unsqueeze(-1)
-        
-        pairs_sents_h = torch.zeros([1, len(emotion_pos)*doc_len, self.feat_dim, 3]).to(DEVICE)
-        pairs_sents_h = pairs_sents_h.permute(3, 1, 2, 0)
-        doc_sents_h = doc_sents_h.permute(1, 2, 0)
+        doc_sents_h_2d = doc_sents_h.squeeze(0)  # bs = 1
+        mask = torch.tensor([1] + [0] * 511)
+        segement = torch.tensor([0] * 512)
+        pairs_h = torch.tensor([])
         for i in range(len(emotion_pos)):
             for j in range(doc_len):
-                pairs_sents_h[0][i * doc_len + j] = doc_sents_h[emotion_pos[i] - 1]
-                pairs_sents_h[1][i * doc_len + j] = conn_embedding[i * doc_len + j]
-                pairs_sents_h[2][i * doc_len + j] = doc_sents_h[j]
-        pairs_sents_h = pairs_sents_h.permute(3, 1, 2, 0)
-        pairs_sents_h = nn.Linear(3, 1)(pairs_sents_h).squeeze(-1)
-        pred_emo_cau = self.out_emo_cau(pairs_sents_h).squeeze(-1)  # bs, max_doc_len, 1
+                pos = i * doc_len + j
+                inputs = conn[0][pos].unsqueeze(0).unsqueeze(0)
+                conn_embedding = self.bert(inputs.to(DEVICE), mask.to(DEVICE), segement.to(DEVICE))[0]
+                pair_h = torch.stack([doc_sents_h_2d[emotion_pos[i] - 1], conn_embedding, doc_sents_h_2d[j]], dim=-1)
+                pair_h = nn.Linear(3, 1)(pair_h).unsqueeze(-1)
+                if pairs_h == torch.tensor([]):
+                    pairs_h = pair_h
+                else:
+                    pairs_h = torch.concatenate([pairs_h, pair_h], dim=-1)
+        pred_emo_cau = self.out_emo_cau(pairs_h).squeeze(-1)  # bs, max_doc_len, 1
         pred_emo_cau = torch.sigmoid(pred_emo_cau)
         return pred_emo_cau # shape: bs , emo_num, max_doc_len
