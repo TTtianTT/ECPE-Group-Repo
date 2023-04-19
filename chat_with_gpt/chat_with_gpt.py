@@ -1,4 +1,5 @@
 import openai
+import pickle
 import time
 
 openai.api_key = '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'
@@ -56,3 +57,8 @@ while True:
     print(prompt)
 
 file.close()
+
+with open('trues.pkl', 'wb') as f:
+    pickle.dump(trues, f)
+with open('preds.pkl', 'wb') as f:
+    pickle.dump(preds, f)
