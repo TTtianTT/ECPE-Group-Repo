@@ -55,12 +55,6 @@ class BertEncoder(nn.Module):
         self.fc = nn.Linear(768, 1)
 
     def forward(self, discourse, discourse_mask, segment_mask, query_len, clause_len, doc_len):
-        # print(isinstance(discourse,torch.tensor))
-        # print(isinstance(discourse_mask,list))
-        # print(isinstance(segment_mask,list))
-        # print('discourse.to(DEVICE)',discourse.to(DEVICE))
-        # print(discourse_mask.to(DEVICE))
-        # print(segment_mask.to(DEVICE))
         hidden_states = self.bert(input_ids=discourse.to(DEVICE),
                                   attention_mask=discourse_mask.to(DEVICE),
                                   token_type_ids=segment_mask.to(DEVICE))[0]
@@ -71,19 +65,16 @@ class BertEncoder(nn.Module):
         alpha.data.masked_fill_(mask_doc.bool(), -9e5)
         alpha = F.softmax(alpha, dim=-1).unsqueeze(-1).repeat(1, 1, 1, hidden_states.size(-1))
         hidden_states = torch.sum(alpha * hidden_states, dim=2) # bs, max_doc_len, 768
-        # print(hidden_states.shape)
 
-        # doc_sents_h = torch.cat((query_state, hidden_states), dim=-1)
         return hidden_states.to(DEVICE)
 
     def get_sentence_state(self, hidden_states, query_lens, clause_lens, doc_len):
-        # 对问题的每个token做注意力，获得问题句子的向量表示；对文档的每个句子的token做注意力，得到每个句子的向量表示
+        # 对文档的每个句子的token做注意力，得到每个句子的向量表示
         sentence_state_all = []
         mask_all = []
         max_clause_len = 0
         clause_lens = eval(clause_lens[0])
         clause_lens = [clause_lens]
-        # print('clause_lens',clause_lens)
 
         for clause_len in clause_lens: # 找出最长的一句话包含多少token
             for l in clause_len:
@@ -111,7 +102,6 @@ class BertEncoder(nn.Module):
                 sentence_state = torch.cat([sentence_state, padding.to(DEVICE)], dim=0)
             sentence_state_all.append(sentence_state.unsqueeze(0))
             mask_all.append(mask)
-            # print(mask_all)
         sentence_state_all = torch.cat(sentence_state_all, dim=0).to(DEVICE)
         mask_all = torch.tensor(mask_all).to(DEVICE)
         return sentence_state_all, mask_all
@@ -134,13 +124,9 @@ class GraphNN(nn.Module):
 
     def forward(self, doc_sents_h, doc_len, adj):
         batch, max_doc_len, _ = doc_sents_h.size()
-        # print('batch',batch)
-        # print('doc_len',doc_len)
-        # print('max_doc_len',max_doc_len)
         assert max(doc_len) == max_doc_len
         for i, gnn_layer in enumerate(self.gnn_layer_stack):
             doc_sents_h = gnn_layer(doc_sents_h, adj)
-        # print('doc_sents_h',doc_sents_h)
         return doc_sents_h
 
 class Pre_Predictions_emo(nn.Module):
@@ -163,24 +149,33 @@ class Pre_Predictions_emo_cau(nn.Module):
         self.bert = BertModel.from_pretrained(configs.bert_cache_path)
  
     def forward(self, doc_sents_h, emotion_pos, doc_len, conn):
-        doc_sents_h_2d = doc_sents_h.squeeze(0)  # bs = 1
+        doc_sents_h_2d = doc_sents_h.squeeze(0)  # shape: batch_size=1, max_doc_len, 768, squeeze dim0
+        # Set single mask for one connective
         mask = torch.tensor([1] + [0] * 511).unsqueeze(0)
         segement = torch.tensor([0] * 512).unsqueeze(0)
+        # Init pairs_h
         pairs_h = torch.tensor([]).to(DEVICE)
         for i in range(len(emotion_pos)):
             for j in range(doc_len):
                 pos = i * doc_len + j
                 inputs = conn[0][pos]
                 inputs = F.pad(inputs, (0, 512 - inputs.size(-1)), 'constant', 0).unsqueeze(0)
+                
+                # Get connective embedding
                 conn_embedding = self.bert(inputs.to(DEVICE), mask.to(DEVICE), segement.to(DEVICE))[0][0][0]
+                
+                # Stack three embeddings for one pair presentation
                 pair_h = torch.stack([doc_sents_h_2d[emotion_pos[i] - 1], conn_embedding, doc_sents_h_2d[j]], dim=-1)
                 pair_h = self.linear_layer(pair_h).unsqueeze(-1)
+                
+                # Concatenate pairs for whole doc answer
                 if pairs_h == torch.Size([]):
                     pairs_h = pair_h
                 else:
                     pairs_h = torch.concatenate([pairs_h, pair_h], dim=-1)
+        
         pairs_h = torch.permute(pairs_h, (1,2,0))
         pred_emo_cau = self.out_emo_cau(pairs_h)  # bs, max_doc_len, 1
         pred_emo_cau = pred_emo_cau.squeeze(-1)
         pred_emo_cau = torch.sigmoid(pred_emo_cau)
-        return pred_emo_cau # shape: bs , emo_num, max_doc_len
+        return pred_emo_cau # shape: bs , emo_num * max_doc_len

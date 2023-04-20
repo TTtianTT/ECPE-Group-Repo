@@ -149,7 +149,7 @@ class Pre_Predictions_emo_cau(nn.Module):
         self.bert = BertModel.from_pretrained(configs.bert_cache_path)
  
     def forward(self, doc_sents_h, emotion_pos, doc_len, conn):
-        doc_sents_h_2d = doc_sents_h.squeeze(0)  # shape: batch_size=1, max_doc_len, 768, squeee dim0
+        doc_sents_h_2d = doc_sents_h.squeeze(0)  # shape: batch_size=1, max_doc_len, 768, squeeze dim0
         # Set single mask for one connective
         mask = torch.tensor([1] + [0] * 511).unsqueeze(0)
         segement = torch.tensor([0] * 512).unsqueeze(0)

@@ -11,6 +11,7 @@ import numpy as np
 import pandas as pd
 import pickle
 from utils.utils import *
+from accelerate import Accelerator
 
 
 '''
