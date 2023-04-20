@@ -159,24 +159,28 @@ class Pre_Predictions_emo_cau(nn.Module):
         super(Pre_Predictions_emo_cau, self).__init__()
         self.feat_dim = 768
         self.out_emo_cau = nn.Linear(self.feat_dim, 1)
+        self.linear_layer = nn.Linear(3, 1)
         self.bert = BertModel.from_pretrained(configs.bert_cache_path)
  
     def forward(self, doc_sents_h, emotion_pos, doc_len, conn):
         doc_sents_h_2d = doc_sents_h.squeeze(0)  # bs = 1
-        mask = torch.tensor([1] + [0] * 511)
-        segement = torch.tensor([0] * 512)
-        pairs_h = torch.tensor([])
+        mask = torch.tensor([1] + [0] * 511).unsqueeze(0)
+        segement = torch.tensor([0] * 512).unsqueeze(0)
+        pairs_h = torch.tensor([]).to(DEVICE)
         for i in range(len(emotion_pos)):
             for j in range(doc_len):
                 pos = i * doc_len + j
-                inputs = conn[0][pos].unsqueeze(0).unsqueeze(0)
-                conn_embedding = self.bert(inputs.to(DEVICE), mask.to(DEVICE), segement.to(DEVICE))[0]
+                inputs = conn[0][pos]
+                inputs = F.pad(inputs, (0, 512 - inputs.size(-1)), 'constant', 0).unsqueeze(0)
+                conn_embedding = self.bert(inputs.to(DEVICE), mask.to(DEVICE), segement.to(DEVICE))[0][0][0]
                 pair_h = torch.stack([doc_sents_h_2d[emotion_pos[i] - 1], conn_embedding, doc_sents_h_2d[j]], dim=-1)
-                pair_h = nn.Linear(3, 1)(pair_h).unsqueeze(-1)
-                if pairs_h == torch.tensor([]):
+                pair_h = self.linear_layer(pair_h).unsqueeze(-1)
+                if pairs_h == torch.Size([]):
                     pairs_h = pair_h
                 else:
                     pairs_h = torch.concatenate([pairs_h, pair_h], dim=-1)
-        pred_emo_cau = self.out_emo_cau(pairs_h).squeeze(-1)  # bs, max_doc_len, 1
+        pairs_h = torch.permute(pairs_h, (1,2,0))
+        pred_emo_cau = self.out_emo_cau(pairs_h)  # bs, max_doc_len, 1
+        pred_emo_cau = pred_emo_cau.squeeze(-1)
         pred_emo_cau = torch.sigmoid(pred_emo_cau)
         return pred_emo_cau # shape: bs , emo_num, max_doc_len

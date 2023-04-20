@@ -9,6 +9,8 @@ from model import Network
 import datetime
 import numpy as np
 import pandas as pd
+import pickle
+from utils.utils import *
 
 
 class Discourse(Dataset):
@@ -19,14 +21,14 @@ class Discourse(Dataset):
         df = pd.read_csv(self.data_path)
         for i in range(len(df)):
             section = int(df['section'][i])
-            discourse = df['discourse'][i]
+            discourse = torch.Tensor(self.tokenizer(df['discourse'][i],padding='max_length',max_length=512)['input_ids']).to(torch.int32)
             word_count = int(df['word_count'][i])
             doc_len = int(df['doc_len'][i])
             clause_len = df['clause_len'][i]
             emotion_pos = df['emotion_pos'][i]
             cause_pos = df['cause_pos'][i]
             true_pairs = df['true_pairs'][i]
-            conn = df['conn'][i]
+            conn = torch.Tensor(self.tokenizer(df['conn'][i],padding='max_length',max_length=512)['input_ids']).to(torch.int32)
             self.discourses_list.append([section, discourse, word_count, doc_len, clause_len, emotion_pos, cause_pos, true_pairs, conn])
 
     def __getitem__(self, item):
@@ -37,8 +39,8 @@ class Discourse(Dataset):
         #         'attention_mask': encoding['attention_mask'].squeeze(),
         #         }
         item = self.discourses_list[item]
-        item[1] = torch.Tensor(self.tokenizer(item[1],padding='max_length',max_length=512)['input_ids']).to(torch.int32)
-        item[8] = torch.Tensor(self.tokenizer(item[7])['input_ids']).to(torch.int32)
+        # item[1] = torch.Tensor(self.tokenizer(item[1],padding='max_length',max_length=512)['input_ids']).to(torch.int32)
+        # item[8] = torch.Tensor(self.tokenizer(item[8],padding='max_length',max_length=512)['input_ids']).to(torch.int32)
         return item
 
     def __len__(self):
@@ -91,12 +93,15 @@ def evaluate_one_batch(configs, batch, model, tokenizer):
     pred_pair_f_pro = []
     pred_emo_single = []
     pred_cau_single = []
+    
+    section = str(section.item())
 
     # step 1
     f_emo_pred = model(discourse, discourse_mask.unsqueeze(0), segment_mask.unsqueeze(0), query_len, clause_len, emotion_pos, cause_pos, doc_len, discourse_adj, conn, 'emo')
+    emo_ans_mask = emo_ans_mask.to(DEVICE)
     temp_emo_f_prob = f_emo_pred.masked_select(emo_ans_mask.bool()).cpu().numpy().tolist()
     for idx in range(len(temp_emo_f_prob)):
-        if temp_emo_f_prob[idx] > 0.99 or (temp_emo_f_prob[idx] > 0.5 and idx + 1 in emo_dictionary[str(section)]):
+        if temp_emo_f_prob[idx] > 0.99 or (temp_emo_f_prob[idx] > 0.5 and idx + 1 in emo_dictionary[section]):
             pred_emo_f.append(idx)
             pred_emo_single.append(idx + 1)
 
@@ -131,11 +136,11 @@ def evaluate_one_batch(configs, batch, model, tokenizer):
         if pair[1] not in pred_cau_final:
             pred_cau_final.append(pair[1])
 
-    metric_e_s, metric_c_s, _ = cal_metric(pred_emo_single, true_emo, pred_cau_single, true_cau, pred_pair_final,
-                                           true_pairs, doc_len)
+    # metric_e_s, metric_c_s, _ = cal_metric(pred_emo_single, true_emo, pred_cau_single, true_cau, pred_pair_final,
+    #                                        true_pairs, doc_len)
     metric_e, metric_c, metric_p = \
         cal_metric(pred_emo_final, true_emo, pred_cau_final, true_cau, pred_pair_final, true_pairs, doc_len)
-    return metric_e, metric_c, metric_p, metric_e_s, metric_c_s
+    return metric_e, metric_c, metric_p
 
 
 def evaluate(configs, test_loader, model, tokenizer):
@@ -151,7 +156,7 @@ def evaluate(configs, test_loader, model, tokenizer):
     eval_emo = eval_func(all_emo)
     eval_cau = eval_func(all_cau)
     eval_pair = eval_func(all_pair)
-    return eval_emo, eval_cau, eval_pair, eval_emo_s, eval_cau_s
+    return eval_emo, eval_cau, eval_pair
 
 
 def main(configs, train_loader, test_loader, tokenizer):
@@ -177,12 +182,19 @@ def main(configs, train_loader, test_loader, tokenizer):
 
     # training
     model.zero_grad()
-    early_stop_flag = None
+    max_result_pair, max_result_emo, max_result_cau = None, None, None
+    max_result_emos, max_result_caus = None, None
+    early_stop_flag = 0
 
     for epoch in range(1, configs.epochs+1):
-        for train_step, batch in enumerate(train_loader, 1):
-            model.train()
+        
+        # for train_step, batch in enumerate(train_loader, 1):
+        for train_step, batch in enumerate(train_loader):
 
+
+            model.train()
+            optimizer.zero_grad()
+            
             section, discourse, word_count, doc_len, clause_len, emotion_pos, cause_pos, true_pairs, conn = batch
 
             emotion_pos = eval(emotion_pos[0])
@@ -214,15 +226,17 @@ def main(configs, train_loader, test_loader, tokenizer):
             emo_cau_pred = model(discourse, discourse_mask.unsqueeze(0), segment_mask.unsqueeze(0), query_len, clause_len, emotion_pos, cause_pos, doc_len, discourse_adj, conn, 'emo_cau')
             
             loss_emo = model.loss_pre_emo(emo_pred, emo_ans, emo_ans_mask)
-            loss_emo_cau = model.loss_emo_cau(emo_cau_pred, emo_cau_ans, emo_cau_ans_mask)
+            loss_emo_cau = model.loss_pre_emo_cau(emo_cau_pred, emo_cau_ans, emo_cau_ans_mask)
             
             loss = loss_emo + loss_emo_cau
             loss.backward()
-
-            if train_step % configs.gradient_accumulation_steps == 0:
-                optimizer.step()
-                scheduler.step()
-                model.zero_grad()
+            optimizer.step()
+            scheduler.step()
+            model.zero_grad()
+            # if train_step % configs.gradient_accumulation_steps == 0:
+            #     optimizer.step()
+            #     scheduler.step()
+            #     model.zero_grad()
 
             if train_step % 1 == 0:
                 # print('epoch: {}, step: {}, loss_emo: {}'
@@ -234,7 +248,7 @@ def main(configs, train_loader, test_loader, tokenizer):
             eval_emo, eval_cau, eval_pair = evaluate(configs, test_loader, model, tokenizer)
             
             if max_result_pair is None or eval_pair[0] > max_result_pair[0]:
-                early_stop_flag = 1
+                early_stomax_result_pairp_flag = 1
                 max_result_emo = eval_emo
                 max_result_cau = eval_cau
                 max_result_pair = eval_pair
@@ -256,7 +270,7 @@ if __name__ == '__main__':
     model = Network(configs).to(DEVICE)
     
     train_dataset = Discourse(tokenizer, configs.train_dataset_path)
-    train_loader = DataLoader(dataset=train_dataset, shuffle=False, batch_size=1)
+    train_loader = DataLoader(dataset=train_dataset, shuffle=False, batch_size=1,drop_last=True)
     test_dataset = Discourse(tokenizer, configs.test_dataset_path)
     test_loader = DataLoader(dataset=test_dataset, shuffle=False, batch_size=1)
     

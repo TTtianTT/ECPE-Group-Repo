@@ -32,8 +32,8 @@ with open ('data/all_data_pair.txt', 'r', encoding='utf-8') as f:  # Encode by u
         # Get section length
         num = sec.split(' ')
         section = int(num[0])
-        if section > 200:
-            break
+        # if section > 200:
+        #     break
         length = int(num[1])
         content = ['' for i in range(length)]
         refined_content = ['' for i in range(length)]
