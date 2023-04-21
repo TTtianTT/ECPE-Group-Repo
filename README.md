@@ -6,6 +6,10 @@ result.md文件，针对OCR的funsd数据集，在GPT3，GPT3.5上的prompt做�
 GNN文件夹，包括GNN的代码，用于模型包含上下文信息
 ## 4.5
 合作完成BERT Embedding, Clause Attention, GNN, Linear（框架左侧部分）
+## 4.19
+合作跑通多个epoch的代码
+## 4.22
+多线程的ChatGPT_api.py
 
 # Leveraging Connectives in ECPE
 
