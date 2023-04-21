@@ -9,7 +9,7 @@ GNN文件夹，包括GNN的代码，用于模型包含上下文信息
 ## 4.19
 合作跑通多个epoch的代码
 ## 4.22
-多线程的ChatGPT_api.py
+多线程的multiprocess_chatgpt.py
 
 # Leveraging Connectives in ECPE
 
