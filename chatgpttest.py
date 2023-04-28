@@ -1,8 +1,8 @@
-# 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
+
 import openai
 import time
 
-openai.api_key = "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"
+openai.api_key = "..."
 
 # 初始化对话历史
 conversation_history = []
